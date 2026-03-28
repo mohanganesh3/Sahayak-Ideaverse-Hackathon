@@ -14,8 +14,6 @@
   ·
   <a href="./docs/SAHAYAK_COMPLETE_EXPLAINER.md">Full Technical Explainer</a>
   ·
-  <a href="#what-we-built">What We Built</a>
-  ·
   <a href="#run-locally">Run Locally</a>
 </p>
 
