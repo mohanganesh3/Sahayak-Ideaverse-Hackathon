@@ -1,7 +1,4 @@
-<h1 align="center">
-  <img src="mobile/assets/icon.png" width="88" alt="Sahayak shield logo" />
-  Sahayak
-</h1>
+<h1 align="center">Sahayak</h1>
 
 <p align="center"><strong>We built Sahayak as a graph-first, AI-enhanced medication safety assistant for Indian elderly patients.</strong></p>
 
