@@ -127,14 +127,6 @@ We did not want this to be just a nice-looking mobile demo.
 
 That backend depth is what makes the mobile experience credible.
 
-## What Still Needs Improvement
-
-- The `0.75` OCR benchmark is a text-fixture extraction benchmark, not a full real-image OCR benchmark.
-- Alert burden is still high for large medication lists and needs better clinical filtering.
-- Multi-hop automated recall is `0.8333`, not perfect.
-- Only the top herb subset is deeply curated even though the live graph contains many more herb nodes.
-- Report translation is medically hardened for a smaller subset than the full UI language picker.
-
 ## Demo And APK
 
 - Demo video: [2-minute app demo](https://drive.google.com/file/d/1flDrBc4azwtw6EeM76nGWD4jQp2GkK5x/view?usp=drivesdk)
