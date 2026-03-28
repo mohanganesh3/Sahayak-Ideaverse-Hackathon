@@ -1,0 +1,302 @@
+[
+  {
+    "drug_a": "warfarin",
+    "drug_b": "aspirin",
+    "expected_severity": "major",
+    "mechanism": "Increased bleeding risk"
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "ibuprofen",
+    "expected_severity": "major",
+    "mechanism": "Additive bleeding and gastrointestinal hemorrhage risk"
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "clarithromycin",
+    "expected_severity": "major",
+    "mechanism": "CYP inhibition increases anticoagulant effect and INR"
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "amiodarone",
+    "expected_severity": "major",
+    "mechanism": "Amiodarone inhibits warfarin metabolism and raises INR"
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "metronidazole",
+    "expected_severity": "major",
+    "mechanism": "Reduced warfarin clearance increases bleeding risk"
+  },
+  {
+    "drug_a": "warfarin",
+    "drug_b": "fluconazole",
+    "expected_severity": "major",
+    "mechanism": "Azole inhibition increases warfarin exposure and INR"
+  },
+  {
+    "drug_a": "methotrexate",
+    "drug_b": "trimethoprim",
+    "expected_severity": "major",
+    "mechanism": "Decreased methotrexate clearance and additive marrow toxicity"
+  },
+  {
+    "drug_a": "simvastatin",
+    "drug_b": "clarithromycin",
+    "expected_severity": "major",
+    "mechanism": "CYP3A4 inhibition increases statin toxicity and rhabdomyolysis risk"
+  },
+  {
+    "drug_a": "atorvastatin",
+    "drug_b": "clarithromycin",
+    "expected_severity": "major",
+    "mechanism": "CYP3A4 inhibition increases statin exposure and myotoxicity"
+  },
+  {
+    "drug_a": "digoxin",
+    "drug_b": "amiodarone",
+    "expected_severity": "major",
+    "mechanism": "P-glycoprotein inhibition increases digoxin levels"
+  },
+  {
+    "drug_a": "digoxin",
+    "drug_b": "verapamil",
+    "expected_severity": "major",
+    "mechanism": "P-glycoprotein inhibition increases digoxin levels"
+  },
+  {
+    "drug_a": "lithium",
+    "drug_b": "ibuprofen",
+    "expected_severity": "major",
+    "mechanism": "NSAIDs reduce renal lithium clearance and increase toxicity"
+  },
+  {
+    "drug_a": "ramipril",
+    "drug_b": "spironolactone",
+    "expected_severity": "major",
+    "mechanism": "Additive hyperkalemia risk"
+  },
+  {
+    "drug_a": "lisinopril",
+    "drug_b": "spironolactone",
+    "expected_severity": "major",
+    "mechanism": "Additive hyperkalemia risk"
+  },
+  {
+    "drug_a": "trimethoprim-sulfamethoxazole",
+    "drug_b": "spironolactone",
+    "expected_severity": "major",
+    "mechanism": "Marked hyperkalemia risk"
+  },
+  {
+    "drug_a": "sildenafil",
+    "drug_b": "nitroglycerin",
+    "expected_severity": "major",
+    "mechanism": "Profound hypotension from additive vasodilation"
+  },
+  {
+    "drug_a": "dabigatran",
+    "drug_b": "aspirin",
+    "expected_severity": "major",
+    "mechanism": "Increased bleeding risk"
+  },
+  {
+    "drug_a": "apixaban",
+    "drug_b": "aspirin",
+    "expected_severity": "major",
+    "mechanism": "Increased bleeding risk"
+  },
+  {
+    "drug_a": "clopidogrel",
+    "drug_b": "omeprazole",
+    "expected_severity": "moderate",
+    "mechanism": "CYP2C19 inhibition reduces clopidogrel activation"
+  },
+  {
+    "drug_a": "levothyroxine",
+    "drug_b": "calcium carbonate",
+    "expected_severity": "moderate",
+    "mechanism": "Calcium reduces levothyroxine absorption"
+  },
+  {
+    "drug_a": "levothyroxine",
+    "drug_b": "ferrous fumarate",
+    "expected_severity": "moderate",
+    "mechanism": "Iron reduces levothyroxine absorption"
+  },
+  {
+    "drug_a": "metformin",
+    "drug_b": "glimepiride",
+    "expected_severity": "moderate",
+    "mechanism": "Additive hypoglycemia"
+  },
+  {
+    "drug_a": "amlodipine",
+    "drug_b": "atenolol",
+    "expected_severity": "moderate",
+    "mechanism": "Additive hypotension and bradycardia"
+  },
+  {
+    "drug_a": "tramadol",
+    "drug_b": "paroxetine",
+    "expected_severity": "major",
+    "mechanism": "Serotonin syndrome and seizure risk"
+  },
+  {
+    "drug_a": "linezolid",
+    "drug_b": "sertraline",
+    "expected_severity": "major",
+    "mechanism": "Serotonin syndrome risk"
+  },
+  {
+    "drug_a": "allopurinol",
+    "drug_b": "azathioprine",
+    "expected_severity": "major",
+    "mechanism": "Xanthine oxidase inhibition increases azathioprine toxicity"
+  },
+  {
+    "drug_a": "simvastatin",
+    "drug_b": "amlodipine",
+    "expected_severity": "moderate",
+    "mechanism": "Increased simvastatin exposure and myopathy risk"
+  },
+  {
+    "drug_a": "aspirin",
+    "drug_b": "clopidogrel",
+    "expected_severity": "major",
+    "mechanism": "Additive antiplatelet effect increases bleeding"
+  },
+  {
+    "drug_a": "ibuprofen",
+    "drug_b": "prednisone",
+    "expected_severity": "moderate",
+    "mechanism": "Combined gastrointestinal ulceration and bleeding risk"
+  },
+  {
+    "drug_a": "digoxin",
+    "drug_b": "furosemide",
+    "expected_severity": "moderate",
+    "mechanism": "Hypokalemia increases digoxin toxicity risk"
+  },
+  {
+    "drug_a": "losartan",
+    "drug_b": "potassium chloride",
+    "expected_severity": "major",
+    "mechanism": "Additive hyperkalemia risk"
+  },
+  {
+    "drug_a": "telmisartan",
+    "drug_b": "spironolactone",
+    "expected_severity": "major",
+    "mechanism": "Additive hyperkalemia risk"
+  },
+  {
+    "drug_a": "metformin",
+    "drug_b": "contrast dye",
+    "expected_severity": "major",
+    "mechanism": "Iodinated contrast may precipitate lactic acidosis risk"
+  },
+  {
+    "drug_a": "carbamazepine",
+    "drug_b": "clarithromycin",
+    "expected_severity": "major",
+    "mechanism": "CYP3A4 inhibition increases carbamazepine toxicity"
+  },
+  {
+    "drug_a": "phenytoin",
+    "drug_b": "fluconazole",
+    "expected_severity": "major",
+    "mechanism": "Azole inhibition increases phenytoin levels"
+  },
+  {
+    "drug_a": "methadone",
+    "drug_b": "alprazolam",
+    "expected_severity": "major",
+    "mechanism": "Additive respiratory and central nervous system depression"
+  },
+  {
+    "drug_a": "quetiapine",
+    "drug_b": "clonazepam",
+    "expected_severity": "major",
+    "mechanism": "Additive sedation, respiratory depression, and falls"
+  },
+  {
+    "drug_a": "amiodarone",
+    "drug_b": "levofloxacin",
+    "expected_severity": "major",
+    "mechanism": "Additive QT prolongation and torsades risk"
+  },
+  {
+    "drug_a": "potassium chloride",
+    "drug_b": "spironolactone",
+    "expected_severity": "major",
+    "mechanism": "Additive hyperkalemia risk"
+  },
+  {
+    "drug_a": "digoxin",
+    "drug_b": "clarithromycin",
+    "expected_severity": "major",
+    "mechanism": "P-glycoprotein inhibition increases digoxin exposure"
+  },
+  {
+    "herb": "ashwagandha",
+    "drug": "levothyroxine",
+    "expected_severity": "moderate",
+    "mechanism": "May alter thyroid function"
+  },
+  {
+    "herb": "turmeric",
+    "drug": "warfarin",
+    "expected_severity": "major",
+    "mechanism": "Curcumin inhibits platelet aggregation and increases bleeding risk"
+  },
+  {
+    "herb": "garlic",
+    "drug": "warfarin",
+    "expected_severity": "major",
+    "mechanism": "Additive anticoagulant and antiplatelet effects"
+  },
+  {
+    "herb": "fenugreek",
+    "drug": "metformin",
+    "expected_severity": "moderate",
+    "mechanism": "Additive glucose lowering may cause hypoglycemia"
+  },
+  {
+    "herb": "ginger",
+    "drug": "aspirin",
+    "expected_severity": "moderate",
+    "mechanism": "Additive antiplatelet effect increases bleeding risk"
+  },
+  {
+    "herb": "guggul",
+    "drug": "dabigatran",
+    "expected_severity": "moderate",
+    "mechanism": "May enhance anticoagulant effect"
+  },
+  {
+    "herb": "arjuna",
+    "drug": "warfarin",
+    "expected_severity": "major",
+    "mechanism": "May enhance anticoagulation and bleeding risk"
+  },
+  {
+    "herb": "cinnamon",
+    "drug": "glimepiride",
+    "expected_severity": "moderate",
+    "mechanism": "Additive glucose lowering may cause hypoglycemia"
+  },
+  {
+    "herb": "tulsi",
+    "drug": "warfarin",
+    "expected_severity": "moderate",
+    "mechanism": "May alter platelet or coagulation effects"
+  },
+  {
+    "herb": "giloy",
+    "drug": "metformin",
+    "expected_severity": "moderate",
+    "mechanism": "Additive glucose lowering may cause hypoglycemia"
+  }
+]

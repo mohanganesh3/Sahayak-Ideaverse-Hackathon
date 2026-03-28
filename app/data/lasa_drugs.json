@@ -1,0 +1,17 @@
+[
+  {"drug_a": "losartan", "drug_b": "lisinopril", "type": "sound-alike"},
+  {"drug_a": "metformin", "drug_b": "metoprolol", "type": "sound-alike"},
+  {"drug_a": "glimepiride", "drug_b": "glipizide", "type": "sound-alike"},
+  {"drug_a": "cephalexin", "drug_b": "cefazolin", "type": "sound-alike"},
+  {"drug_a": "prednisolone", "drug_b": "prednisone", "type": "sound-alike"},
+  {"drug_a": "hydroxyzine", "drug_b": "hydralazine", "type": "sound-alike"},
+  {"drug_a": "clonidine", "drug_b": "clonazepam", "type": "sound-alike"},
+  {"drug_a": "carbamazepine", "drug_b": "oxcarbazepine", "type": "sound-alike"},
+  {"drug_a": "atenolol", "drug_b": "amlodipine", "type": "look-alike"},
+  {"drug_a": "ranitidine", "drug_b": "famotidine", "type": "sound-alike"},
+  {"drug_a": "tramadol", "drug_b": "trazodone", "type": "sound-alike"},
+  {"drug_a": "amoxicillin", "drug_b": "ampicillin", "type": "sound-alike"},
+  {"drug_a": "crocin", "drug_b": "combiflam", "type": "look-alike"},
+  {"drug_a": "pan-d", "drug_b": "pantocid", "type": "look-alike"},
+  {"drug_a": "glycomet", "drug_b": "glynase", "type": "sound-alike"}
+]

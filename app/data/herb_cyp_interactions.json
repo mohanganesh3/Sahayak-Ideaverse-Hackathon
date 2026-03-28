@@ -1,0 +1,421 @@
+{
+  "herbs": [
+    {
+      "name": "Black Pepper",
+      "aliases": ["Piperine", "Kali Mirch", "Piper nigrum"],
+      "category": "food",
+      "scientific_name": "Piper nigrum",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "strong", "confidence": 0.85, "reference": "Bhardwaj et al. 2002"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "moderate", "confidence": 0.85, "reference": "Bhardwaj et al. 2002"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2D6", "strength": "moderate", "confidence": 0.85, "reference": "Bhardwaj et al. 2002"},
+        {"relationship": "INHIBITS", "target_type": "Transporter", "target_name": "P-glycoprotein", "strength": "strong", "confidence": 0.85, "reference": "Bhardwaj et al. 2002"}
+      ]
+    },
+    {
+      "name": "Turmeric",
+      "aliases": ["Curcumin", "Haldi", "Curcuma longa"],
+      "category": "ayurvedic",
+      "scientific_name": "Curcuma longa",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2C9", "strength": "moderate", "confidence": 0.85, "reference": "Appiah-Opong et al. 2007"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "moderate", "confidence": 0.85, "reference": "Appiah-Opong et al. 2007"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "weak", "confidence": 0.85, "reference": "Appiah-Opong et al. 2007"}
+      ]
+    },
+    {
+      "name": "St. John's Wort",
+      "aliases": ["St. John's wort", "St Johns Wort", "Hypericum perforatum"],
+      "category": "herbal",
+      "scientific_name": "Hypericum perforatum",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INDUCES", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "strong", "confidence": 0.85, "reference": "Gorski et al. 2004; multiple clinical trials"},
+        {"relationship": "INDUCES", "target_type": "Enzyme", "target_name": "CYP2C9", "strength": "strong", "confidence": 0.85, "reference": "Gorski et al. 2004; multiple clinical trials"},
+        {"relationship": "INDUCES", "target_type": "Enzyme", "target_name": "CYP2C19", "strength": "strong", "confidence": 0.85, "reference": "Gorski et al. 2004; multiple clinical trials"},
+        {"relationship": "INDUCES", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "moderate", "confidence": 0.85, "reference": "Gorski et al. 2004; multiple clinical trials"},
+        {"relationship": "INDUCES", "target_type": "Transporter", "target_name": "P-glycoprotein", "strength": "strong", "confidence": 0.85, "reference": "Gorski et al. 2004; multiple clinical trials"}
+      ]
+    },
+    {
+      "name": "Ginger",
+      "aliases": ["Adrak", "Zingiber officinale"],
+      "category": "food",
+      "scientific_name": "Zingiber officinale",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2C9", "strength": "weak", "confidence": 0.85, "reference": "Kimura et al. 2010"}
+      ]
+    },
+    {
+      "name": "Garlic",
+      "aliases": ["Lahsun", "Allium sativum"],
+      "category": "food",
+      "scientific_name": "Allium sativum",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INDUCES", "target_type": "Enzyme", "target_name": "CYP2E1", "strength": "strong", "confidence": 0.85, "reference": "Gurley et al. 2005"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.85, "reference": "Gurley et al. 2005"}
+      ]
+    },
+    {
+      "name": "Ginkgo Biloba",
+      "aliases": ["Ginkgo", "Ginkgo Leaf", "Ginkgo seed", "Ginkgo biloba"],
+      "category": "herbal",
+      "scientific_name": "Ginkgo biloba",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2C19", "strength": "moderate", "confidence": 0.85, "reference": "Yin et al. 2004"}
+      ]
+    },
+    {
+      "name": "Kava",
+      "aliases": ["Kava Pepper", "Piper methysticum"],
+      "category": "herbal",
+      "scientific_name": "Piper methysticum",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "strong", "confidence": 0.85, "reference": "Gurley et al. 2008"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2E1", "strength": "strong", "confidence": 0.85, "reference": "Gurley et al. 2008"}
+      ]
+    },
+    {
+      "name": "Milk Thistle",
+      "aliases": ["Silymarin", "Silybum marianum"],
+      "category": "herbal",
+      "scientific_name": "Silybum marianum",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2C9", "strength": "moderate", "confidence": 0.85, "reference": "Brantley et al. 2010"}
+      ]
+    },
+    {
+      "name": "Echinacea",
+      "aliases": ["Echinacea purpurea", "Purple coneflower"],
+      "category": "herbal",
+      "scientific_name": "Echinacea purpurea",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "moderate", "confidence": 0.85, "reference": "Gorski et al. 2004"},
+        {"relationship": "INDUCES", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.85, "reference": "Gorski et al. 2004"}
+      ]
+    },
+    {
+      "name": "Grapefruit",
+      "aliases": ["Grapefruit juice", "Citrus paradisi"],
+      "category": "food",
+      "scientific_name": "Citrus paradisi",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "strong", "confidence": 0.85, "reference": "Bailey et al. 1998"}
+      ]
+    },
+    {
+      "name": "Goldenseal",
+      "aliases": ["Hydrastis canadensis", "Berberine"],
+      "category": "herbal",
+      "scientific_name": "Hydrastis canadensis",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "moderate", "confidence": 0.85, "reference": "Gurley et al. 2008"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2D6", "strength": "moderate", "confidence": 0.85, "reference": "Gurley et al. 2008"}
+      ]
+    },
+    {
+      "name": "Mulethi (Licorice)",
+      "aliases": ["Licorice", "Mulethi", "Glycyrrhiza glabra"],
+      "category": "ayurvedic",
+      "scientific_name": "Glycyrrhiza glabra",
+      "evidence_level": "high",
+      "interactions": [
+        {"relationship": "IS_SUBSTRATE_OF", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.85, "reference": "Herb-drug interaction reviews"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2C9", "strength": "moderate", "confidence": 0.85, "reference": "Herb-drug interaction reviews"}
+      ]
+    },
+    {
+      "name": "Brahmi (Bacopa)",
+      "aliases": ["Brahmi", "Bacopa", "Bacopa monnieri"],
+      "category": "ayurvedic",
+      "scientific_name": "Bacopa monnieri",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Ramasamy et al. 2014"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2C9", "strength": "weak", "confidence": 0.7, "reference": "Shivaprasad et al. 2014"}
+      ]
+    },
+    {
+      "name": "Triphala",
+      "aliases": ["Triphala formulation"],
+      "category": "ayurvedic",
+      "scientific_name": null,
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Mukherjee et al. 2010"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2D6", "strength": "weak", "confidence": 0.7, "reference": "Mukherjee et al. 2010"}
+      ]
+    },
+    {
+      "name": "Trikatu",
+      "aliases": ["Trikatu formulation"],
+      "category": "ayurvedic",
+      "scientific_name": null,
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Shivaprasad et al. 2014"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2D6", "strength": "weak", "confidence": 0.7, "reference": "Shivaprasad et al. 2014"}
+      ]
+    },
+    {
+      "name": "Ashwagandha",
+      "aliases": ["Withania somnifera"],
+      "category": "ayurvedic",
+      "scientific_name": "Withania somnifera",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "IS_SUBSTRATE_OF", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Abedon et al. 2019"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2D6", "strength": "weak", "confidence": 0.7, "reference": "Abedon et al. 2019"}
+      ]
+    },
+    {
+      "name": "Arjuna",
+      "aliases": ["Terminalia arjuna"],
+      "category": "ayurvedic",
+      "scientific_name": "Terminalia arjuna",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "IS_SUBSTRATE_OF", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Limited in vitro data"}
+      ]
+    },
+    {
+      "name": "Guggul",
+      "aliases": ["Commiphora mukul", "Guggulu"],
+      "category": "ayurvedic",
+      "scientific_name": "Commiphora mukul",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INDUCES", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "moderate", "confidence": 0.7, "reference": "Brobst et al. 2004"}
+      ]
+    },
+    {
+      "name": "Neem",
+      "aliases": ["Azadirachta indica"],
+      "category": "ayurvedic",
+      "scientific_name": "Azadirachta indica",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "moderate", "confidence": 0.7, "reference": "Bapiro et al. 2002"}
+      ]
+    },
+    {
+      "name": "Amla",
+      "aliases": ["Indian Gooseberry", "Emblica officinalis", "Phyllanthus emblica"],
+      "category": "ayurvedic",
+      "scientific_name": "Phyllanthus emblica",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Limited in vitro data"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "weak", "confidence": 0.7, "reference": "Limited in vitro data"}
+      ]
+    },
+    {
+      "name": "Tulsi",
+      "aliases": ["Holy Basil", "Ocimum sanctum", "Ocimum tenuiflorum"],
+      "category": "ayurvedic",
+      "scientific_name": "Ocimum tenuiflorum",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2E1", "strength": "moderate", "confidence": 0.7, "reference": "Joshi et al. 2011"}
+      ]
+    },
+    {
+      "name": "Aloe Vera",
+      "aliases": ["Aloe", "Aloe barbadensis"],
+      "category": "herbal",
+      "scientific_name": "Aloe barbadensis",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Djuv & Nilsen 2012"}
+      ]
+    },
+    {
+      "name": "Fenugreek",
+      "aliases": ["Methi", "Trigonella foenum-graecum"],
+      "category": "food",
+      "scientific_name": "Trigonella foenum-graecum",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.7, "reference": "Limited in vitro data"}
+      ]
+    },
+    {
+      "name": "Cinnamon",
+      "aliases": ["Dalchini", "Cinnamomum verum", "Cinnamomum cassia"],
+      "category": "food",
+      "scientific_name": "Cinnamomum verum",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2A6", "strength": "weak", "confidence": 0.7, "reference": "Limited in vitro data"}
+      ]
+    },
+    {
+      "name": "Andrographis",
+      "aliases": ["Andrographis paniculata", "Kalmegh"],
+      "category": "ayurvedic",
+      "scientific_name": "Andrographis paniculata",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "moderate", "confidence": 0.7, "reference": "PMID 27030208"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2D6", "strength": "moderate", "confidence": 0.7, "reference": "PMID 27030208"}
+      ]
+    },
+    {
+      "name": "Centella asiatica",
+      "aliases": ["Gotu Kola", "Centella asiatica"],
+      "category": "ayurvedic",
+      "scientific_name": "Centella asiatica",
+      "evidence_level": "moderate",
+      "interactions": [
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP2C9", "strength": "weak", "confidence": 0.7, "reference": "PMID 27030208"},
+        {"relationship": "INHIBITS", "target_type": "Enzyme", "target_name": "CYP1A2", "strength": "weak", "confidence": 0.7, "reference": "PMID 27030208"}
+      ]
+    },
+    {
+      "name": "Isabgol (Psyllium)",
+      "aliases": ["Psyllium", "Plantago ovata", "Isabgol"],
+      "category": "supplement",
+      "scientific_name": "Plantago ovata",
+      "evidence_level": "special_case",
+      "interactions": [],
+      "notes": "Not primarily CYP-mediated. Psyllium affects absorption timing of co-administered oral medicines; dose separation is recommended."
+    },
+    {
+      "name": "Giloy (Guduchi)",
+      "aliases": ["Guduchi", "Tinospora cordifolia", "Giloy"],
+      "category": "ayurvedic",
+      "scientific_name": "Tinospora cordifolia",
+      "evidence_level": "low",
+      "interactions": [
+        {"relationship": "IS_SUBSTRATE_OF", "target_type": "Enzyme", "target_name": "CYP3A4", "strength": "weak", "confidence": 0.5, "reference": "Very limited in vitro data"}
+      ]
+    },
+    {
+      "name": "Shatavari",
+      "aliases": ["Asparagus racemosus", "Shatavari"],
+      "category": "ayurvedic",
+      "scientific_name": "Asparagus racemosus",
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Cardamom",
+      "aliases": ["Elaichi", "Elettaria cardamomum"],
+      "category": "food",
+      "scientific_name": "Elettaria cardamomum",
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Shankhpushpi",
+      "aliases": ["Shankhpushpi", "Convolvulus pluricaulis"],
+      "category": "ayurvedic",
+      "scientific_name": "Convolvulus pluricaulis",
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Punarnava",
+      "aliases": ["Boerhavia diffusa", "Punarnava"],
+      "category": "ayurvedic",
+      "scientific_name": "Boerhavia diffusa",
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Shilajit",
+      "aliases": ["Shilajit", "Asphaltum"],
+      "category": "supplement",
+      "scientific_name": null,
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Haritaki",
+      "aliases": ["Terminalia chebula", "Haritaki"],
+      "category": "ayurvedic",
+      "scientific_name": "Terminalia chebula",
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Bibhitaki",
+      "aliases": ["Terminalia bellirica", "Bibhitaki"],
+      "category": "ayurvedic",
+      "scientific_name": "Terminalia bellirica",
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Vacha (Calamus)",
+      "aliases": ["Calamus", "Acorus calamus", "Vacha"],
+      "category": "ayurvedic",
+      "scientific_name": "Acorus calamus",
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "No reliable CYP interaction data identified."
+    },
+    {
+      "name": "Chyawanprash",
+      "aliases": ["Chyawanprash"],
+      "category": "ayurvedic",
+      "scientific_name": null,
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "Multi-herb formulation with no stable single-enzyme profile."
+    },
+    {
+      "name": "Dabur Honitus",
+      "aliases": ["Honitus", "Dabur Honitus"],
+      "category": "ayurvedic",
+      "scientific_name": null,
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "Commercial multi-herb cough formulation; no single-enzyme profile."
+    },
+    {
+      "name": "Himalaya Liv.52",
+      "aliases": ["Liv.52", "Himalaya Liv.52"],
+      "category": "ayurvedic",
+      "scientific_name": null,
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "Commercial polyherbal formulation; no stable single-enzyme profile."
+    },
+    {
+      "name": "Zandu Balm / Pancharishta",
+      "aliases": ["Pancharishta", "Zandu Balm", "Zandu Balm / Pancharishta"],
+      "category": "ayurvedic",
+      "scientific_name": null,
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "Commercial formulation category; no stable single-enzyme profile."
+    },
+    {
+      "name": "Patanjali Divya Products",
+      "aliases": ["Patanjali Divya", "Patanjali Divya Products"],
+      "category": "ayurvedic",
+      "scientific_name": null,
+      "evidence_level": "none",
+      "interactions": [],
+      "notes": "Brand family rather than one phytochemical entity; no stable single-enzyme profile."
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "enzymes": [
+    {
+      "name": "CYP3A4",
+      "notes": "Curated from the FDA CYP table and the Flockhart/CredibleMeds CYP interaction table. Includes clinically important herb and food modifiers used in Indian practice.",
+      "substrates": {
+        "major": [
+          "simvastatin",
+          "lovastatin",
+          "atorvastatin",
+          "midazolam",
+          "triazolam",
+          "cyclosporine",
+          "tacrolimus",
+          "sirolimus",
+          "fentanyl",
+          "alfentanil",
+          "apixaban",
+          "rivaroxaban",
+          "buspirone",
+          "quetiapine",
+          "sildenafil",
+          "eplerenone",
+          "docetaxel",
+          "vincristine",
+          "methadone",
+          "ondansetron",
+          "aripiprazole",
+          "haloperidol",
+          "domperidone",
+          "cilostazol",
+          "quinine"
+        ],
+        "minor": [
+          "amlodipine",
+          "nifedipine",
+          "diltiazem",
+          "verapamil",
+          "estradiol",
+          "zolpidem",
+          "zaleplon",
+          "dexamethasone",
+          "propranolol",
+          "ashwagandha"
+        ]
+      },
+      "inhibitors": {
+        "strong": [
+          "clarithromycin",
+          "itraconazole",
+          "ketoconazole",
+          "ritonavir",
+          "indinavir",
+          "nelfinavir",
+          "saquinavir",
+          "telithromycin",
+          "nefazodone",
+          "voriconazole",
+          "mifepristone",
+          "black pepper",
+          "piperine"
+        ],
+        "moderate": [
+          "erythromycin",
+          "fluconazole",
+          "grapefruit",
+          "verapamil",
+          "diltiazem",
+          "amiodarone",
+          "cimetidine",
+          "imatinib",
+          "ciprofloxacin",
+          "fluvoxamine",
+          "delavirdine",
+          "turmeric",
+          "curcumin"
+        ],
+        "weak": [
+          "chloramphenicol",
+          "norfloxacin",
+          "gestodene",
+          "norfluoxetine",
+          "sertraline"
+        ]
+      },
+      "inducers": {
+        "strong": [
+          "rifampin",
+          "carbamazepine",
+          "phenytoin",
+          "rifabutin",
+          "st john's wort",
+          "phenobarbital",
+          "efavirenz",
+          "nevirapine"
+        ],
+        "moderate": [
+          "oxcarbazepine",
+          "dexamethasone",
+          "prednisone",
+          "modafinil",
+          "pioglitazone",
+          "bosentan"
+        ],
+        "weak": [
+          "glucocorticoids"
+        ]
+      }
+    },
+    {
+      "name": "CYP2D6",
+      "notes": "Clinically important CYP2D6 inhibitors are well established, but clinically meaningful induction is limited and inconsistent in human data. The inducer lists are intentionally sparse to avoid overstating weak evidence.",
+      "substrates": {
+        "major": [
+          "codeine",
+          "tramadol",
+          "dextromethorphan",
+          "metoprolol",
+          "carvedilol",
+          "timolol",
+          "propafenone",
+          "flecainide",
+          "haloperidol",
+          "perphenazine",
+          "risperidone",
+          "thioridazine",
+          "amitriptyline",
+          "clomipramine",
+          "desipramine",
+          "imipramine",
+          "nortriptyline",
+          "venlafaxine",
+          "atomoxetine",
+          "oxycodone",
+          "ondansetron",
+          "tamoxifen",
+          "nebivolol",
+          "duloxetine",
+          "metoclopramide"
+        ],
+        "minor": [
+          "propranolol",
+          "citalopram",
+          "chlorpheniramine",
+          "promethazine"
+        ]
+      },
+      "inhibitors": {
+        "strong": [
+          "fluoxetine",
+          "paroxetine",
+          "quinidine",
+          "bupropion",
+          "terbinafine"
+        ],
+        "moderate": [
+          "duloxetine",
+          "ritonavir",
+          "amiodarone",
+          "cimetidine",
+          "sertraline"
+        ],
+        "weak": [
+          "celecoxib",
+          "citalopram",
+          "escitalopram",
+          "diphenhydramine",
+          "hydroxyzine"
+        ]
+      },
+      "inducers": {
+        "strong": [],
+        "moderate": [
+          "dexamethasone",
+          "rifampin"
+        ],
+        "weak": []
+      }
+    },
+    {
+      "name": "CYP2C9",
+      "notes": "The key clinical substrate set is centered on warfarin, phenytoin, NSAIDs, sulfonylureas, and angiotensin receptor blockers.",
+      "substrates": {
+        "major": [
+          "warfarin",
+          "phenytoin",
+          "celecoxib",
+          "losartan",
+          "irbesartan",
+          "glyburide",
+          "glibenclamide",
+          "glimepiride",
+          "glipizide",
+          "tolbutamide",
+          "diclofenac",
+          "ibuprofen",
+          "meloxicam",
+          "piroxicam",
+          "fluvastatin",
+          "rosiglitazone",
+          "torsemide",
+          "nateglinide",
+          "naproxen",
+          "lornoxicam"
+        ],
+        "minor": [
+          "amitriptyline",
+          "fluoxetine",
+          "tamoxifen",
+          "phenylbutazone"
+        ]
+      },
+      "inhibitors": {
+        "strong": [
+          "fluconazole",
+          "voriconazole",
+          "sulfaphenazole",
+          "amiodarone",
+          "sulfamethoxazole"
+        ],
+        "moderate": [
+          "fenofibrate",
+          "fluvastatin",
+          "fluvoxamine",
+          "isoniazid",
+          "lovastatin",
+          "phenylbutazone",
+          "probenecid",
+          "sertraline",
+          "zafirlukast",
+          "teniposide"
+        ],
+        "weak": [
+          "trimethoprim",
+          "montelukast",
+          "quercetin",
+          "celecoxib",
+          "curcumin"
+        ]
+      },
+      "inducers": {
+        "strong": [
+          "rifampin",
+          "carbamazepine",
+          "phenytoin",
+          "phenobarbital",
+          "st john's wort"
+        ],
+        "moderate": [
+          "secobarbital",
+          "dexamethasone",
+          "prednisone",
+          "nafcillin",
+          "modafinil"
+        ],
+        "weak": []
+      }
+    },
+    {
+      "name": "CYP2C19",
+      "notes": "This pathway is central to PPI, clopidogrel, diazepam, and phenytoin interactions.",
+      "substrates": {
+        "major": [
+          "clopidogrel",
+          "omeprazole",
+          "lansoprazole",
+          "pantoprazole",
+          "rabeprazole",
+          "diazepam",
+          "phenytoin",
+          "phenobarbital",
+          "moclobemide",
+          "propranolol",
+          "proguanil",
+          "primidone",
+          "progesterone",
+          "nelfinavir",
+          "cyclophosphamide",
+          "carisoprodol",
+          "indomethacin",
+          "imipramine",
+          "clomipramine",
+          "amitriptyline"
+        ],
+        "minor": [
+          "nilutamide",
+          "warfarin",
+          "teniposide",
+          "voriconazole"
+        ]
+      },
+      "inhibitors": {
+        "strong": [
+          "omeprazole",
+          "fluvoxamine",
+          "fluoxetine",
+          "ketoconazole",
+          "ticlopidine"
+        ],
+        "moderate": [
+          "lansoprazole",
+          "pantoprazole",
+          "rabeprazole",
+          "cimetidine",
+          "indomethacin",
+          "oxcarbazepine",
+          "topiramate",
+          "modafinil",
+          "chloramphenicol",
+          "felbamate"
+        ],
+        "weak": [
+          "isoniazid",
+          "probenecid"
+        ]
+      },
+      "inducers": {
+        "strong": [
+          "rifampin",
+          "carbamazepine",
+          "phenytoin",
+          "phenobarbital",
+          "st john's wort"
+        ],
+        "moderate": [
+          "dexamethasone",
+          "prednisone",
+          "norethindrone",
+          "secobarbital",
+          "rifabutin"
+        ],
+        "weak": []
+      }
+    },
+    {
+      "name": "CYP1A2",
+      "notes": "Smoking and combustion exposure are among the most clinically relevant CYP1A2 inducers.",
+      "substrates": {
+        "major": [
+          "caffeine",
+          "theophylline",
+          "tizanidine",
+          "clozapine",
+          "olanzapine",
+          "haloperidol",
+          "imipramine",
+          "amitriptyline",
+          "clomipramine",
+          "ondansetron",
+          "propranolol",
+          "verapamil",
+          "naproxen",
+          "estradiol",
+          "fluvoxamine",
+          "cyclobenzaprine",
+          "tacrine",
+          "riluzole",
+          "ropivacaine",
+          "zolmitriptan"
+        ],
+        "minor": [
+          "zileuton",
+          "warfarin",
+          "mexiletine",
+          "acetaminophen"
+        ]
+      },
+      "inhibitors": {
+        "strong": [
+          "fluvoxamine",
+          "ciprofloxacin",
+          "cimetidine",
+          "amiodarone",
+          "furafylline"
+        ],
+        "moderate": [
+          "fluoroquinolones",
+          "interferon",
+          "methoxsalen",
+          "mibefradil",
+          "ticlopidine"
+        ],
+        "weak": []
+      },
+      "inducers": {
+        "strong": [
+          "tobacco",
+          "char-grilled meat",
+          "beta-naphthoflavone",
+          "methylcholanthrene",
+          "omeprazole"
+        ],
+        "moderate": [
+          "broccoli",
+          "brussels sprouts",
+          "modafinil",
+          "nafcillin",
+          "insulin"
+        ],
+        "weak": []
+      }
+    },
+    {
+      "name": "CYP2B6",
+      "notes": "Smaller but still clinically relevant pathway for bupropion, efavirenz, cyclophosphamide, and methadone.",
+      "substrates": {
+        "major": [
+          "bupropion",
+          "cyclophosphamide",
+          "efavirenz",
+          "ifosfamide",
+          "methadone"
+        ],
+        "minor": []
+      },
+      "inhibitors": {
+        "strong": [
+          "thiotepa"
+        ],
+        "moderate": [
+          "ticlopidine"
+        ],
+        "weak": []
+      },
+      "inducers": {
+        "strong": [
+          "rifampin",
+          "phenobarbital",
+          "carbamazepine",
+          "efavirenz",
+          "phenytoin"
+        ],
+        "moderate": [
+          "nevirapine",
+          "dexamethasone"
+        ],
+        "weak": []
+      }
+    },
+    {
+      "name": "CYP2E1",
+      "notes": "Focused on toxins, inhaled anesthetics, ethanol, and acetaminophen toxic metabolism.",
+      "substrates": {
+        "major": [
+          "acetaminophen",
+          "chlorzoxazone",
+          "ethanol",
+          "theophylline"
+        ],
+        "minor": [
+          "benzene",
+          "aniline",
+          "enflurane",
+          "halothane",
+          "isoflurane",
+          "methoxyflurane",
+          "sevoflurane"
+        ]
+      },
+      "inhibitors": {
+        "strong": [
+          "diethyldithiocarbamate",
+          "disulfiram"
+        ],
+        "moderate": [],
+        "weak": []
+      },
+      "inducers": {
+        "strong": [
+          "ethanol",
+          "isoniazid",
+          "garlic"
+        ],
+        "moderate": [],
+        "weak": []
+      }
+    }
+  ],
+  "transporters": [
+    {
+      "name": "P-glycoprotein",
+      "notes": "FDA transporter examples plus clinically important oral anticoagulant and colchicine use cases.",
+      "substrates": [
+        "digoxin",
+        "dabigatran",
+        "colchicine",
+        "fexofenadine",
+        "loperamide",
+        "quinidine",
+        "talinolol",
+        "vinblastine",
+        "tacrolimus",
+        "sirolimus"
+      ],
+      "inhibitors": [
+        "amiodarone",
+        "verapamil",
+        "cyclosporine",
+        "ketoconazole",
+        "quinidine",
+        "clarithromycin",
+        "ritonavir",
+        "itraconazole"
+      ],
+      "inducers": [
+        "rifampin",
+        "st john's wort",
+        "carbamazepine",
+        "phenytoin",
+        "phenobarbital"
+      ]
+    },
+    {
+      "name": "OATP1B1",
+      "notes": "Important for statin uptake and clinically relevant statin interaction reasoning.",
+      "substrates": [
+        "pitavastatin",
+        "pravastatin",
+        "rosuvastatin",
+        "telmisartan",
+        "atorvastatin",
+        "simvastatin"
+      ],
+      "inhibitors": [
+        "cyclosporine",
+        "rifampin",
+        "gemfibrozil",
+        "ritonavir"
+      ],
+      "inducers": []
+    },
+    {
+      "name": "BCRP",
+      "notes": "Included because rosuvastatin and methotrexate exposure can be altered via BCRP inhibition.",
+      "substrates": [
+        "rosuvastatin",
+        "methotrexate",
+        "sulfasalazine",
+        "prazosin"
+      ],
+      "inhibitors": [
+        "cyclosporine",
+        "novobiocin",
+        "elacridar",
+        "ritonavir"
+      ],
+      "inducers": []
+    }
+  ],
+  "qt_prolonging_drugs": {
+    "known_risk": [
+      "amiodarone",
+      "sotalol",
+      "dofetilide",
+      "quinidine",
+      "procainamide",
+      "haloperidol",
+      "thioridazine",
+      "pimozide",
+      "citalopram",
+      "ondansetron",
+      "fluconazole",
+      "ciprofloxacin",
+      "levofloxacin",
+      "moxifloxacin",
+      "ivabradine",
+      "azithromycin"
+    ],
+    "possible_risk": [
+      "tramadol",
+      "moclobemide",
+      "gepirone",
+      "isoflurane",
+      "bilastine",
+      "gepotidacin"
+    ],
+    "conditional_risk": [
+      "quetiapine",
+      "ziprasidone",
+      "fluvoxamine",
+      "buprenorphine",
+      "propafenone",
+      "metolazone",
+      "loperamide"
+    ]
+  },
+  "electrolyte_effects": {
+    "potassium_depleting": [
+      "furosemide",
+      "hydrochlorothiazide",
+      "bumetanide",
+      "indapamide",
+      "metolazone",
+      "torsemide",
+      "chlorthalidone",
+      "ethacrynic acid"
+    ],
+    "potassium_sparing": [
+      "spironolactone",
+      "amiloride",
+      "triamterene",
+      "eplerenone"
+    ],
+    "potassium_sensitive": [
+      "digoxin",
+      "dofetilide"
+    ]
+  }
+}

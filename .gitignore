@@ -1,0 +1,86 @@
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+ENV/
+.tox/
+.nox/
+.hypothesis/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/.next/
+frontend/node_modules/
+frontend/.vercel/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+mobile/.expo/
+mobile/.expo-shared/
+mobile/node_modules/
+mobile/android/.gradle/
+mobile/android/.kotlin/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/app/.cxx/
+mobile/android/local.properties
+mobile/android/app/debug.keystore
+mobile/dist/
+
+# ── Nested repos / local tooling ──────────────────────────────────────────────
+frontend/.git/
+mobile/.git/
+.claude/
+CLAUDE_CODE_PROMPTS.md
+frontend/AGENTS.md
+frontend/CLAUDE.md
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# ── Neo4j local data (use named volumes instead) ─────────────────────────────
+sahayak-neo4j-data/
+
+# ── Deployment / generated artifacts ──────────────────────────────────────────
+deployment/runpod/neo4j/neo4j.dump
+artifacts/evaluation/
+sentinel_validation_report_*.json
+neo4j_graph_audit_*.md
+real_world_validation_*.txt
+cyp450_expansion_report_*.md
+*.pdf
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+checkpoint1_presentation.*
+*.apk
+*.aab
+*.keystore
+mobile/fsevents-*.tgz

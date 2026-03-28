@@ -1,0 +1,1106 @@
+[
+  {
+    "english_name": "Ashwagandha",
+    "scientific_name": "Withania somnifera",
+    "category": "herb",
+    "hindi_name": "अश्वगंधा",
+    "tamil_name": "அசுவகந்தா",
+    "telugu_name": "అశ్వగంధ",
+    "kannada_name": "ಅಶ್ವಗಂಧೆ",
+    "aliases": ["Indian ginseng", "Winter cherry"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Stress and anxiety support", "Sleep support", "General weakness and vitality"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Sedatives and other CNS depressants",
+        "interaction": "May increase drowsiness and fall risk.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Thyroid hormone",
+        "interaction": "May increase thyroid effects and complicate dose titration.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Immunosuppressants",
+        "interaction": "May counter immunosuppressive therapy because of immune-active effects.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antidiabetics and antihypertensives",
+        "interaction": "May add to glucose-lowering or blood-pressure-lowering effects.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. NCCIH notes medication-interaction concerns with diabetes, blood pressure, thyroid, sedative, anticonvulsant, and immunosuppressive therapies."
+  },
+  {
+    "english_name": "Triphala",
+    "scientific_name": "Emblica officinalis + Terminalia chebula + Terminalia bellirica",
+    "category": "polyherbal blend",
+    "hindi_name": "त्रिफला",
+    "tamil_name": "திரிபலா",
+    "telugu_name": "త్రిఫల",
+    "kannada_name": "ತ್ರಿಫಲಾ",
+    "aliases": ["Amalaki-Haritaki-Bibhitaki blend"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Constipation relief", "Digestive support", "Traditional rasayana tonic"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Polyphenol-rich constituent herbs may increase bleeding tendency or alter drug effect.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May add to glucose lowering.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Oral medications taken at the same time",
+        "interaction": "Fiber, tannins, and laxative effects can alter absorption if co-dosed.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID as a named formulation. Elderly patients often use Triphala chronically, so timing relative to prescription medicines matters."
+  },
+  {
+    "english_name": "Brahmi (Bacopa)",
+    "scientific_name": "Bacopa monnieri",
+    "category": "herb",
+    "hindi_name": "ब्राह्मी",
+    "tamil_name": "பிராமி",
+    "telugu_name": "బ్రాహ్మి",
+    "kannada_name": "ಬ್ರಾಹ್ಮಿ",
+    "aliases": ["Bacopa", "Brahmi", "Bacopa monniera"],
+    "ddid_backed": true,
+    "ddid_matches": ["Bacopa monniera", "Bacopa monnieri"],
+    "common_uses": ["Memory and cognition support", "Anxiety support", "Traditional brain tonic"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Tacrolimus",
+        "interaction": "DDID contains harmful interaction evidence with CYP3A4 and P-gp inhibition concern.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Dasatinib",
+        "interaction": "May raise exposure through CYP3A/P-gp/BCRP modulation.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Paclitaxel",
+        "interaction": "May increase absorption and exposure.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Other CNS depressants",
+        "interaction": "Sedative overlap is plausible in frail elders.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "DDID evidence is largely component-driven, especially apigenin and luteolin data."
+  },
+  {
+    "english_name": "Arjuna",
+    "scientific_name": "Terminalia arjuna",
+    "category": "herb",
+    "hindi_name": "अर्जुन",
+    "tamil_name": "அர்ஜுனா",
+    "telugu_name": "అర్జున",
+    "kannada_name": "ಅರ್ಜುನ",
+    "aliases": [],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Cardiac tonic", "Angina and palpitation support", "Blood-pressure support"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Digoxin and other cardiac glycosides",
+        "interaction": "May compound cardiac conduction or inotropic effects.",
+        "severity": "high",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antihypertensives",
+        "interaction": "Additive blood-pressure lowering or bradycardia is possible.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Bleeding caution is reasonable in polypharmacy.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly matched in DDID. Cardiac herbs deserve extra caution in elderly patients already taking rate-control, heart-failure, or anticoagulant therapy."
+  },
+  {
+    "english_name": "Guggul",
+    "scientific_name": "Commiphora mukul",
+    "category": "herb",
+    "hindi_name": "गुग्गुल",
+    "tamil_name": "குங்கிலியம்",
+    "telugu_name": "గుగ్గులు",
+    "kannada_name": "ಗುಗ್ಗುಲು",
+    "aliases": ["Guggulu", "Commiphora wightii"],
+    "ddid_backed": true,
+    "ddid_matches": ["Commiphora mukul"],
+    "common_uses": ["Lipid support", "Joint pain and inflammation", "Weight management traditions"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Dabigatran",
+        "interaction": "DDID reports possible interaction with CYP3A4 and P-gp relevance.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Betrixaban",
+        "interaction": "DDID reports possible interaction with CYP3A4 and P-gp relevance.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "CYP3A substrates such as some statins",
+        "interaction": "Enzyme and transporter effects may change exposure.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Thyroid hormone",
+        "interaction": "May potentiate thyroid stimulation and complicate control.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "The DDID signal is narrow but clinically relevant because many elderly users take anticoagulants, statins, or multiple CYP3A substrates."
+  },
+  {
+    "english_name": "Tulsi",
+    "scientific_name": "Ocimum tenuiflorum",
+    "category": "herb",
+    "hindi_name": "तुलसी",
+    "tamil_name": "துளசி",
+    "telugu_name": "తులసి",
+    "kannada_name": "ತುಳಸಿ",
+    "aliases": ["Holy basil", "Ocimum sanctum"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Cold and cough support", "Stress support", "Traditional immune support"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May add to glucose-lowering effects.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Possible additive bleeding risk.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antihypertensives",
+        "interaction": "Additive blood-pressure lowering is possible.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. Home-made tulsi preparations are common and may be underreported in medication histories."
+  },
+  {
+    "english_name": "Shilajit",
+    "scientific_name": "Asphaltum / mineral pitch",
+    "category": "mineral preparation",
+    "hindi_name": "शिलाजीत",
+    "tamil_name": "சிலாஜித்",
+    "telugu_name": "శిలాజిత్",
+    "kannada_name": "ಶಿಲಾಜಿತು",
+    "aliases": [],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Fatigue and vitality support", "Traditional rasayana", "Male sexual health claims"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Iron products",
+        "interaction": "May increase total iron load in susceptible patients.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May add to glucose lowering.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antihypertensives",
+        "interaction": "May add to blood-pressure lowering or dizziness.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. Product purity and heavy-metal contamination risk are often more important than a specific pharmacokinetic interaction."
+  },
+  {
+    "english_name": "Isabgol (Psyllium)",
+    "scientific_name": "Plantago ovata",
+    "category": "fiber supplement",
+    "hindi_name": "इसबगोल",
+    "tamil_name": "இஸப்கோல்",
+    "telugu_name": "ఇసబ్గోల్",
+    "kannada_name": "ಇಸಬ್ಗೋಲ್",
+    "aliases": ["Psyllium", "Ispaghula", "Psyllium husk"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Constipation relief", "Bulk-forming fiber", "Mild LDL-lowering adjunct"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Levothyroxine",
+        "interaction": "May reduce absorption if taken together.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Carbamazepine",
+        "interaction": "May reduce absorption if taken together.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Digoxin, lithium, and other oral drugs",
+        "interaction": "Bulk fiber can delay or reduce absorption; stagger doses.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. MedlinePlus recommends discussing concurrent medicines because psyllium can affect how oral drugs are taken and tolerated."
+  },
+  {
+    "english_name": "Shankhpushpi",
+    "scientific_name": "Convolvulus pluricaulis / Evolvulus alsinoides",
+    "category": "herb",
+    "hindi_name": "शंखपुष्पी",
+    "tamil_name": "சங்குப்புஷ்பி",
+    "telugu_name": "శంఖపుష్పి",
+    "kannada_name": "ಶಂಖಪುಷ್ಪಿ",
+    "aliases": [],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Memory support", "Anxiety support", "Sleep support"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Sedatives and other CNS depressants",
+        "interaction": "Additive drowsiness is possible.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antiepileptics",
+        "interaction": "CNS-active overlap can complicate monitoring.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antihypertensives",
+        "interaction": "Mild additive blood-pressure lowering is possible.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. Many commercial brain-tonic blends contain Shankhpushpi alongside other CNS-active herbs."
+  },
+  {
+    "english_name": "Shatavari",
+    "scientific_name": "Asparagus racemosus",
+    "category": "herb",
+    "hindi_name": "शतावरी",
+    "tamil_name": "சதாவரி",
+    "telugu_name": "శతావరి",
+    "kannada_name": "ಶತಾವರಿ",
+    "aliases": [],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["GI soothing", "Women's health tonic", "General cooling and adaptogenic use"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Diuretics",
+        "interaction": "May add to diuretic effect or dehydration risk.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Estrogenic or hormone-active therapies",
+        "interaction": "Phytoestrogen-like activity may complicate therapy decisions.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Mild additive glucose lowering is plausible.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. Frail older adults may be more sensitive to dehydration or endocrine-active supplements."
+  },
+  {
+    "english_name": "Amla",
+    "scientific_name": "Phyllanthus emblica",
+    "category": "herb",
+    "hindi_name": "आंवला",
+    "tamil_name": "நெல்லிக்காய்",
+    "telugu_name": "ఉసిరికాయ",
+    "kannada_name": "ನೆಲ್ಲಿಕಾಯಿ",
+    "aliases": ["Indian gooseberry", "Amalaki"],
+    "ddid_backed": true,
+    "ddid_matches": ["Phyllanthus Emblica", "Phyllanthus emblica"],
+    "common_uses": ["Vitamin C-rich tonic", "Digestive support", "Rasayana rejuvenative use"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Aspirin",
+        "interaction": "DDID reports antiplatelet activity that may increase bleeding tendency.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Clopidogrel",
+        "interaction": "DDID reports antiplatelet activity that may increase bleeding tendency.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Rivaroxaban, Apixaban, and Dabigatran",
+        "interaction": "DDID supports transporter and antiplatelet-related exposure/bleeding concerns.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      }
+    ],
+    "notes": "DDID evidence includes human antiplatelet data and DOAC-focused transporter cautions."
+  },
+  {
+    "english_name": "Haritaki",
+    "scientific_name": "Terminalia chebula",
+    "category": "herb",
+    "hindi_name": "हरितकी",
+    "tamil_name": "ஹரிதகி",
+    "telugu_name": "హరితకి",
+    "kannada_name": "ಹರಿತಕಿ",
+    "aliases": [],
+    "ddid_backed": true,
+    "ddid_matches": ["Terminalia chebula"],
+    "common_uses": ["Constipation relief", "Digestive support", "Triphala constituent"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Dabigatran",
+        "interaction": "DDID supports CYP and P-gp inhibition concern.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Rivaroxaban",
+        "interaction": "DDID supports BCRP and CYP-mediated exposure increase concern.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Apixaban",
+        "interaction": "DDID supports BCRP and CYP-mediated exposure increase concern.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      }
+    ],
+    "notes": "Relevant because Haritaki is a major Triphala constituent and is often taken chronically for bowel regularity."
+  },
+  {
+    "english_name": "Bibhitaki",
+    "scientific_name": "Terminalia bellirica",
+    "category": "herb",
+    "hindi_name": "बिभीतकी",
+    "tamil_name": "பிபீதகி",
+    "telugu_name": "బిభీతకి",
+    "kannada_name": "ಬಿಭೀತಕಿ",
+    "aliases": ["Baheda"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Digestive support", "Respiratory support", "Triphala constituent"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Tannin-rich preparations may increase bleeding or alter drug effect.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Additive glucose lowering is plausible.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Other oral medications taken together",
+        "interaction": "Tannins and fiber can interfere with absorption if co-dosed.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. Included because elderly users often take Bibhitaki as part of Triphala rather than as a single-herb supplement."
+  },
+  {
+    "english_name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "category": "herb",
+    "hindi_name": "नीम",
+    "tamil_name": "வேம்பு",
+    "telugu_name": "వేప",
+    "kannada_name": "ಬೇವು",
+    "aliases": [],
+    "ddid_backed": true,
+    "ddid_matches": ["Azadirachta indica"],
+    "common_uses": ["Skin and oral health", "Traditional antimicrobial use", "Glycemic support"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Chloroquine",
+        "interaction": "DDID reports altered pharmacokinetics with lower serum concentration and delayed elimination.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May add to hypoglycemic effects.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Immune-active or hepatotoxic drugs",
+        "interaction": "Use caution because neem extracts are pharmacologically active and preparations vary widely.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Neem products range from leaf tablets to oils and bitter juices, so dose and exposure vary substantially."
+  },
+  {
+    "english_name": "Turmeric",
+    "scientific_name": "Curcuma longa",
+    "category": "spice",
+    "hindi_name": "हल्दी",
+    "tamil_name": "மஞ்சள்",
+    "telugu_name": "పసుపు",
+    "kannada_name": "ಅರಿಶಿನ",
+    "aliases": ["Haldi", "Curcumin"],
+    "ddid_backed": true,
+    "ddid_matches": ["Turmeric"],
+    "common_uses": ["Anti-inflammatory use", "Joint pain support", "Digestive support"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Tacrolimus",
+        "interaction": "DDID includes a harmful case-level nephrotoxicity signal with CYP3A relevance.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Vitamin K antagonists and DOACs",
+        "interaction": "DDID supports antiplatelet, CYP, and P-gp mediated bleeding or exposure concerns.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Antiplatelets",
+        "interaction": "Bleeding caution is reasonable even though some human data are mixed.",
+        "severity": "moderate",
+        "evidence_basis": "mixed"
+      }
+    ],
+    "notes": "DDID also contains neutral studies for some pairings, so turmeric interaction risk is pair-specific rather than universally severe."
+  },
+  {
+    "english_name": "Ginger",
+    "scientific_name": "Zingiber officinale",
+    "category": "spice",
+    "hindi_name": "अदरक",
+    "tamil_name": "இஞ்சி",
+    "telugu_name": "అల్లం",
+    "kannada_name": "ಶುಂಠಿ",
+    "aliases": ["Adrak"],
+    "ddid_backed": true,
+    "ddid_matches": ["Ginger"],
+    "common_uses": ["Nausea support", "Cold and cough relief", "Digestive aid"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Dabigatran",
+        "interaction": "DDID includes a harmful fatal-bleeding case involving a ginger/cinnamon preparation and P-gp concern.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Crizotinib",
+        "interaction": "DDID supports CYP3A4, CYP2C9, and P-gp inhibition concern with exposure increase risk.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Antiplatelet overlap may raise bleeding risk, though warfarin data are mixed.",
+        "severity": "moderate",
+        "evidence_basis": "mixed"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May modestly add to glucose lowering.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Many elders consider ginger food rather than medicine, which is exactly why it is easy to miss during medication reconciliation."
+  },
+  {
+    "english_name": "Garlic",
+    "scientific_name": "Allium sativum",
+    "category": "food",
+    "hindi_name": "लहसुन",
+    "tamil_name": "பூண்டு",
+    "telugu_name": "వెల్లుల్లి",
+    "kannada_name": "ಬೆಳ್ಳುಳ್ಳಿ",
+    "aliases": ["Lahsun"],
+    "ddid_backed": true,
+    "ddid_matches": ["Garlic"],
+    "common_uses": ["Cardiometabolic support", "Traditional antimicrobial use", "Digestive use"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Saquinavir",
+        "interaction": "DDID reports major exposure reduction; concurrent use warrants avoidance or close monitoring.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Warfarin and antiplatelets",
+        "interaction": "Bleeding risk is plausible, although some aged-garlic studies are mixed.",
+        "severity": "moderate",
+        "evidence_basis": "mixed"
+      },
+      {
+        "drug_or_class": "Antihypertensives",
+        "interaction": "May add to blood-pressure lowering.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May add to glucose lowering.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "The DDID record includes neutral findings for some garlic preparations, so formulation matters."
+  },
+  {
+    "english_name": "Fenugreek",
+    "scientific_name": "Trigonella foenum-graecum",
+    "category": "food/herb",
+    "hindi_name": "मेथी",
+    "tamil_name": "வெந்தயம்",
+    "telugu_name": "మెంతులు",
+    "kannada_name": "ಮೆಂತ್ಯೆ",
+    "aliases": ["Methi"],
+    "ddid_backed": true,
+    "ddid_matches": ["Fenugreek"],
+    "common_uses": ["Diabetes adjunct", "Digestive use", "Lactation support"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Theophylline",
+        "interaction": "DDID reports reduced exposure in animal data.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Phenytoin",
+        "interaction": "DDID reports altered disposition with concurrent use.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Rivaroxaban and Apixaban",
+        "interaction": "DDID raises transporter-mediated exposure-change concern.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May substantially add to glucose lowering in some elders.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Many Indian households use fenugreek as food, soaked seed water, or supplement, which can produce very different exposures."
+  },
+  {
+    "english_name": "Cinnamon",
+    "scientific_name": "Cinnamomum verum / Cinnamomum cassia",
+    "category": "spice",
+    "hindi_name": "दालचीनी",
+    "tamil_name": "இலவங்கப்பட்டை",
+    "telugu_name": "దాల్చిన చెక్క",
+    "kannada_name": "ದಾಲ್ಚಿನ್ನಿ",
+    "aliases": ["Dalchini", "Chinese cinnamon", "Cassia cinnamon"],
+    "ddid_backed": true,
+    "ddid_matches": ["Cinnamon", "Chinese cinnamon"],
+    "common_uses": ["Flavoring spice", "Digestive use", "Glycemic support claims"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Dabigatran",
+        "interaction": "DDID includes a harmful fatal-bleeding case involving cinnamon with ginger.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Rivaroxaban and Apixaban",
+        "interaction": "DDID supports coumarin or antiplatelet-related caution.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Pioglitazone",
+        "interaction": "DDID reports increased bioavailability via CYP3A4 inhibition.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Other anticoagulants or antiplatelets",
+        "interaction": "Cassia-rich products deserve extra bleeding caution in elders.",
+        "severity": "high",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Risk differs between cassia-dominant products and true cinnamon, but most real-world supplement users do not know the distinction."
+  },
+  {
+    "english_name": "Cardamom",
+    "scientific_name": "Elettaria cardamomum",
+    "category": "spice",
+    "hindi_name": "इलायची",
+    "tamil_name": "ஏலக்காய்",
+    "telugu_name": "ఏలకులు",
+    "kannada_name": "ಏಲಕ್ಕಿ",
+    "aliases": ["Elaichi"],
+    "ddid_backed": true,
+    "ddid_matches": ["Cardamom"],
+    "common_uses": ["Flavoring spice", "Digestive aid", "Breath and cough support"],
+    "elderly_risk_level": "low",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Cyclophosphamide",
+        "interaction": "DDID contains preclinical interaction data, but clinical relevance remains uncertain.",
+        "severity": "minor",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Mild additive glucose lowering is possible.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Direct DDID support is limited. Cardamom is usually low-risk at culinary doses."
+  },
+  {
+    "english_name": "Black Pepper",
+    "scientific_name": "Piper nigrum",
+    "category": "spice",
+    "hindi_name": "काली मिर्च",
+    "tamil_name": "மிளகு",
+    "telugu_name": "మిరియాలు",
+    "kannada_name": "ಕರಿ ಮೆಣಸು",
+    "aliases": ["Kali Mirch", "Piperine"],
+    "ddid_backed": true,
+    "ddid_matches": ["Pepper", "Piper Nigrum"],
+    "common_uses": ["Flavoring spice", "Digestive aid", "Bioavailability enhancer"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Nevirapine",
+        "interaction": "DDID reports markedly increased bioavailability.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "DOACs such as Dabigatran, Rivaroxaban, Apixaban, and Edoxaban",
+        "interaction": "DDID supports CYP, P-gp, and BCRP inhibition concern with exposure increase risk.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Fexofenadine and Domperidone",
+        "interaction": "DDID reports increased exposure through transporter inhibition.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Other narrow therapeutic index CYP/P-gp substrates",
+        "interaction": "Piperine can raise levels unexpectedly.",
+        "severity": "high",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Black pepper is common in food, but concentrated piperine supplements behave differently and are more interaction-prone."
+  },
+  {
+    "english_name": "Mulethi (Licorice)",
+    "scientific_name": "Glycyrrhiza glabra",
+    "category": "herb",
+    "hindi_name": "मुलेठी",
+    "tamil_name": "அதிமதுரம்",
+    "telugu_name": "యష్టిమధు",
+    "kannada_name": "ಜೇಷ್ಠಮಧು",
+    "aliases": ["Licorice", "Liquorice", "Yashtimadhu"],
+    "ddid_backed": true,
+    "ddid_matches": ["Licorice"],
+    "common_uses": ["Sore throat relief", "Gastric soothing", "Traditional adaptogenic use"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Hydrochlorothiazide and other diuretics",
+        "interaction": "DDID supports hypokalemia and electrolyte-risk concern.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Corticosteroids",
+        "interaction": "DDID supports increased steroid exposure and mineralocorticoid effects.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Digoxin",
+        "interaction": "Hypokalemia can raise digoxin toxicity risk.",
+        "severity": "high",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antihypertensives",
+        "interaction": "Can worsen blood-pressure control or fluid retention.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Omeprazole",
+        "interaction": "DDID reports CYP3A4-related lowering of omeprazole exposure.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      }
+    ],
+    "notes": "Licorice deserves strong caution in older adults with hypertension, arrhythmia, heart failure, or chronic diuretic use."
+  },
+  {
+    "english_name": "Giloy (Guduchi)",
+    "scientific_name": "Tinospora cordifolia",
+    "category": "herb",
+    "hindi_name": "गिलोय",
+    "tamil_name": "சீந்தில் கொடி",
+    "telugu_name": "తిప్పతీగ",
+    "kannada_name": "ಅಮೃತಬಳ್ಳಿ",
+    "aliases": ["Guduchi", "Amrita"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Immune support claims", "Fever and joint support", "Traditional rasayana"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Immunosuppressants",
+        "interaction": "May oppose immunosuppressive therapy because of immune-active effects.",
+        "severity": "high",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "May add to glucose lowering.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Hepatotoxic drugs",
+        "interaction": "Avoid loose co-use because liver injury from giloy products has been reported.",
+        "severity": "high",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. LiverTox documents post-marketing cases of clinically apparent liver injury linked to Tinospora cordifolia products."
+  },
+  {
+    "english_name": "Punarnava",
+    "scientific_name": "Boerhavia diffusa",
+    "category": "herb",
+    "hindi_name": "पुनर्नवा",
+    "tamil_name": "புனர்நவா",
+    "telugu_name": "పునర్నవ",
+    "kannada_name": "ಪುನರ್ನವಾ",
+    "aliases": [],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Diuretic use", "Edema support", "Urinary complaints"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Diuretics",
+        "interaction": "May add to fluid loss and electrolyte imbalance.",
+        "severity": "moderate",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Lithium",
+        "interaction": "Diuretic effect may increase lithium levels.",
+        "severity": "high",
+        "evidence_basis": "curated"
+      },
+      {
+        "drug_or_class": "Antihypertensives",
+        "interaction": "May add to blood-pressure lowering and dizziness.",
+        "severity": "minor",
+        "evidence_basis": "curated"
+      }
+    ],
+    "notes": "Not directly present in DDID. Dehydration risk becomes more clinically important in older adults."
+  },
+  {
+    "english_name": "Vacha (Calamus)",
+    "scientific_name": "Acorus calamus",
+    "category": "herb",
+    "hindi_name": "वचा",
+    "tamil_name": "வசம்பு",
+    "telugu_name": "వచ",
+    "kannada_name": "ಬಜೆ",
+    "aliases": ["Calamus", "Sweet flag"],
+    "ddid_backed": true,
+    "ddid_matches": ["Acorus calamus"],
+    "common_uses": ["Traditional cognitive or speech use", "Digestive use", "Kapha and phlegm disorders"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Dabigatran, Rivaroxaban, and Apixaban",
+        "interaction": "DDID supports alpha-asarone related CYP and P-gp inhibition concern with exposure increase risk.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Everolimus",
+        "interaction": "DDID includes harmful interaction concern.",
+        "severity": "high",
+        "evidence_basis": "ddid"
+      },
+      {
+        "drug_or_class": "Rosuvastatin",
+        "interaction": "DDID reports OATP-related exposure increase concern.",
+        "severity": "moderate",
+        "evidence_basis": "ddid"
+      }
+    ],
+    "notes": "Avoid in frail elders because of product-quality and safety concerns beyond the drug-interaction profile alone."
+  },
+  {
+    "english_name": "Chyawanprash",
+    "scientific_name": null,
+    "category": "polyherbal formulation",
+    "hindi_name": "च्यवनप्राश",
+    "tamil_name": "ச்யவனபிராஷ்",
+    "telugu_name": "చ్యవనప్రాశ",
+    "kannada_name": "ಚ್ಯವನಪ್ರಾಶ",
+    "aliases": ["Chyavanprash"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["General tonic", "Cold-season tonic", "Appetite and energy support"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Sugar-rich formulations can destabilize glycemic control.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Some formulations contain amla and spice ingredients that may add bleeding risk.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Other chronic medicines taken together",
+        "interaction": "Complex multi-herb formulas can change tolerance or adherence because composition varies by brand.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      }
+    ],
+    "notes": "Brand composition varies substantially; always review the specific label before treating Chyawanprash as one fixed product."
+  },
+  {
+    "english_name": "Dabur Honitus",
+    "scientific_name": null,
+    "category": "branded formulation",
+    "hindi_name": "डाबर होनिटस",
+    "tamil_name": "டாபர் ஹோனிடஸ்",
+    "telugu_name": "డాబర్ హోనిటస్",
+    "kannada_name": "ಡಾಬರ್ ಹೋನಿಟಸ್",
+    "aliases": ["Honitus"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Cough relief", "Throat soothing", "Cold symptom relief"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Honey or sugar-containing syrup can worsen glycemic control.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Tulsi and mulethi-containing products can add bleeding or blood-pressure/electrolyte caution depending on regimen.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Other cough and cold medicines or sedatives",
+        "interaction": "Duplicate symptom-management therapy or excess drowsiness can occur when combined casually.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      }
+    ],
+    "notes": "Official Dabur pages describe honey, tulsi, mulethi, and banapsha, but the exact interaction profile depends on the specific Honitus product variant."
+  },
+  {
+    "english_name": "Himalaya Liv.52",
+    "scientific_name": null,
+    "category": "branded formulation",
+    "hindi_name": "हिमालया लिव.52",
+    "tamil_name": "ஹிமாலயா லிவ்.52",
+    "telugu_name": "హిమాలయ లివ్.52",
+    "kannada_name": "ಹಿಮಾಲಯ ಲಿವ್.52",
+    "aliases": ["Liv.52", "Liv 52"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Liver-support supplement", "Appetite support", "Adjunctive hepatic tonic"],
+    "elderly_risk_level": "moderate",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Hepatically metabolized drugs",
+        "interaction": "Multi-herb liver formulations can alter tolerability or make adverse-effect attribution difficult.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Some herbal components may add glucose-lowering effects.",
+        "severity": "minor",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Diuretics or antihypertensives",
+        "interaction": "Additive dehydration or blood-pressure effects are possible in susceptible elders.",
+        "severity": "minor",
+        "evidence_basis": "formulation_caution"
+      }
+    ],
+    "notes": "Official Himalaya material highlights caper bush and chicory. Treat the interaction profile as formulation-dependent rather than fixed from one ingredient."
+  },
+  {
+    "english_name": "Zandu Balm / Pancharishta",
+    "scientific_name": null,
+    "category": "formulation group",
+    "hindi_name": "झंडू बाम / पंचारिष्ट",
+    "tamil_name": "ஜண்டூ பாம் / பஞ்சாரிஷ்டம்",
+    "telugu_name": "జండూ బామ్ / పంచారిష్టం",
+    "kannada_name": "ಝಂಡು ಬಾಮ್ / ಪಂಚಾರಿಷ್ಟ",
+    "aliases": ["Zandu Balm", "Pancharishta"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Topical pain relief (Zandu Balm)", "Digestive or appetite tonic (Pancharishta-style arishta)"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Topical salicylate-containing balms and spice-rich arishta products warrant bleeding caution.",
+        "severity": "high",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Sedatives or alcohol-sensitive medicines",
+        "interaction": "Fermented arishta formulations may worsen sedation or create disulfiram-like concerns with alcohol-sensitive drugs.",
+        "severity": "high",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Some oral formulations contain sugar or jaggery and can affect glucose control.",
+        "severity": "moderate",
+        "evidence_basis": "formulation_caution"
+      }
+    ],
+    "notes": "This entry groups two very different real-world products because the request combined them. Always review the exact label and route of administration."
+  },
+  {
+    "english_name": "Patanjali Divya Products",
+    "scientific_name": null,
+    "category": "product line",
+    "hindi_name": "पतंजलि दिव्य उत्पाद",
+    "tamil_name": "பதஞ்சலி திவ்ய தயாரிப்புகள்",
+    "telugu_name": "పతంజలి దివ్య ఉత్పత్తులు",
+    "kannada_name": "ಪತಂಜಲಿ ದಿವ್ಯ ಉತ್ಪನ್ನಗಳು",
+    "aliases": ["Patanjali Divya"],
+    "ddid_backed": false,
+    "ddid_matches": [],
+    "common_uses": ["Varies by SKU: digestive, respiratory, metabolic, tonic, joint, and immune claims"],
+    "elderly_risk_level": "high",
+    "known_drug_interactions": [
+      {
+        "drug_or_class": "Anticoagulants and antiplatelets",
+        "interaction": "Interaction risk depends entirely on the SKU ingredients; some will raise bleeding concern.",
+        "severity": "high",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Antidiabetics",
+        "interaction": "Many products include glycemic-active herbs and can destabilize control.",
+        "severity": "high",
+        "evidence_basis": "formulation_caution"
+      },
+      {
+        "drug_or_class": "Thyroid, sedative, or immunosuppressive medicines",
+        "interaction": "Risk varies by formulation and should never be assumed safe without ingredient review.",
+        "severity": "high",
+        "evidence_basis": "formulation_caution"
+      }
+    ],
+    "notes": "This is intentionally broad because the product line is broad. Ingredient-level review is mandatory before giving medication-safety advice."
+  }
+]

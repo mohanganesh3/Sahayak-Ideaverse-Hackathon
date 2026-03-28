@@ -1,0 +1,5654 @@
+{
+  "metadata": {
+    "source_title": "2023 American Geriatrics Society Beers Criteria for potentially inappropriate medication use in older adults",
+    "source_pdf": "beers/Beers-Criteria-AGS-2023.pdf",
+    "generated_on": "2026-03-26",
+    "notes": [
+      "Tables 2 through 6 were transcribed from the local text layer of the AGS Beers Criteria 2023 PDF and normalized into structured JSON.",
+      "Brand cross-references are conservative and limited to curated common Indian brands present in app/data/indian_brand_map.json; empty lists mean no reliable curated brand mapping was available locally.",
+      "Unless stated otherwise, the AGS document notes that all drugs within a stated class are considered included even if every class member is not individually listed in the table.",
+      "Table 7 does not provide numeric anticholinergic scores; anticholinergic_score = 3 is a derived compatibility score used here to represent strong anticholinergic burden for matching and alerting."
+    ],
+    "table_counts": {
+      "table2_avoid_in_older_adults": 36,
+      "table3_drug_disease_interactions": 9,
+      "table4_use_with_caution": 6,
+      "table5_drug_drug_interactions": 12,
+      "table6_renal_dose_adjustments": 24,
+      "table7_anticholinergic_drugs": 40
+    }
+  },
+  "table2_avoid_in_older_adults": [
+    {
+      "organ_system": "Antihistamines",
+      "therapeutic_category": "First-generation antihistamines",
+      "drug_or_class": "First-generation antihistamines",
+      "drug_names": [
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "promethazine",
+        "triprolidine"
+      ],
+      "rationale": "Highly anticholinergic; clearance reduced with advanced age, and tolerance develops when used as hypnotic; risk of confusion, dry mouth, constipation, and other anticholinergic effects or toxicity. Cumulative exposure to anticholinergic drugs is associated with an increased risk of falls, delirium, and dementia, even in younger adults. Use of diphenhydramine for acute treatment of severe allergic reactions may be appropriate.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "atarax 10",
+        "atarax 25"
+      ],
+      "common_indian_brands_by_generic": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "first-generation antihistamines",
+        "avoid.",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "promethazine",
+        "triprolidine",
+        "atarax 10",
+        "atarax 25"
+      ]
+    },
+    {
+      "organ_system": "Anti-infective",
+      "therapeutic_category": "Urinary anti-infective",
+      "drug_or_class": "Nitrofurantoin",
+      "drug_names": [
+        "nitrofurantoin"
+      ],
+      "rationale": "Potential for pulmonary toxicity, hepatotoxicity, and peripheral neuropathy, especially with long-term use; safer alternatives are available.",
+      "recommendation": "Avoid in individuals with CrCl <30 mL/min or for long-term suppression.",
+      "quality_of_evidence": "Low",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "nitrofurantoin",
+        "avoid in individuals with crcl <30 ml/min or for long-term suppression."
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Antiplatelet therapy",
+      "drug_or_class": "Aspirin for primary prevention of cardiovascular disease",
+      "drug_names": [
+        "aspirin"
+      ],
+      "rationale": "Risk of major bleeding from aspirin increases markedly in older age. Studies suggest a lack of net benefit and potential for net harm when initiated for primary prevention in older adults. Aspirin remains indicated for secondary prevention in older adults with established cardiovascular disease.",
+      "recommendation": "Avoid initiating aspirin for primary prevention of cardiovascular disease. Consider deprescribing aspirin in older adults already taking it for primary prevention.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20"
+      ],
+      "common_indian_brands_by_generic": {
+        "aspirin": {
+          "single_ingredient_brands": [
+            "ecosprin 75",
+            "ecosprin 150"
+          ],
+          "combination_brands": [
+            "clopilet a 75",
+            "ecosprin gold 10",
+            "ecosprin gold 20",
+            "ecosprin av 75/20"
+          ]
+        }
+      },
+      "matching_terms": [
+        "aspirin for primary prevention of cardiovascular disease",
+        "avoid initiating aspirin for primary prevention of cardiovascular disease. consider deprescribing aspirin in older adults already taking it for primary prevention.",
+        "aspirin",
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20"
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Anticoagulants",
+      "drug_or_class": "Warfarin for treatment of nonvalvular atrial fibrillation or venous thromboembolism",
+      "drug_names": [
+        "warfarin"
+      ],
+      "rationale": "Compared with DOACs, warfarin has higher risks of major bleeding, particularly intracranial bleeding, and similar or lower effectiveness for treatment of nonvalvular atrial fibrillation and VTE. DOACs are preferred for most people with these conditions.",
+      "recommendation": "Avoid starting warfarin as initial therapy for treatment of nonvalvular atrial fibrillation or VTE unless alternative options are contraindicated or there are substantial barriers to their use. For older adults already using warfarin long-term, it may be reasonable to continue when INR control is well maintained and there are no adverse effects.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "warfarin for treatment of nonvalvular atrial fibrillation or venous thromboembolism",
+        "avoid starting warfarin as initial therapy for treatment of nonvalvular atrial fibrillation or vte unless alternative options are contraindicated or there are substantial barriers to their use. for older adults already using warfarin long-term, it may be reasonable to continue when inr control is well maintained and there are no adverse effects.",
+        "warfarin"
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Anticoagulants",
+      "drug_or_class": "Rivaroxaban for long-term treatment of nonvalvular atrial fibrillation or venous thromboembolism",
+      "drug_names": [
+        "rivaroxaban"
+      ],
+      "rationale": "At doses used for long-term treatment of VTE or nonvalvular atrial fibrillation, rivaroxaban appears to have a higher risk of major bleeding and GI bleeding in older adults than other DOACs, particularly apixaban.",
+      "recommendation": "Avoid for long-term treatment of atrial fibrillation or VTE in favor of safer anticoagulant alternatives. Rivaroxaban may be reasonable in special situations, for example when once-daily dosing is necessary to facilitate adherence.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "rivaroxaban for long-term treatment of nonvalvular atrial fibrillation or venous thromboembolism",
+        "avoid for long-term treatment of atrial fibrillation or vte in favor of safer anticoagulant alternatives. rivaroxaban may be reasonable in special situations, for example when once-daily dosing is necessary to facilitate adherence.",
+        "rivaroxaban"
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Antiplatelet therapy",
+      "drug_or_class": "Dipyridamole, oral short-acting",
+      "drug_names": [
+        "dipyridamole"
+      ],
+      "rationale": "May cause orthostatic hypotension; more effective alternatives are available. Intravenous dipyridamole remains acceptable for cardiac stress testing.",
+      "recommendation": "Avoid oral short-acting dipyridamole. This does not apply to the extended-release combination with aspirin.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "dipyridamole, oral short-acting",
+        "avoid oral short-acting dipyridamole. this does not apply to the extended-release combination with aspirin.",
+        "dipyridamole"
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Antihypertensives",
+      "drug_or_class": "Non-selective peripheral alpha-1 blockers for treatment of hypertension",
+      "drug_names": [
+        "doxazosin",
+        "prazosin",
+        "terazosin"
+      ],
+      "rationale": "High risk of orthostatic hypotension and associated harms, especially in older adults; not recommended as routine treatment for hypertension because alternative agents have a superior risk-benefit profile.",
+      "recommendation": "Avoid use as an antihypertensive.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "non-selective peripheral alpha-1 blockers for treatment of hypertension",
+        "avoid use as an antihypertensive.",
+        "doxazosin",
+        "prazosin",
+        "terazosin"
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Antihypertensives",
+      "drug_or_class": "Central alpha-agonists for treatment of hypertension",
+      "drug_names": [
+        "clonidine",
+        "guanfacine"
+      ],
+      "rationale": "High risk of adverse CNS effects; may cause bradycardia and orthostatic hypotension; not recommended as routine treatment for hypertension.",
+      "recommendation": "Avoid clonidine as first-line treatment for hypertension. Avoid other central alpha-agonists for treatment of hypertension.",
+      "quality_of_evidence": "Low",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "central alpha-agonists for treatment of hypertension",
+        "avoid clonidine as first-line treatment for hypertension. avoid other central alpha-agonists for treatment of hypertension.",
+        "clonidine",
+        "guanfacine"
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Calcium channel blockers",
+      "drug_or_class": "Nifedipine, immediate release",
+      "drug_names": [
+        "nifedipine"
+      ],
+      "rationale": "Potential for hypotension; risk of precipitating myocardial ischemia.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "nifedipine, immediate release",
+        "avoid.",
+        "nifedipine"
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Antiarrhythmics",
+      "drug_or_class": "Amiodarone",
+      "drug_names": [
+        "amiodarone"
+      ],
+      "rationale": "Effective for maintaining sinus rhythm but has greater toxicities than other antiarrhythmics used in atrial fibrillation. It may be reasonable first-line therapy in patients with concomitant heart failure or substantial left ventricular hypertrophy if rhythm control is preferred over rate control.",
+      "recommendation": "Avoid as first-line therapy for atrial fibrillation unless the patient has heart failure or substantial left ventricular hypertrophy.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "amiodarone",
+        "avoid as first-line therapy for atrial fibrillation unless the patient has heart failure or substantial left ventricular hypertrophy."
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Antiarrhythmics",
+      "drug_or_class": "Dronedarone",
+      "drug_names": [
+        "dronedarone"
+      ],
+      "rationale": "Worse outcomes occur in people who have permanent atrial fibrillation or severe or recently decompensated heart failure. In some circumstances, worse outcomes have also been reported in people with HFrEF and milder symptoms.",
+      "recommendation": "Avoid in individuals with permanent atrial fibrillation or severe or recently decompensated heart failure. Use caution in patients with HFrEF with less severe symptoms (NYHA class I or II).",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "dronedarone",
+        "avoid in individuals with permanent atrial fibrillation or severe or recently decompensated heart failure. use caution in patients with hfref with less severe symptoms (nyha class i or ii)."
+      ]
+    },
+    {
+      "organ_system": "Cardiovascular and antithrombotics",
+      "therapeutic_category": "Cardiac glycosides",
+      "drug_or_class": "Digoxin for first-line treatment of atrial fibrillation or heart failure",
+      "drug_names": [
+        "digoxin"
+      ],
+      "rationale": "For atrial fibrillation, digoxin should not be used as a first-line agent because there are safer and more effective alternatives for rate control. For heart failure, evidence for benefits and harms is conflicting and of lower quality, while stronger evidence exists for other first-line agents that reduce hospitalizations and mortality in HFrEF. Higher dosages are not associated with additional benefit and may increase toxicity risk, especially with reduced renal clearance.",
+      "recommendation": "Avoid this rate control agent as first-line therapy for atrial fibrillation. Avoid as first-line therapy for heart failure. If used for atrial fibrillation or heart failure, avoid dosages >0.125 mg/day.",
+      "quality_of_evidence": "Atrial fibrillation and heart failure: Low; dosage >0.125 mg/day: Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "digoxin for first-line treatment of atrial fibrillation or heart failure",
+        "avoid this rate control agent as first-line therapy for atrial fibrillation. avoid as first-line therapy for heart failure. if used for atrial fibrillation or heart failure, avoid dosages >0.125 mg/day.",
+        "digoxin"
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Antidepressants with strong anticholinergic activity",
+      "drug_or_class": "Antidepressants with strong anticholinergic activity",
+      "drug_names": [
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine"
+      ],
+      "rationale": "Highly anticholinergic, sedating, and prone to causing orthostatic hypotension. The safety profile of low-dose doxepin at 6 mg/day or less is comparable to placebo.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "antidepressants with strong anticholinergic activity",
+        "avoid.",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine"
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Antiparkinsonian agents with strong anticholinergic activity",
+      "drug_or_class": "Antiparkinsonian agents with strong anticholinergic activity",
+      "drug_names": [
+        "benztropine",
+        "trihexyphenidyl"
+      ],
+      "rationale": "Not recommended for prevention or treatment of extrapyramidal symptoms due to antipsychotics; more effective agents are available for Parkinson disease.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "pacitane"
+      ],
+      "common_indian_brands_by_generic": {
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "antiparkinsonian agents with strong anticholinergic activity",
+        "avoid.",
+        "benztropine",
+        "trihexyphenidyl",
+        "pacitane"
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Antipsychotics",
+      "drug_or_class": "Antipsychotics, first- and second-generation",
+      "drug_names": [
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "perphenazine",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone"
+      ],
+      "rationale": "Associated with increased risk of stroke, cognitive decline, and mortality in persons with dementia. Additional evidence suggests increased mortality risk independent of dementia.",
+      "recommendation": "Avoid, except for FDA-approved indications such as schizophrenia, bipolar disorder, Parkinson disease psychosis, adjunctive treatment of major depressive disorder, or short-term antiemetic use. Avoid for behavioral problems of dementia or delirium unless nonpharmacologic options have failed or the patient is threatening substantial harm to self or others. If used, consider periodic deprescribing attempts and the lowest effective dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "antipsychotics, first- and second-generation",
+        "avoid, except for fda-approved indications such as schizophrenia, bipolar disorder, parkinson disease psychosis, adjunctive treatment of major depressive disorder, or short-term antiemetic use. avoid for behavioral problems of dementia or delirium unless nonpharmacologic options have failed or the patient is threatening substantial harm to self or others. if used, consider periodic deprescribing attempts and the lowest effective dose.",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "perphenazine",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone"
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Barbiturates",
+      "drug_or_class": "Barbiturates",
+      "drug_names": [
+        "butalbital",
+        "phenobarbital",
+        "primidone"
+      ],
+      "rationale": "High rate of physical dependence, tolerance to sleep benefits, and greater risk of overdose at low dosages.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "barbiturates",
+        "avoid.",
+        "butalbital",
+        "phenobarbital",
+        "primidone"
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Benzodiazepines",
+      "drug_or_class": "Benzodiazepines",
+      "drug_names": [
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam"
+      ],
+      "rationale": "Use exposes patients to risks of abuse, misuse, and addiction. Concomitant opioid use may result in profound sedation, respiratory depression, coma, and death. Older adults have increased sensitivity and reduced metabolism of long-acting agents; all benzodiazepines increase the risk of cognitive impairment, delirium, falls, fractures, and motor vehicle crashes.",
+      "recommendation": "Avoid. Exceptions include seizure disorders, rapid eye movement sleep behavior disorder, benzodiazepine withdrawal, ethanol withdrawal, severe generalized anxiety disorder, and periprocedural anesthesia.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "benzodiazepines",
+        "avoid. exceptions include seizure disorders, rapid eye movement sleep behavior disorder, benzodiazepine withdrawal, ethanol withdrawal, severe generalized anxiety disorder, and periprocedural anesthesia.",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam"
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Nonbenzodiazepine hypnotics",
+      "drug_or_class": "Nonbenzodiazepine benzodiazepine receptor agonist hypnotics (Z-drugs)",
+      "drug_names": [
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem"
+      ],
+      "rationale": "Adverse events are similar to those of benzodiazepines in older adults, including delirium, falls, fractures, increased emergency department visits and hospitalizations, and motor vehicle crashes, with minimal improvement in sleep latency and duration.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "nonbenzodiazepine benzodiazepine receptor agonist hypnotics (z-drugs)",
+        "avoid.",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem"
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Anxiolytics",
+      "drug_or_class": "Meprobamate",
+      "drug_names": [
+        "meprobamate"
+      ],
+      "rationale": "High rate of physical dependence and marked sedation.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "meprobamate",
+        "avoid."
+      ]
+    },
+    {
+      "organ_system": "Central nervous system",
+      "therapeutic_category": "Cognitive enhancers",
+      "drug_or_class": "Ergoloid mesylates (dehydrogenated ergot alkaloids)",
+      "drug_names": [
+        "ergoloid mesylates"
+      ],
+      "rationale": "Lack of efficacy.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "ergoloid mesylates (dehydrogenated ergot alkaloids)",
+        "avoid.",
+        "ergoloid mesylates"
+      ]
+    },
+    {
+      "organ_system": "Endocrine",
+      "therapeutic_category": "Androgens",
+      "drug_or_class": "Androgens",
+      "drug_names": [
+        "methyltestosterone",
+        "testosterone"
+      ],
+      "rationale": "Potential for cardiac problems and potential risks in men with prostate cancer.",
+      "recommendation": "Avoid unless indicated for confirmed hypogonadism with clinical symptoms.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Weak",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "androgens",
+        "avoid unless indicated for confirmed hypogonadism with clinical symptoms.",
+        "methyltestosterone",
+        "testosterone"
+      ]
+    },
+    {
+      "organ_system": "Endocrine",
+      "therapeutic_category": "Estrogens with or without progestins",
+      "drug_or_class": "Estrogens with or without progestins (systemic oral or transdermal)",
+      "drug_names": [],
+      "class_labels": [
+        "systemic estrogens",
+        "oral estrogens",
+        "transdermal estrogens"
+      ],
+      "rationale": "Systemic estrogen has carcinogenic potential and lacks cardioprotective or cognitive benefit in older women. For women who start hormone replacement therapy at age 60 and older, risks exceed benefits. Low-dose vaginal estrogen remains acceptable for appropriate vaginal or urinary indications.",
+      "recommendation": "Do not initiate systemic estrogen such as oral tablets or transdermal patches. Consider deprescribing among older women already using systemic estrogen. Low-dose intravaginal estrogen remains acceptable for dyspareunia, recurrent urinary tract infections, and other vaginal symptoms.",
+      "quality_of_evidence": "Oral and patch: High; vaginal cream or vaginal tablets: Moderate",
+      "strength": "Oral and patch: Strong; topical vaginal cream or tablets: Weak",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "estrogens with or without progestins (systemic oral or transdermal)",
+        "do not initiate systemic estrogen such as oral tablets or transdermal patches. consider deprescribing among older women already using systemic estrogen. low-dose intravaginal estrogen remains acceptable for dyspareunia, recurrent urinary tract infections, and other vaginal symptoms.",
+        "systemic estrogens",
+        "oral estrogens",
+        "transdermal estrogens"
+      ]
+    },
+    {
+      "organ_system": "Endocrine",
+      "therapeutic_category": "Insulin regimens",
+      "drug_or_class": "Sliding-scale insulin regimens without basal insulin",
+      "drug_names": [],
+      "class_labels": [
+        "sliding-scale insulin",
+        "short-acting insulin without basal insulin",
+        "rapid-acting insulin without basal insulin"
+      ],
+      "rationale": "Higher risk of hypoglycemia without improvement in hyperglycemia management when regimens contain only short- or rapid-acting insulin dosed to current blood glucose levels without concurrent basal or long-acting insulin.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "sliding-scale insulin regimens without basal insulin",
+        "avoid.",
+        "sliding-scale insulin",
+        "short-acting insulin without basal insulin",
+        "rapid-acting insulin without basal insulin"
+      ]
+    },
+    {
+      "organ_system": "Endocrine",
+      "therapeutic_category": "Sulfonylureas",
+      "drug_or_class": "Sulfonylureas",
+      "drug_names": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glyburide",
+        "glibenclamide"
+      ],
+      "rationale": "Sulfonylureas carry a higher risk of cardiovascular events, all-cause mortality, and hypoglycemia than alternative agents. Long-acting agents such as glyburide and glimepiride confer a higher risk of prolonged hypoglycemia than short-acting agents such as glipizide.",
+      "recommendation": "Avoid sulfonylureas as first- or second-line monotherapy or add-on therapy unless there are substantial barriers to safer and more effective agents. If a sulfonylurea is used, choose short-acting agents such as glipizide over long-acting agents such as glyburide or glimepiride.",
+      "quality_of_evidence": "Hypoglycemia: High; cardiovascular events and all-cause mortality: Moderate; cardiovascular death and ischemic stroke: Low",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "amaryl 1",
+        "amaryl 2",
+        "glycomet trio 1",
+        "glycomet trio 2",
+        "amaryl m 1",
+        "amaryl m 2",
+        "glimisave m 1",
+        "glimisave m 2",
+        "glimisave mv 2",
+        "glimisave mv 3.3"
+      ],
+      "common_indian_brands_by_generic": {
+        "glimepiride": {
+          "single_ingredient_brands": [
+            "amaryl 1",
+            "amaryl 2"
+          ],
+          "combination_brands": [
+            "glycomet trio 1",
+            "glycomet trio 2",
+            "amaryl m 1",
+            "amaryl m 2",
+            "glimisave m 1",
+            "glimisave m 2",
+            "glimisave mv 2",
+            "glimisave mv 3.3"
+          ]
+        }
+      },
+      "matching_terms": [
+        "sulfonylureas",
+        "avoid sulfonylureas as first- or second-line monotherapy or add-on therapy unless there are substantial barriers to safer and more effective agents. if a sulfonylurea is used, choose short-acting agents such as glipizide over long-acting agents such as glyburide or glimepiride.",
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glyburide",
+        "glibenclamide",
+        "amaryl 1",
+        "amaryl 2",
+        "glycomet trio 1",
+        "glycomet trio 2",
+        "amaryl m 1",
+        "amaryl m 2",
+        "glimisave m 1",
+        "glimisave m 2",
+        "glimisave mv 2",
+        "glimisave mv 3.3"
+      ]
+    },
+    {
+      "organ_system": "Endocrine",
+      "therapeutic_category": "Thyroid therapy",
+      "drug_or_class": "Desiccated thyroid",
+      "drug_names": [
+        "desiccated thyroid"
+      ],
+      "rationale": "Concerns about cardiac effects; safer alternatives are available.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Low",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "desiccated thyroid",
+        "avoid."
+      ]
+    },
+    {
+      "organ_system": "Endocrine",
+      "therapeutic_category": "Appetite stimulants",
+      "drug_or_class": "Megestrol",
+      "drug_names": [
+        "megestrol"
+      ],
+      "rationale": "Minimal effect on weight; increases the risk of thrombotic events and possibly death in older adults.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "megestrol",
+        "avoid."
+      ]
+    },
+    {
+      "organ_system": "Endocrine",
+      "therapeutic_category": "Growth hormone",
+      "drug_or_class": "Growth hormone",
+      "drug_names": [
+        "somatropin"
+      ],
+      "rationale": "Impact on body composition is small and associated with edema, arthralgia, carpal tunnel syndrome, gynecomastia, and impaired fasting glucose.",
+      "recommendation": "Avoid except for patients rigorously diagnosed by evidence-based criteria with growth hormone deficiency due to an established etiology.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "growth hormone",
+        "avoid except for patients rigorously diagnosed by evidence-based criteria with growth hormone deficiency due to an established etiology.",
+        "somatropin"
+      ]
+    },
+    {
+      "organ_system": "Gastrointestinal",
+      "therapeutic_category": "Proton-pump inhibitors",
+      "drug_or_class": "Proton-pump inhibitors",
+      "drug_names": [
+        "dexlansoprazole",
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "rationale": "Risk of Clostridioides difficile infection, pneumonia, GI malignancies, bone loss, and fractures increases with prolonged scheduled use.",
+      "recommendation": "Avoid scheduled use for more than 8 weeks unless the patient is high risk, has erosive esophagitis, Barrett esophagitis, a pathologic hypersecretory condition, or a demonstrated need for maintenance treatment after failed discontinuation.",
+      "quality_of_evidence": "C. difficile, bone loss, and fractures: High; pneumonia and GI malignancies: Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "pan 20",
+        "pan 40",
+        "pan 80",
+        "pantocid",
+        "pantop 20",
+        "pantop 40",
+        "pantocid dsr",
+        "pantocid l",
+        "rabicip 10",
+        "rabicip 20",
+        "rablet 20",
+        "rablet d"
+      ],
+      "common_indian_brands_by_generic": {
+        "pantoprazole": {
+          "single_ingredient_brands": [
+            "pan 20",
+            "pan 40",
+            "pan 80",
+            "pantocid",
+            "pantop 20",
+            "pantop 40"
+          ],
+          "combination_brands": [
+            "pantocid dsr",
+            "pantocid l"
+          ]
+        },
+        "rabeprazole": {
+          "single_ingredient_brands": [
+            "rabicip 10",
+            "rabicip 20",
+            "rablet 20"
+          ],
+          "combination_brands": [
+            "rablet d"
+          ]
+        }
+      },
+      "matching_terms": [
+        "proton-pump inhibitors",
+        "avoid scheduled use for more than 8 weeks unless the patient is high risk, has erosive esophagitis, barrett esophagitis, a pathologic hypersecretory condition, or a demonstrated need for maintenance treatment after failed discontinuation.",
+        "dexlansoprazole",
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole",
+        "pan 20",
+        "pan 40",
+        "pan 80",
+        "pantocid",
+        "pantop 20",
+        "pantop 40",
+        "pantocid dsr",
+        "pantocid l",
+        "rabicip 10",
+        "rabicip 20",
+        "rablet 20",
+        "rablet d"
+      ]
+    },
+    {
+      "organ_system": "Gastrointestinal",
+      "therapeutic_category": "Prokinetics",
+      "drug_or_class": "Metoclopramide",
+      "drug_names": [
+        "metoclopramide"
+      ],
+      "rationale": "Can cause extrapyramidal effects, including tardive dyskinesia; the risk may be greater in frail older adults and with prolonged exposure.",
+      "recommendation": "Avoid unless used for gastroparesis and the duration of use does not exceed 12 weeks except in rare cases.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "metoclopramide",
+        "avoid unless used for gastroparesis and the duration of use does not exceed 12 weeks except in rare cases."
+      ]
+    },
+    {
+      "organ_system": "Gastrointestinal",
+      "therapeutic_category": "GI antispasmodics with strong anticholinergic activity",
+      "drug_or_class": "GI antispasmodics with strong anticholinergic activity",
+      "drug_names": [
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "hyoscyamine",
+        "scopolamine"
+      ],
+      "rationale": "Highly anticholinergic with uncertain effectiveness.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "gi antispasmodics with strong anticholinergic activity",
+        "avoid.",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "hyoscyamine",
+        "scopolamine"
+      ]
+    },
+    {
+      "organ_system": "Gastrointestinal",
+      "therapeutic_category": "Laxatives and lubricants",
+      "drug_or_class": "Mineral oil, oral",
+      "drug_names": [
+        "mineral oil"
+      ],
+      "rationale": "Potential for aspiration and adverse effects; safer alternatives are available.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "mineral oil, oral",
+        "avoid.",
+        "mineral oil"
+      ]
+    },
+    {
+      "organ_system": "Genitourinary",
+      "therapeutic_category": "Antidiuretic hormone analogs",
+      "drug_or_class": "Desmopressin",
+      "drug_names": [
+        "desmopressin"
+      ],
+      "rationale": "High risk of hyponatremia; safer alternative treatments, including nonpharmacologic options, exist for nocturia and nocturnal polyuria.",
+      "recommendation": "Avoid for treatment of nocturia or nocturnal polyuria.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "desmopressin",
+        "avoid for treatment of nocturia or nocturnal polyuria."
+      ]
+    },
+    {
+      "organ_system": "Pain medications",
+      "therapeutic_category": "Non-COX-2-selective oral NSAIDs",
+      "drug_or_class": "Non-COX-2-selective oral NSAIDs",
+      "drug_names": [
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac"
+      ],
+      "rationale": "Increased risk of GI bleeding, peptic ulcer disease, elevated blood pressure, and kidney injury, with risk amplified in adults older than 75 years and in those also taking corticosteroids, anticoagulants, or antiplatelet agents. Gastroprotection reduces but does not eliminate risk.",
+      "recommendation": "Avoid chronic use unless other alternatives are not effective and the patient can take a gastroprotective agent such as a proton-pump inhibitor or misoprostol. Avoid short-term scheduled use with oral or parenteral corticosteroids, anticoagulants, or antiplatelet agents unless other alternatives are not effective and the patient can take a gastroprotective agent.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ],
+      "common_indian_brands_by_generic": {
+        "aspirin": {
+          "single_ingredient_brands": [
+            "ecosprin 75",
+            "ecosprin 150"
+          ],
+          "combination_brands": [
+            "clopilet a 75",
+            "ecosprin gold 10",
+            "ecosprin gold 20",
+            "ecosprin av 75/20"
+          ]
+        },
+        "diclofenac": {
+          "single_ingredient_brands": [
+            "voveran 50",
+            "voveran 75",
+            "voveran 100",
+            "voveran 150"
+          ],
+          "combination_brands": []
+        },
+        "ibuprofen": {
+          "single_ingredient_brands": [
+            "brufen 200",
+            "brufen 400",
+            "brufen 600"
+          ],
+          "combination_brands": [
+            "combiflam"
+          ]
+        }
+      },
+      "matching_terms": [
+        "non-cox-2-selective oral nsaids",
+        "avoid chronic use unless other alternatives are not effective and the patient can take a gastroprotective agent such as a proton-pump inhibitor or misoprostol. avoid short-term scheduled use with oral or parenteral corticosteroids, anticoagulants, or antiplatelet agents unless other alternatives are not effective and the patient can take a gastroprotective agent.",
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac",
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ]
+    },
+    {
+      "organ_system": "Pain medications",
+      "therapeutic_category": "NSAIDs with especially high toxicity",
+      "drug_or_class": "Indomethacin and ketorolac",
+      "drug_names": [
+        "indomethacin",
+        "ketorolac"
+      ],
+      "rationale": "Increased risk of GI bleeding, peptic ulcer disease, and acute kidney injury in older adults. Among NSAIDs, indomethacin is associated with particularly frequent adverse CNS effects.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "indomethacin and ketorolac",
+        "avoid.",
+        "indomethacin",
+        "ketorolac"
+      ]
+    },
+    {
+      "organ_system": "Pain medications",
+      "therapeutic_category": "Opioids",
+      "drug_or_class": "Meperidine",
+      "drug_names": [
+        "meperidine"
+      ],
+      "rationale": "Not effective as an oral analgesic at commonly used dosages and may carry a higher risk of neurotoxicity, including delirium, than other opioids. Safer alternatives are available.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "meperidine",
+        "avoid."
+      ]
+    },
+    {
+      "organ_system": "Pain medications",
+      "therapeutic_category": "Skeletal muscle relaxants",
+      "drug_or_class": "Skeletal muscle relaxants",
+      "drug_names": [
+        "carisoprodol",
+        "chlorzoxazone",
+        "cyclobenzaprine",
+        "metaxalone",
+        "methocarbamol",
+        "orphenadrine"
+      ],
+      "rationale": "Poorly tolerated by older adults because of anticholinergic adverse effects, sedation, and increased fracture risk; effectiveness at tolerated doses is questionable. This criterion does not apply to antispasticity agents such as baclofen and tizanidine, though those drugs can also cause substantial adverse effects.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "skeletal muscle relaxants",
+        "avoid.",
+        "carisoprodol",
+        "chlorzoxazone",
+        "cyclobenzaprine",
+        "metaxalone",
+        "methocarbamol",
+        "orphenadrine"
+      ]
+    }
+  ],
+  "table3_drug_disease_interactions": [
+    {
+      "disease_or_syndrome": "Heart failure",
+      "drugs_to_avoid": [
+        "cilostazol",
+        "dextromethorphan-quinidine",
+        "nondihydropyridine calcium channel blockers (diltiazem, verapamil)",
+        "dronedarone",
+        "NSAIDs and COX-2 inhibitors",
+        "thiazolidinediones (pioglitazone)"
+      ],
+      "drug_names": [
+        "cilostazol",
+        "dextromethorphan-quinidine",
+        "diltiazem",
+        "verapamil",
+        "dronedarone",
+        "pioglitazone",
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac",
+        "celecoxib"
+      ],
+      "class_labels": [
+        "nondihydropyridine calcium channel blockers",
+        "NSAIDs",
+        "COX-2 inhibitors",
+        "thiazolidinediones"
+      ],
+      "rationale": "These medications can promote fluid retention and/or exacerbate heart failure, increase mortality in older adults with heart failure, or raise concern for QT prolongation in the case of dextromethorphan-quinidine.",
+      "recommendation": "Avoid cilostazol and dextromethorphan-quinidine. Avoid nondihydropyridine calcium channel blockers in heart failure with reduced ejection fraction. Use dronedarone, NSAIDs, COX-2 inhibitors, and thiazolidinediones with caution in asymptomatic heart failure and avoid them in symptomatic heart failure.",
+      "quality_of_evidence": "Cilostazol, dextromethorphan-quinidine, and COX-2 inhibitors: Low; nondihydropyridine CCBs and NSAIDs: Moderate; dronedarone and thiazolidinediones: High",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ],
+      "common_indian_brands_by_generic": {
+        "aspirin": {
+          "single_ingredient_brands": [
+            "ecosprin 75",
+            "ecosprin 150"
+          ],
+          "combination_brands": [
+            "clopilet a 75",
+            "ecosprin gold 10",
+            "ecosprin gold 20",
+            "ecosprin av 75/20"
+          ]
+        },
+        "diclofenac": {
+          "single_ingredient_brands": [
+            "voveran 50",
+            "voveran 75",
+            "voveran 100",
+            "voveran 150"
+          ],
+          "combination_brands": []
+        },
+        "ibuprofen": {
+          "single_ingredient_brands": [
+            "brufen 200",
+            "brufen 400",
+            "brufen 600"
+          ],
+          "combination_brands": [
+            "combiflam"
+          ]
+        }
+      },
+      "matching_terms": [
+        "heart failure",
+        "avoid cilostazol and dextromethorphan-quinidine. avoid nondihydropyridine calcium channel blockers in heart failure with reduced ejection fraction. use dronedarone, nsaids, cox-2 inhibitors, and thiazolidinediones with caution in asymptomatic heart failure and avoid them in symptomatic heart failure.",
+        "cilostazol",
+        "dextromethorphan-quinidine",
+        "diltiazem",
+        "verapamil",
+        "dronedarone",
+        "pioglitazone",
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac",
+        "celecoxib",
+        "nondihydropyridine calcium channel blockers",
+        "nsaids",
+        "cox-2 inhibitors",
+        "thiazolidinediones",
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ]
+    },
+    {
+      "disease_or_syndrome": "Syncope",
+      "drugs_to_avoid": [
+        "antipsychotics (selected)",
+        "cholinesterase inhibitors",
+        "non-selective peripheral alpha-1 blockers",
+        "tertiary tricyclic antidepressants"
+      ],
+      "drug_names": [
+        "chlorpromazine",
+        "olanzapine",
+        "donepezil",
+        "galantamine",
+        "rivastigmine",
+        "doxazosin",
+        "prazosin",
+        "terazosin",
+        "amitriptyline",
+        "clomipramine",
+        "doxepin",
+        "imipramine"
+      ],
+      "class_labels": [
+        "antipsychotics",
+        "cholinesterase inhibitors",
+        "non-selective peripheral alpha-1 blockers",
+        "tertiary tricyclic antidepressants"
+      ],
+      "rationale": "Selected antipsychotics and tertiary TCAs increase orthostatic hypotension risk. Cholinesterase inhibitors can cause bradycardia and should be avoided when syncope may be due to bradycardia. Non-selective peripheral alpha-1 blockers can worsen orthostatic blood pressure changes when syncope may be due to orthostatic hypotension.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "High",
+      "strength": "Antipsychotics and non-selective peripheral alpha-1 blockers: Weak; cholinesterase inhibitors and tertiary TCAs: Strong",
+      "common_indian_brands": [
+        "donep 5",
+        "donep 10"
+      ],
+      "common_indian_brands_by_generic": {
+        "donepezil": {
+          "single_ingredient_brands": [
+            "donep 5",
+            "donep 10"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "syncope",
+        "avoid.",
+        "chlorpromazine",
+        "olanzapine",
+        "donepezil",
+        "galantamine",
+        "rivastigmine",
+        "doxazosin",
+        "prazosin",
+        "terazosin",
+        "amitriptyline",
+        "clomipramine",
+        "doxepin",
+        "imipramine",
+        "antipsychotics",
+        "cholinesterase inhibitors",
+        "non-selective peripheral alpha-1 blockers",
+        "tertiary tricyclic antidepressants",
+        "donep 5",
+        "donep 10"
+      ]
+    },
+    {
+      "disease_or_syndrome": "Delirium",
+      "drugs_to_avoid": [
+        "anticholinergics (see Table 7)",
+        "antipsychotics",
+        "benzodiazepines",
+        "corticosteroids (oral and parenteral)",
+        "H2-receptor antagonists",
+        "nonbenzodiazepine benzodiazepine receptor agonist hypnotics (Z-drugs)",
+        "opioids"
+      ],
+      "drug_names": [
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "paliperidone",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam",
+        "cimetidine",
+        "famotidine",
+        "nizatidine",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem"
+      ],
+      "class_labels": [
+        "oral corticosteroids",
+        "parenteral corticosteroids",
+        "opioids"
+      ],
+      "rationale": "These medications can induce or worsen delirium. Antipsychotics should be reserved for behavioral emergencies after nonpharmacologic options fail. If corticosteroids are needed, use the lowest dose for the shortest duration and monitor for delirium. For pain, use validated assessment tools and multimodal strategies to minimize opioid exposure.",
+      "recommendation": "Avoid, except in situations specifically listed in the rationale statement.",
+      "quality_of_evidence": "H2-receptor antagonists: Low; all others: Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ],
+      "common_indian_brands_by_generic": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25"
+          ],
+          "combination_brands": []
+        },
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "delirium",
+        "avoid, except in situations specifically listed in the rationale statement.",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "paliperidone",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam",
+        "cimetidine",
+        "famotidine",
+        "nizatidine",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem",
+        "oral corticosteroids",
+        "parenteral corticosteroids",
+        "opioids",
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ]
+    },
+    {
+      "disease_or_syndrome": "Dementia or cognitive impairment",
+      "drugs_to_avoid": [
+        "anticholinergics (see Table 7)",
+        "antipsychotics used chronically or persistently as needed",
+        "benzodiazepines",
+        "nonbenzodiazepine benzodiazepine receptor agonist hypnotics (Z-drugs)"
+      ],
+      "drug_names": [
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "paliperidone",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem"
+      ],
+      "class_labels": [
+        "anticholinergics",
+        "antipsychotics",
+        "benzodiazepines",
+        "Z-drugs"
+      ],
+      "rationale": "These drugs can cause adverse CNS effects. Antipsychotics carry increased risk of stroke, greater cognitive decline, and mortality in people with dementia and should be reserved for documented failure of nonpharmacologic options or imminent harm.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ],
+      "common_indian_brands_by_generic": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25"
+          ],
+          "combination_brands": []
+        },
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "dementia or cognitive impairment",
+        "avoid.",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "paliperidone",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem",
+        "anticholinergics",
+        "antipsychotics",
+        "benzodiazepines",
+        "z-drugs",
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ]
+    },
+    {
+      "disease_or_syndrome": "History of falls or fractures",
+      "drugs_to_avoid": [
+        "anticholinergics (see Table 7)",
+        "antidepressants (SNRIs, SSRIs, TCAs)",
+        "antiepileptics",
+        "antipsychotics",
+        "benzodiazepines",
+        "nonbenzodiazepine benzodiazepine receptor agonist hypnotics (Z-drugs)",
+        "opioids"
+      ],
+      "drug_names": [
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "paliperidone",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem"
+      ],
+      "class_labels": [
+        "SNRIs",
+        "SSRIs",
+        "antiepileptics",
+        "opioids"
+      ],
+      "rationale": "These medications may cause ataxia, impaired psychomotor function, syncope, or additional falls. Evidence for antidepressants is mixed, but newer evidence suggests SNRIs may increase falls risk. Shorter-acting benzodiazepines are not safer than long-acting ones.",
+      "recommendation": "Avoid unless safer alternatives are not available. Antiepileptics should generally be avoided except for seizure disorders and mood disorders. Opioids should generally be avoided except for severe acute pain.",
+      "quality_of_evidence": "Antidepressants and opioids: Moderate; all others: High",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ],
+      "common_indian_brands_by_generic": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25"
+          ],
+          "combination_brands": []
+        },
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "history of falls or fractures",
+        "avoid unless safer alternatives are not available. antiepileptics should generally be avoided except for seizure disorders and mood disorders. opioids should generally be avoided except for severe acute pain.",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "paliperidone",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem",
+        "snris",
+        "ssris",
+        "antiepileptics",
+        "opioids",
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ]
+    },
+    {
+      "disease_or_syndrome": "Parkinson disease",
+      "drugs_to_avoid": [
+        "antiemetics (metoclopramide, prochlorperazine, promethazine)",
+        "antipsychotics except clozapine, pimavanserin, and quetiapine"
+      ],
+      "drug_names": [
+        "metoclopramide",
+        "prochlorperazine",
+        "promethazine",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "perphenazine",
+        "risperidone",
+        "ziprasidone"
+      ],
+      "class_labels": [
+        "dopamine receptor antagonists"
+      ],
+      "rationale": "Dopamine-receptor antagonists can worsen parkinsonian symptoms. Clozapine, pimavanserin, and quetiapine appear less likely than other antipsychotics to precipitate worsening of Parkinson disease.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "parkinson disease",
+        "avoid.",
+        "metoclopramide",
+        "prochlorperazine",
+        "promethazine",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "perphenazine",
+        "risperidone",
+        "ziprasidone",
+        "dopamine receptor antagonists"
+      ]
+    },
+    {
+      "disease_or_syndrome": "History of gastric or duodenal ulcers",
+      "drugs_to_avoid": [
+        "aspirin",
+        "non-COX-2-selective NSAIDs"
+      ],
+      "drug_names": [
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac"
+      ],
+      "class_labels": [
+        "non-COX-2-selective NSAIDs"
+      ],
+      "rationale": "These drugs may exacerbate existing ulcers or cause new or additional ulcers.",
+      "recommendation": "Avoid unless other alternatives are not effective and the patient can take a gastroprotective agent such as a proton-pump inhibitor or misoprostol.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ],
+      "common_indian_brands_by_generic": {
+        "aspirin": {
+          "single_ingredient_brands": [
+            "ecosprin 75",
+            "ecosprin 150"
+          ],
+          "combination_brands": [
+            "clopilet a 75",
+            "ecosprin gold 10",
+            "ecosprin gold 20",
+            "ecosprin av 75/20"
+          ]
+        },
+        "diclofenac": {
+          "single_ingredient_brands": [
+            "voveran 50",
+            "voveran 75",
+            "voveran 100",
+            "voveran 150"
+          ],
+          "combination_brands": []
+        },
+        "ibuprofen": {
+          "single_ingredient_brands": [
+            "brufen 200",
+            "brufen 400",
+            "brufen 600"
+          ],
+          "combination_brands": [
+            "combiflam"
+          ]
+        }
+      },
+      "matching_terms": [
+        "history of gastric or duodenal ulcers",
+        "avoid unless other alternatives are not effective and the patient can take a gastroprotective agent such as a proton-pump inhibitor or misoprostol.",
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac",
+        "non-cox-2-selective nsaids",
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ]
+    },
+    {
+      "disease_or_syndrome": "Urinary incontinence (all types) in women",
+      "drugs_to_avoid": [
+        "non-selective peripheral alpha-1 blockers",
+        "oral and transdermal estrogen"
+      ],
+      "drug_names": [
+        "doxazosin",
+        "prazosin",
+        "terazosin"
+      ],
+      "class_labels": [
+        "oral estrogen",
+        "transdermal estrogen"
+      ],
+      "rationale": "Non-selective peripheral alpha-1 blockers may aggravate incontinence, and systemic estrogen lacks efficacy for this purpose.",
+      "recommendation": "Avoid in women. See also the estrogen recommendation in Table 2.",
+      "quality_of_evidence": "Non-selective peripheral alpha-1 blockers: Moderate; estrogen: High",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "urinary incontinence (all types) in women",
+        "avoid in women. see also the estrogen recommendation in table 2.",
+        "doxazosin",
+        "prazosin",
+        "terazosin",
+        "oral estrogen",
+        "transdermal estrogen"
+      ]
+    },
+    {
+      "disease_or_syndrome": "Lower urinary tract symptoms or benign prostatic hyperplasia",
+      "drugs_to_avoid": [
+        "strongly anticholinergic drugs, except antimuscarinics used for urinary incontinence"
+      ],
+      "drug_names": [
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine"
+      ],
+      "class_labels": [
+        "strong anticholinergics"
+      ],
+      "rationale": "Strongly anticholinergic drugs can decrease urinary flow and cause urinary retention.",
+      "recommendation": "Avoid in men.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ],
+      "common_indian_brands_by_generic": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25"
+          ],
+          "combination_brands": []
+        },
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "lower urinary tract symptoms or benign prostatic hyperplasia",
+        "avoid in men.",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "strong anticholinergics",
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ]
+    }
+  ],
+  "table4_use_with_caution": [
+    {
+      "drug_or_class": "Dabigatran for long-term treatment of nonvalvular atrial fibrillation or venous thromboembolism",
+      "drug_names": [
+        "dabigatran"
+      ],
+      "rationale": "Compared with warfarin in head-to-head trials and apixaban in observational data, dabigatran is associated with more GI bleeding and more major bleeding in older adults when used long term for nonvalvular atrial fibrillation or VTE.",
+      "recommendation": "Use caution in selecting dabigatran over other DOACs such as apixaban for long-term treatment of nonvalvular atrial fibrillation or VTE.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "dabigatran for long-term treatment of nonvalvular atrial fibrillation or venous thromboembolism",
+        "use caution in selecting dabigatran over other doacs such as apixaban for long-term treatment of nonvalvular atrial fibrillation or vte.",
+        "dabigatran"
+      ]
+    },
+    {
+      "drug_or_class": "Prasugrel and ticagrelor",
+      "drug_names": [
+        "prasugrel",
+        "ticagrelor"
+      ],
+      "rationale": "Both increase the risk of major bleeding in older adults compared with clopidogrel, especially among those 75 years and older, although this risk may be offset by cardiovascular benefits in select patients.",
+      "recommendation": "Use with caution, particularly in adults 75 years and older. If prasugrel is used, consider a lower dose of 5 mg for those 75 years and older.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "prasugrel and ticagrelor",
+        "use with caution, particularly in adults 75 years and older. if prasugrel is used, consider a lower dose of 5 mg for those 75 years and older.",
+        "prasugrel",
+        "ticagrelor"
+      ]
+    },
+    {
+      "drug_or_class": "Selected antidepressants, selected antiepileptics, antipsychotics, diuretics, and tramadol",
+      "drug_names": [
+        "mirtazapine",
+        "carbamazepine",
+        "oxcarbazepine",
+        "tramadol",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "perphenazine",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone"
+      ],
+      "class_labels": [
+        "SNRIs",
+        "SSRIs",
+        "tricyclic antidepressants",
+        "antipsychotics",
+        "diuretics"
+      ],
+      "rationale": "These medications may exacerbate or cause SIADH or hyponatremia. Sodium levels should be monitored closely when starting therapy or changing dosages in older adults.",
+      "recommendation": "Use with caution.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "ultracet"
+      ],
+      "common_indian_brands_by_generic": {
+        "tramadol": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "ultracet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "selected antidepressants, selected antiepileptics, antipsychotics, diuretics, and tramadol",
+        "use with caution.",
+        "mirtazapine",
+        "carbamazepine",
+        "oxcarbazepine",
+        "tramadol",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "aripiprazole",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "perphenazine",
+        "pimavanserin",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "snris",
+        "ssris",
+        "tricyclic antidepressants",
+        "antipsychotics",
+        "diuretics",
+        "ultracet"
+      ]
+    },
+    {
+      "drug_or_class": "Dextromethorphan-quinidine",
+      "drug_names": [
+        "dextromethorphan-quinidine"
+      ],
+      "rationale": "Limited efficacy for behavioral symptoms of dementia and may increase falls risk, clinically significant drug interactions, and concerns related to heart failure.",
+      "recommendation": "Use with caution.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "dextromethorphan-quinidine",
+        "use with caution."
+      ]
+    },
+    {
+      "drug_or_class": "Trimethoprim-sulfamethoxazole",
+      "drug_names": [
+        "trimethoprim-sulfamethoxazole"
+      ],
+      "rationale": "Raises the risk of hyperkalemia when used concurrently with an ACE inhibitor, ARB, or ARNI in the presence of decreased creatinine clearance.",
+      "recommendation": "Use with caution in patients taking an ACE inhibitor, ARB, or ARNI who also have decreased CrCl.",
+      "quality_of_evidence": "Low",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "trimethoprim-sulfamethoxazole",
+        "use with caution in patients taking an ace inhibitor, arb, or arni who also have decreased crcl."
+      ]
+    },
+    {
+      "drug_or_class": "Sodium-glucose co-transporter-2 inhibitors",
+      "drug_names": [
+        "canagliflozin",
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin"
+      ],
+      "rationale": "Older adults may be at increased risk of urogenital infections, particularly women in the first month of treatment. An increased risk of euglycemic diabetic ketoacidosis has also been observed.",
+      "recommendation": "Use with caution. Monitor patients for urogenital infections and ketoacidosis.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Weak",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "sodium-glucose co-transporter-2 inhibitors",
+        "use with caution. monitor patients for urogenital infections and ketoacidosis.",
+        "canagliflozin",
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin"
+      ]
+    }
+  ],
+  "table5_drug_drug_interactions": [
+    {
+      "drug_combination": [
+        "RAS inhibitors or potassium-sparing diuretics",
+        "another RAS inhibitor or potassium-sparing diuretic"
+      ],
+      "drug_names_1": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "perindopril",
+        "ramipril",
+        "candesartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan",
+        "sacubitril-valsartan",
+        "aliskiren",
+        "amiloride",
+        "triamterene"
+      ],
+      "drug_names_2": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "perindopril",
+        "ramipril",
+        "candesartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan",
+        "sacubitril-valsartan",
+        "aliskiren",
+        "amiloride",
+        "triamterene"
+      ],
+      "drug_classes_1": [
+        "ACE inhibitors",
+        "ARBs",
+        "ARNIs",
+        "aliskiren",
+        "potassium-sparing diuretics"
+      ],
+      "drug_classes_2": [
+        "ACE inhibitors",
+        "ARBs",
+        "ARNIs",
+        "aliskiren",
+        "potassium-sparing diuretics"
+      ],
+      "risk": "Hyperkalemia",
+      "recommendation": "Avoid routinely using 2 or more RAS inhibitors, or a RAS inhibitor with a potassium-sparing diuretic, concurrently in chronic kidney disease stage 3a or higher.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [
+        "cardace 1.25",
+        "cardace 2.5",
+        "cardace 5",
+        "losar 25",
+        "losar 50",
+        "repace 25",
+        "repace 50",
+        "telma 20",
+        "telma 40",
+        "telma 80",
+        "telmikind 20",
+        "telmikind 40",
+        "telmikind 80",
+        "telma h",
+        "telma 80-h",
+        "telmikind beta 25",
+        "telmikind beta 50"
+      ],
+      "common_indian_brands_2": [
+        "cardace 1.25",
+        "cardace 2.5",
+        "cardace 5",
+        "losar 25",
+        "losar 50",
+        "repace 25",
+        "repace 50",
+        "telma 20",
+        "telma 40",
+        "telma 80",
+        "telmikind 20",
+        "telmikind 40",
+        "telmikind 80",
+        "telma h",
+        "telma 80-h",
+        "telmikind beta 25",
+        "telmikind beta 50"
+      ],
+      "common_indian_brands_by_generic_1": {
+        "ramipril": {
+          "single_ingredient_brands": [
+            "cardace 1.25",
+            "cardace 2.5",
+            "cardace 5"
+          ],
+          "combination_brands": []
+        },
+        "losartan": {
+          "single_ingredient_brands": [
+            "losar 25",
+            "losar 50",
+            "repace 25",
+            "repace 50"
+          ],
+          "combination_brands": []
+        },
+        "telmisartan": {
+          "single_ingredient_brands": [
+            "telma 20",
+            "telma 40",
+            "telma 80",
+            "telmikind 20",
+            "telmikind 40",
+            "telmikind 80"
+          ],
+          "combination_brands": [
+            "telma h",
+            "telma 80-h",
+            "telmikind beta 25",
+            "telmikind beta 50"
+          ]
+        }
+      },
+      "common_indian_brands_by_generic_2": {
+        "ramipril": {
+          "single_ingredient_brands": [
+            "cardace 1.25",
+            "cardace 2.5",
+            "cardace 5"
+          ],
+          "combination_brands": []
+        },
+        "losartan": {
+          "single_ingredient_brands": [
+            "losar 25",
+            "losar 50",
+            "repace 25",
+            "repace 50"
+          ],
+          "combination_brands": []
+        },
+        "telmisartan": {
+          "single_ingredient_brands": [
+            "telma 20",
+            "telma 40",
+            "telma 80",
+            "telmikind 20",
+            "telmikind 40",
+            "telmikind 80"
+          ],
+          "combination_brands": [
+            "telma h",
+            "telma 80-h",
+            "telmikind beta 25",
+            "telmikind beta 50"
+          ]
+        }
+      },
+      "matching_terms": [
+        "ras inhibitors or potassium-sparing diuretics",
+        "another ras inhibitor or potassium-sparing diuretic",
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "perindopril",
+        "ramipril",
+        "candesartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan",
+        "sacubitril-valsartan",
+        "aliskiren",
+        "amiloride",
+        "triamterene",
+        "ace inhibitors",
+        "arbs",
+        "arnis",
+        "potassium-sparing diuretics",
+        "cardace 1.25",
+        "cardace 2.5",
+        "cardace 5",
+        "losar 25",
+        "losar 50",
+        "repace 25",
+        "repace 50",
+        "telma 20",
+        "telma 40",
+        "telma 80",
+        "telmikind 20",
+        "telmikind 40",
+        "telmikind 80",
+        "telma h",
+        "telma 80-h",
+        "telmikind beta 25",
+        "telmikind beta 50"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Opioids",
+        "Benzodiazepines"
+      ],
+      "drug_names_1": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "meperidine",
+        "morphine",
+        "oxycodone",
+        "tramadol"
+      ],
+      "drug_names_2": [
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam"
+      ],
+      "drug_classes_1": [
+        "opioids"
+      ],
+      "drug_classes_2": [
+        "benzodiazepines"
+      ],
+      "risk": "Overdose and serious adverse events",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [
+        "ultracet"
+      ],
+      "common_indian_brands_2": [],
+      "common_indian_brands_by_generic_1": {
+        "tramadol": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "ultracet"
+          ]
+        }
+      },
+      "common_indian_brands_by_generic_2": {},
+      "matching_terms": [
+        "opioids",
+        "benzodiazepines",
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "meperidine",
+        "morphine",
+        "oxycodone",
+        "tramadol",
+        "alprazolam",
+        "chlordiazepoxide",
+        "clobazam",
+        "clonazepam",
+        "clorazepate",
+        "diazepam",
+        "estazolam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam",
+        "triazolam",
+        "ultracet"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Opioids",
+        "Gabapentin or pregabalin"
+      ],
+      "drug_names_1": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "meperidine",
+        "morphine",
+        "oxycodone",
+        "tramadol"
+      ],
+      "drug_names_2": [
+        "gabapentin",
+        "pregabalin"
+      ],
+      "drug_classes_1": [
+        "opioids"
+      ],
+      "drug_classes_2": [
+        "gabapentinoids"
+      ],
+      "risk": "Severe sedation-related adverse events, including respiratory depression and death",
+      "recommendation": "Avoid. Exceptions include transitions from opioid therapy to gabapentin or pregabalin and situations where gabapentinoids are used to reduce opioid dose, although caution is warranted in all circumstances.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [
+        "ultracet"
+      ],
+      "common_indian_brands_2": [
+        "gabapin 100",
+        "pregaba 75"
+      ],
+      "common_indian_brands_by_generic_1": {
+        "tramadol": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "ultracet"
+          ]
+        }
+      },
+      "common_indian_brands_by_generic_2": {
+        "gabapentin": {
+          "single_ingredient_brands": [
+            "gabapin 100"
+          ],
+          "combination_brands": []
+        },
+        "pregabalin": {
+          "single_ingredient_brands": [
+            "pregaba 75"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "opioids",
+        "gabapentin or pregabalin",
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "meperidine",
+        "morphine",
+        "oxycodone",
+        "tramadol",
+        "gabapentin",
+        "pregabalin",
+        "gabapentinoids",
+        "ultracet",
+        "gabapin 100",
+        "pregaba 75"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Anticholinergic",
+        "Anticholinergic"
+      ],
+      "drug_names_1": [
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium"
+      ],
+      "drug_names_2": [
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium"
+      ],
+      "drug_classes_1": [
+        "strong anticholinergics"
+      ],
+      "drug_classes_2": [
+        "strong anticholinergics"
+      ],
+      "risk": "Cognitive decline, delirium, falls, and fractures",
+      "recommendation": "Avoid; minimize the number of anticholinergic drugs.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ],
+      "common_indian_brands_2": [
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ],
+      "common_indian_brands_by_generic_1": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25"
+          ],
+          "combination_brands": []
+        },
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane"
+          ],
+          "combination_brands": []
+        }
+      },
+      "common_indian_brands_by_generic_2": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25"
+          ],
+          "combination_brands": []
+        },
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "anticholinergic",
+        "amitriptyline",
+        "amoxapine",
+        "clomipramine",
+        "desipramine",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "paroxetine",
+        "prochlorperazine",
+        "promethazine",
+        "brompheniramine",
+        "chlorpheniramine",
+        "cyproheptadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "hydroxyzine",
+        "meclizine",
+        "triprolidine",
+        "benztropine",
+        "trihexyphenidyl",
+        "chlorpromazine",
+        "clozapine",
+        "olanzapine",
+        "perphenazine",
+        "atropine",
+        "clidinium-chlordiazepoxide",
+        "dicyclomine",
+        "homatropine",
+        "hyoscyamine",
+        "scopolamine",
+        "cyclobenzaprine",
+        "orphenadrine",
+        "darifenacin",
+        "fesoterodine",
+        "flavoxate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium",
+        "strong anticholinergics",
+        "atarax 10",
+        "atarax 25",
+        "pacitane"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Any combination of 3 or more CNS-active drugs"
+      ],
+      "drug_names_1": [
+        "gabapentin",
+        "pregabalin",
+        "amitriptyline",
+        "nortriptyline",
+        "paroxetine",
+        "sertraline",
+        "escitalopram",
+        "duloxetine",
+        "venlafaxine",
+        "aripiprazole",
+        "haloperidol",
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem",
+        "tramadol",
+        "morphine",
+        "oxycodone",
+        "cyclobenzaprine",
+        "methocarbamol"
+      ],
+      "drug_names_2": [],
+      "drug_classes_1": [
+        "antiepileptics including gabapentinoids",
+        "TCAs",
+        "SSRIs",
+        "SNRIs",
+        "antipsychotics",
+        "benzodiazepines",
+        "Z-drugs",
+        "opioids",
+        "skeletal muscle relaxants"
+      ],
+      "drug_classes_2": [],
+      "risk": "Falls and fractures",
+      "recommendation": "Avoid concurrent use of 3 or more CNS-active drugs among the listed classes; minimize the number of CNS-active drugs.",
+      "quality_of_evidence": "High",
+      "strength": "Strong",
+      "common_indian_brands_1": [
+        "gabapin 100",
+        "pregaba 75",
+        "serlift 50",
+        "nexito 5",
+        "nexito 10",
+        "cipralex 10",
+        "ultracet"
+      ],
+      "common_indian_brands_2": [],
+      "common_indian_brands_by_generic_1": {
+        "gabapentin": {
+          "single_ingredient_brands": [
+            "gabapin 100"
+          ],
+          "combination_brands": []
+        },
+        "pregabalin": {
+          "single_ingredient_brands": [
+            "pregaba 75"
+          ],
+          "combination_brands": []
+        },
+        "sertraline": {
+          "single_ingredient_brands": [
+            "serlift 50"
+          ],
+          "combination_brands": []
+        },
+        "escitalopram": {
+          "single_ingredient_brands": [
+            "nexito 5",
+            "nexito 10",
+            "cipralex 10"
+          ],
+          "combination_brands": []
+        },
+        "tramadol": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "ultracet"
+          ]
+        }
+      },
+      "common_indian_brands_by_generic_2": {},
+      "matching_terms": [
+        "any combination of 3 or more cns-active drugs",
+        "gabapentin",
+        "pregabalin",
+        "amitriptyline",
+        "nortriptyline",
+        "paroxetine",
+        "sertraline",
+        "escitalopram",
+        "duloxetine",
+        "venlafaxine",
+        "aripiprazole",
+        "haloperidol",
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "eszopiclone",
+        "zaleplon",
+        "zolpidem",
+        "tramadol",
+        "morphine",
+        "oxycodone",
+        "cyclobenzaprine",
+        "methocarbamol",
+        "antiepileptics including gabapentinoids",
+        "tcas",
+        "ssris",
+        "snris",
+        "antipsychotics",
+        "benzodiazepines",
+        "z-drugs",
+        "opioids",
+        "skeletal muscle relaxants",
+        "gabapin 100",
+        "pregaba 75",
+        "serlift 50",
+        "nexito 5",
+        "nexito 10",
+        "cipralex 10",
+        "ultracet"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Lithium",
+        "ACE inhibitors, ARBs, or ARNIs"
+      ],
+      "drug_names_1": [
+        "lithium"
+      ],
+      "drug_names_2": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "perindopril",
+        "ramipril",
+        "candesartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan",
+        "sacubitril-valsartan"
+      ],
+      "drug_classes_1": [
+        "lithium"
+      ],
+      "drug_classes_2": [
+        "ACE inhibitors",
+        "ARBs",
+        "ARNIs"
+      ],
+      "risk": "Lithium toxicity",
+      "recommendation": "Avoid; monitor lithium concentrations if the combination cannot be avoided.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [],
+      "common_indian_brands_2": [
+        "cardace 1.25",
+        "cardace 2.5",
+        "cardace 5",
+        "losar 25",
+        "losar 50",
+        "repace 25",
+        "repace 50",
+        "telma 20",
+        "telma 40",
+        "telma 80",
+        "telmikind 20",
+        "telmikind 40",
+        "telmikind 80",
+        "telma h",
+        "telma 80-h",
+        "telmikind beta 25",
+        "telmikind beta 50"
+      ],
+      "common_indian_brands_by_generic_1": {},
+      "common_indian_brands_by_generic_2": {
+        "ramipril": {
+          "single_ingredient_brands": [
+            "cardace 1.25",
+            "cardace 2.5",
+            "cardace 5"
+          ],
+          "combination_brands": []
+        },
+        "losartan": {
+          "single_ingredient_brands": [
+            "losar 25",
+            "losar 50",
+            "repace 25",
+            "repace 50"
+          ],
+          "combination_brands": []
+        },
+        "telmisartan": {
+          "single_ingredient_brands": [
+            "telma 20",
+            "telma 40",
+            "telma 80",
+            "telmikind 20",
+            "telmikind 40",
+            "telmikind 80"
+          ],
+          "combination_brands": [
+            "telma h",
+            "telma 80-h",
+            "telmikind beta 25",
+            "telmikind beta 50"
+          ]
+        }
+      },
+      "matching_terms": [
+        "lithium",
+        "ace inhibitors, arbs, or arnis",
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "perindopril",
+        "ramipril",
+        "candesartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan",
+        "sacubitril-valsartan",
+        "ace inhibitors",
+        "arbs",
+        "arnis",
+        "cardace 1.25",
+        "cardace 2.5",
+        "cardace 5",
+        "losar 25",
+        "losar 50",
+        "repace 25",
+        "repace 50",
+        "telma 20",
+        "telma 40",
+        "telma 80",
+        "telmikind 20",
+        "telmikind 40",
+        "telmikind 80",
+        "telma h",
+        "telma 80-h",
+        "telmikind beta 25",
+        "telmikind beta 50"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Lithium",
+        "Loop diuretics"
+      ],
+      "drug_names_1": [
+        "lithium"
+      ],
+      "drug_names_2": [
+        "bumetanide",
+        "furosemide",
+        "torsemide"
+      ],
+      "drug_classes_1": [
+        "lithium"
+      ],
+      "drug_classes_2": [
+        "loop diuretics"
+      ],
+      "risk": "Lithium toxicity",
+      "recommendation": "Avoid; monitor lithium concentrations if the combination cannot be avoided.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [],
+      "common_indian_brands_2": [],
+      "common_indian_brands_by_generic_1": {},
+      "common_indian_brands_by_generic_2": {},
+      "matching_terms": [
+        "lithium",
+        "loop diuretics",
+        "bumetanide",
+        "furosemide",
+        "torsemide"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Non-selective peripheral alpha-1 blockers",
+        "Loop diuretics"
+      ],
+      "drug_names_1": [
+        "doxazosin",
+        "prazosin",
+        "terazosin"
+      ],
+      "drug_names_2": [
+        "bumetanide",
+        "furosemide",
+        "torsemide"
+      ],
+      "drug_classes_1": [
+        "non-selective peripheral alpha-1 blockers"
+      ],
+      "drug_classes_2": [
+        "loop diuretics"
+      ],
+      "risk": "Urinary incontinence in older women",
+      "recommendation": "Avoid in older women unless conditions warrant both drugs.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [],
+      "common_indian_brands_2": [],
+      "common_indian_brands_by_generic_1": {},
+      "common_indian_brands_by_generic_2": {},
+      "matching_terms": [
+        "non-selective peripheral alpha-1 blockers",
+        "loop diuretics",
+        "doxazosin",
+        "prazosin",
+        "terazosin",
+        "bumetanide",
+        "furosemide",
+        "torsemide"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Phenytoin",
+        "Trimethoprim-sulfamethoxazole"
+      ],
+      "drug_names_1": [
+        "phenytoin"
+      ],
+      "drug_names_2": [
+        "trimethoprim-sulfamethoxazole"
+      ],
+      "drug_classes_1": [
+        "phenytoin"
+      ],
+      "drug_classes_2": [
+        "trimethoprim-sulfamethoxazole"
+      ],
+      "risk": "Phenytoin toxicity",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [],
+      "common_indian_brands_2": [],
+      "common_indian_brands_by_generic_1": {},
+      "common_indian_brands_by_generic_2": {},
+      "matching_terms": [
+        "phenytoin",
+        "trimethoprim-sulfamethoxazole"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Theophylline",
+        "Cimetidine"
+      ],
+      "drug_names_1": [
+        "theophylline"
+      ],
+      "drug_names_2": [
+        "cimetidine"
+      ],
+      "drug_classes_1": [
+        "theophylline"
+      ],
+      "drug_classes_2": [
+        "cimetidine"
+      ],
+      "risk": "Theophylline toxicity",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [],
+      "common_indian_brands_2": [],
+      "common_indian_brands_by_generic_1": {},
+      "common_indian_brands_by_generic_2": {},
+      "matching_terms": [
+        "theophylline",
+        "cimetidine"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Theophylline",
+        "Ciprofloxacin"
+      ],
+      "drug_names_1": [
+        "theophylline"
+      ],
+      "drug_names_2": [
+        "ciprofloxacin"
+      ],
+      "drug_classes_1": [
+        "theophylline"
+      ],
+      "drug_classes_2": [
+        "ciprofloxacin"
+      ],
+      "risk": "Theophylline toxicity",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [],
+      "common_indian_brands_2": [
+        "cifran 500",
+        "ciplox 500"
+      ],
+      "common_indian_brands_by_generic_1": {},
+      "common_indian_brands_by_generic_2": {
+        "ciprofloxacin": {
+          "single_ingredient_brands": [
+            "cifran 500",
+            "ciplox 500"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "theophylline",
+        "ciprofloxacin",
+        "cifran 500",
+        "ciplox 500"
+      ]
+    },
+    {
+      "drug_combination": [
+        "Warfarin",
+        "Amiodarone, ciprofloxacin, macrolides excluding azithromycin, trimethoprim-sulfamethoxazole, or SSRIs"
+      ],
+      "drug_names_1": [
+        "warfarin"
+      ],
+      "drug_names_2": [
+        "amiodarone",
+        "ciprofloxacin",
+        "trimethoprim-sulfamethoxazole",
+        "clarithromycin",
+        "erythromycin",
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "drug_classes_1": [
+        "warfarin"
+      ],
+      "drug_classes_2": [
+        "macrolides excluding azithromycin",
+        "SSRIs"
+      ],
+      "risk": "Bleeding",
+      "recommendation": "Avoid when possible; if used together, monitor INR closely.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands_1": [],
+      "common_indian_brands_2": [
+        "cifran 500",
+        "ciplox 500",
+        "nexito 5",
+        "nexito 10",
+        "cipralex 10",
+        "serlift 50"
+      ],
+      "common_indian_brands_by_generic_1": {},
+      "common_indian_brands_by_generic_2": {
+        "ciprofloxacin": {
+          "single_ingredient_brands": [
+            "cifran 500",
+            "ciplox 500"
+          ],
+          "combination_brands": []
+        },
+        "escitalopram": {
+          "single_ingredient_brands": [
+            "nexito 5",
+            "nexito 10",
+            "cipralex 10"
+          ],
+          "combination_brands": []
+        },
+        "sertraline": {
+          "single_ingredient_brands": [
+            "serlift 50"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "warfarin",
+        "amiodarone, ciprofloxacin, macrolides excluding azithromycin, trimethoprim-sulfamethoxazole, or ssris",
+        "amiodarone",
+        "ciprofloxacin",
+        "trimethoprim-sulfamethoxazole",
+        "clarithromycin",
+        "erythromycin",
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "macrolides excluding azithromycin",
+        "ssris",
+        "cifran 500",
+        "ciplox 500",
+        "nexito 5",
+        "nexito 10",
+        "cipralex 10",
+        "serlift 50"
+      ]
+    }
+  ],
+  "table6_renal_dose_adjustments": [
+    {
+      "drug_or_class": "Ciprofloxacin",
+      "drug_names": [
+        "ciprofloxacin"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Increased risk of CNS effects such as seizures and confusion, and tendon rupture.",
+      "recommendation": "Reduce dosage for common infections when CrCl <30 mL/min.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "cifran 500",
+        "ciplox 500"
+      ],
+      "common_indian_brands_by_generic": {
+        "ciprofloxacin": {
+          "single_ingredient_brands": [
+            "cifran 500",
+            "ciplox 500"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "ciprofloxacin",
+        "reduce dosage for common infections when crcl <30 ml/min.",
+        "cifran 500",
+        "ciplox 500"
+      ]
+    },
+    {
+      "drug_or_class": "Nitrofurantoin",
+      "drug_names": [
+        "nitrofurantoin"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Potential for pulmonary toxicity, hepatotoxicity, and peripheral neuropathy, especially with long-term use.",
+      "recommendation": "Avoid if CrCl <30 mL/min.",
+      "quality_of_evidence": "Low",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "nitrofurantoin",
+        "avoid if crcl <30 ml/min."
+      ]
+    },
+    {
+      "drug_or_class": "Trimethoprim-sulfamethoxazole",
+      "drug_names": [
+        "trimethoprim-sulfamethoxazole"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Increased risk of worsening kidney function and hyperkalemia, especially with concurrent ACE inhibitor, ARB, or ARNI use.",
+      "recommendation": "Reduce dosage if CrCl is 15 to 29 mL/min. Avoid if CrCl <15 mL/min.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "trimethoprim-sulfamethoxazole",
+        "reduce dosage if crcl is 15 to 29 ml/min. avoid if crcl <15 ml/min."
+      ]
+    },
+    {
+      "drug_or_class": "Amiloride",
+      "drug_names": [
+        "amiloride"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Hyperkalemia and hyponatremia.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "amiloride",
+        "avoid."
+      ]
+    },
+    {
+      "drug_or_class": "Dabigatran",
+      "drug_names": [
+        "dabigatran"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Lack of evidence for efficacy and safety in individuals with CrCl <30 mL/min. Dose guidance for lower CrCl is based largely on pharmacokinetics.",
+      "recommendation": "Avoid when CrCl <30 mL/min. Dose adjustment is advised when CrCl >30 mL/min in the presence of drug-drug interactions.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "dabigatran",
+        "avoid when crcl <30 ml/min. dose adjustment is advised when crcl >30 ml/min in the presence of drug-drug interactions."
+      ]
+    },
+    {
+      "drug_or_class": "Dofetilide",
+      "drug_names": [
+        "dofetilide"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<60 mL/min",
+      "rationale": "QTc prolongation and torsades de pointes.",
+      "recommendation": "Reduce dose if CrCl is 20 to 59 mL/min. Avoid if CrCl <20 mL/min.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "dofetilide",
+        "reduce dose if crcl is 20 to 59 ml/min. avoid if crcl <20 ml/min."
+      ]
+    },
+    {
+      "drug_or_class": "Edoxaban",
+      "drug_names": [
+        "edoxaban"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "15 to 50 mL/min; <15 or >95 mL/min",
+      "rationale": "Lack of evidence for efficacy or safety at very low kidney function, and reduced efficacy concerns at very high CrCl.",
+      "recommendation": "Reduce dose if CrCl is 15 to 50 mL/min. Avoid if CrCl <15 mL/min or >95 mL/min.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "edoxaban",
+        "reduce dose if crcl is 15 to 50 ml/min. avoid if crcl <15 ml/min or >95 ml/min."
+      ]
+    },
+    {
+      "drug_or_class": "Enoxaparin",
+      "drug_names": [
+        "enoxaparin"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Increased risk of bleeding.",
+      "recommendation": "Reduce dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "enoxaparin",
+        "reduce dose."
+      ]
+    },
+    {
+      "drug_or_class": "Fondaparinux",
+      "drug_names": [
+        "fondaparinux"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Increased risk of bleeding.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "fondaparinux",
+        "avoid."
+      ]
+    },
+    {
+      "drug_or_class": "Rivaroxaban",
+      "drug_names": [
+        "rivaroxaban"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<50 mL/min",
+      "rationale": "Limited evidence for efficacy or safety in people with very low kidney function and indication-specific dosing concerns in moderate renal impairment.",
+      "recommendation": "Avoid if CrCl <15 mL/min. Reduce the dose if CrCl is 15 to 50 mL/min according to manufacturer indication-specific recommendations.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "rivaroxaban",
+        "avoid if crcl <15 ml/min. reduce the dose if crcl is 15 to 50 ml/min according to manufacturer indication-specific recommendations."
+      ]
+    },
+    {
+      "drug_or_class": "Spironolactone",
+      "drug_names": [
+        "spironolactone"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Hyperkalemia.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "aldactone 25",
+        "aldactone 50"
+      ],
+      "common_indian_brands_by_generic": {
+        "spironolactone": {
+          "single_ingredient_brands": [
+            "aldactone 25",
+            "aldactone 50"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "spironolactone",
+        "avoid.",
+        "aldactone 25",
+        "aldactone 50"
+      ]
+    },
+    {
+      "drug_or_class": "Triamterene",
+      "drug_names": [
+        "triamterene"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Hyperkalemia and hyponatremia.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "triamterene",
+        "avoid."
+      ]
+    },
+    {
+      "drug_or_class": "Baclofen",
+      "drug_names": [
+        "baclofen"
+      ],
+      "renal_function_metric": "eGFR",
+      "threshold": "<60 mL/min",
+      "rationale": "Increased risk of encephalopathy requiring hospitalization in older adults with impaired kidney function or chronic dialysis.",
+      "recommendation": "Avoid baclofen in older adults with eGFR <60 mL/min. If it cannot be avoided, use the lowest effective dose and monitor for CNS toxicity and altered mental status.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "baclofen",
+        "avoid baclofen in older adults with egfr <60 ml/min. if it cannot be avoided, use the lowest effective dose and monitor for cns toxicity and altered mental status."
+      ]
+    },
+    {
+      "drug_or_class": "Duloxetine",
+      "drug_names": [
+        "duloxetine"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Increased gastrointestinal adverse effects such as nausea and diarrhea.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Weak",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "duloxetine",
+        "avoid."
+      ]
+    },
+    {
+      "drug_or_class": "Gabapentin",
+      "drug_names": [
+        "gabapentin"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<60 mL/min",
+      "rationale": "Increased CNS adverse effects.",
+      "recommendation": "Reduce dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "gabapin 100"
+      ],
+      "common_indian_brands_by_generic": {
+        "gabapentin": {
+          "single_ingredient_brands": [
+            "gabapin 100"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "gabapentin",
+        "reduce dose.",
+        "gabapin 100"
+      ]
+    },
+    {
+      "drug_or_class": "Levetiracetam",
+      "drug_names": [
+        "levetiracetam"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "≤80 mL/min",
+      "rationale": "Increased CNS adverse effects.",
+      "recommendation": "Reduce dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "levetiracetam",
+        "reduce dose."
+      ]
+    },
+    {
+      "drug_or_class": "NSAIDs (non-selective, COX-2 selective, and nonacetylated salicylates; oral and parenteral)",
+      "drug_names": [
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac",
+        "celecoxib",
+        "magnesium salicylate"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "May increase the risk of acute kidney injury and further decline in kidney function.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ],
+      "common_indian_brands_by_generic": {
+        "aspirin": {
+          "single_ingredient_brands": [
+            "ecosprin 75",
+            "ecosprin 150"
+          ],
+          "combination_brands": [
+            "clopilet a 75",
+            "ecosprin gold 10",
+            "ecosprin gold 20",
+            "ecosprin av 75/20"
+          ]
+        },
+        "diclofenac": {
+          "single_ingredient_brands": [
+            "voveran 50",
+            "voveran 75",
+            "voveran 100",
+            "voveran 150"
+          ],
+          "combination_brands": []
+        },
+        "ibuprofen": {
+          "single_ingredient_brands": [
+            "brufen 200",
+            "brufen 400",
+            "brufen 600"
+          ],
+          "combination_brands": [
+            "combiflam"
+          ]
+        }
+      },
+      "matching_terms": [
+        "nsaids (non-selective, cox-2 selective, and nonacetylated salicylates; oral and parenteral)",
+        "avoid.",
+        "aspirin",
+        "diclofenac",
+        "diflunisal",
+        "etodolac",
+        "flurbiprofen",
+        "ibuprofen",
+        "indomethacin",
+        "ketorolac",
+        "meloxicam",
+        "nabumetone",
+        "naproxen",
+        "oxaprozin",
+        "piroxicam",
+        "sulindac",
+        "celecoxib",
+        "magnesium salicylate",
+        "ecosprin 75",
+        "ecosprin 150",
+        "clopilet a 75",
+        "ecosprin gold 10",
+        "ecosprin gold 20",
+        "ecosprin av 75/20",
+        "voveran 50",
+        "voveran 75",
+        "voveran 100",
+        "voveran 150",
+        "brufen 200",
+        "brufen 400",
+        "brufen 600",
+        "combiflam"
+      ]
+    },
+    {
+      "drug_or_class": "Pregabalin",
+      "drug_names": [
+        "pregabalin"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<60 mL/min",
+      "rationale": "Increased CNS adverse effects.",
+      "recommendation": "Reduce dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [
+        "pregaba 75"
+      ],
+      "common_indian_brands_by_generic": {
+        "pregabalin": {
+          "single_ingredient_brands": [
+            "pregaba 75"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "pregabalin",
+        "reduce dose.",
+        "pregaba 75"
+      ]
+    },
+    {
+      "drug_or_class": "Tramadol",
+      "drug_names": [
+        "tramadol"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Increased CNS adverse effects.",
+      "recommendation": "Immediate-release: reduce dose. Extended-release: avoid.",
+      "quality_of_evidence": "Low",
+      "strength": "Weak",
+      "common_indian_brands": [
+        "ultracet"
+      ],
+      "common_indian_brands_by_generic": {
+        "tramadol": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "ultracet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "tramadol",
+        "immediate-release: reduce dose. extended-release: avoid.",
+        "ultracet"
+      ]
+    },
+    {
+      "drug_or_class": "Cimetidine",
+      "drug_names": [
+        "cimetidine"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<50 mL/min",
+      "rationale": "Mental status changes.",
+      "recommendation": "Reduce dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "cimetidine",
+        "reduce dose."
+      ]
+    },
+    {
+      "drug_or_class": "Famotidine",
+      "drug_names": [
+        "famotidine"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<50 mL/min",
+      "rationale": "Mental status changes.",
+      "recommendation": "Reduce dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "famotidine",
+        "reduce dose."
+      ]
+    },
+    {
+      "drug_or_class": "Nizatidine",
+      "drug_names": [
+        "nizatidine"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<50 mL/min",
+      "rationale": "Mental status changes.",
+      "recommendation": "Reduce dose.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "nizatidine",
+        "reduce dose."
+      ]
+    },
+    {
+      "drug_or_class": "Colchicine",
+      "drug_names": [
+        "colchicine"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "GI, neuromuscular, and bone marrow toxicity.",
+      "recommendation": "Reduce dose and monitor for adverse effects.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "colchicine",
+        "reduce dose and monitor for adverse effects."
+      ]
+    },
+    {
+      "drug_or_class": "Probenecid",
+      "drug_names": [
+        "probenecid"
+      ],
+      "renal_function_metric": "CrCl",
+      "threshold": "<30 mL/min",
+      "rationale": "Loss of effectiveness.",
+      "recommendation": "Avoid.",
+      "quality_of_evidence": "Moderate",
+      "strength": "Strong",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "probenecid",
+        "avoid."
+      ]
+    }
+  ],
+  "table7_anticholinergic_drugs": [
+    {
+      "drug_name": "amitriptyline",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "amitone 10mg tablet",
+        "eliwel 10mg tablet",
+        "tryptomer 10mg tablet",
+        "tryptomer 25mg tablet",
+        "amixide-h tablet",
+        "aculip h 12.5 mg/5 mg tablet",
+        "amitone plus tablet",
+        "amixide 10mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "amitriptyline": {
+          "single_ingredient_brands": [
+            "amitone 10mg tablet",
+            "eliwel 10mg tablet",
+            "tryptomer 10mg tablet",
+            "tryptomer 25mg tablet"
+          ],
+          "combination_brands": [
+            "amixide-h tablet",
+            "aculip h 12.5 mg/5 mg tablet",
+            "amitone plus tablet",
+            "amixide 10mg tablet",
+            "amitryn-c tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "amitriptyline",
+        "antidepressants",
+        "amitone 10mg tablet",
+        "eliwel 10mg tablet",
+        "tryptomer 10mg tablet",
+        "tryptomer 25mg tablet",
+        "amixide-h tablet",
+        "aculip h 12.5 mg/5 mg tablet",
+        "amitone plus tablet",
+        "amixide 10mg tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "amoxapine",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "amoxapine",
+        "antidepressants"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "atropine",
+      "drug_classes": [
+        "Antispasmodics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "atropine 1% eye drop",
+        "topin eye drop",
+        "atropine sulphate injection",
+        "atropine eye ointment",
+        "atropine sulphate 1% eye ointment",
+        "atrodex-c eye drop",
+        "atrochlor d eye drop",
+        "lomotil tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "atropine": {
+          "single_ingredient_brands": [
+            "atropine 1% eye drop",
+            "topin eye drop",
+            "atropine sulphate injection",
+            "atropine eye ointment",
+            "atropine sulphate 1% eye ointment"
+          ],
+          "combination_brands": [
+            "atrodex-c eye drop",
+            "atrochlor d eye drop",
+            "lomotil tablet",
+            "lomofen tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "atropine",
+        "antispasmodics",
+        "atropine 1% eye drop",
+        "topin eye drop",
+        "atropine sulphate injection",
+        "atropine eye ointment",
+        "atropine sulphate 1% eye ointment",
+        "atrodex-c eye drop",
+        "atrochlor d eye drop",
+        "lomotil tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "benztropine",
+      "drug_classes": [
+        "Antiparkinsonian agents"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "benztropine",
+        "antiparkinsonian agents"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "brompheniramine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "brompheniramine",
+        "antihistamines (first-generation)"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "cetirizine",
+      "drug_classes": [
+        "Antihistamines (second-generation)"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "possible",
+      "anticholinergic_score": 1,
+      "score_basis": "ACB_scale",
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "common_indian_brands": [
+        "cetrizine tablet",
+        "cetzine tablet",
+        "cz 3 tablet",
+        "okacet tablet",
+        "cheston cold tablet",
+        "acefil bd 150mg/5mg tablet",
+        "bcd tablet",
+        "decet od 300mg/10mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "cetirizine": {
+          "single_ingredient_brands": [
+            "cetrizine tablet",
+            "cetzine tablet",
+            "cz 3 tablet",
+            "okacet tablet"
+          ],
+          "combination_brands": [
+            "cheston cold tablet",
+            "acefil bd 150mg/5mg tablet",
+            "bcd tablet",
+            "decet od 300mg/10mg tablet",
+            "gdcit tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "cetirizine",
+        "antihistamines (second-generation)",
+        "cetrizine tablet",
+        "cetzine tablet",
+        "cz 3 tablet",
+        "okacet tablet",
+        "cheston cold tablet",
+        "acefil bd 150mg/5mg tablet",
+        "bcd tablet",
+        "decet od 300mg/10mg tablet"
+      ]
+    },
+    {
+      "drug_name": "chlorpheniramine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "chlorpheniramine",
+        "antihistamines (first-generation)"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "chlorpromazine",
+      "drug_classes": [
+        "Antipsychotics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "chlorpromazine 50mg tablet",
+        "chlorpromazine 100mg tablet",
+        "cpz 50 tablet",
+        "largactil 10mg tablet",
+        "trinicalm forte tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "chlorpromazine": {
+          "single_ingredient_brands": [
+            "chlorpromazine 50mg tablet",
+            "chlorpromazine 100mg tablet",
+            "cpz 50 tablet",
+            "largactil 10mg tablet"
+          ],
+          "combination_brands": [
+            "trinicalm forte tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "chlorpromazine",
+        "antipsychotics",
+        "chlorpromazine 50mg tablet",
+        "chlorpromazine 100mg tablet",
+        "cpz 50 tablet",
+        "largactil 10mg tablet",
+        "trinicalm forte tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "clidinium-chlordiazepoxide",
+      "drug_classes": [
+        "Antispasmodics"
+      ],
+      "anticholinergic_burden": "possible",
+      "anticholinergic_score": 1,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "clidinium-chlordiazepoxide",
+        "antispasmodics"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "note": "Primary score mapped from the ACB score for clidinium, the anticholinergic component of the clidinium-chlordiazepoxide combination."
+    },
+    {
+      "drug_name": "clomipramine",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "clomipramine",
+        "antidepressants"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "clozapine",
+      "drug_classes": [
+        "Antipsychotics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "sizopin 25 tablet",
+        "sizopin 100mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "clozapine": {
+          "single_ingredient_brands": [
+            "sizopin 25 tablet",
+            "sizopin 100mg tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "clozapine",
+        "antipsychotics",
+        "sizopin 25 tablet",
+        "sizopin 100mg tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "cyclobenzaprine",
+      "drug_classes": [
+        "Skeletal muscle relaxants"
+      ],
+      "anticholinergic_burden": "definite_moderate",
+      "anticholinergic_score": 2,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "flexabenz tablet",
+        "flexabenz er capsule",
+        "skelebenz 15 capsule er",
+        "flexabenz plus tablet sr"
+      ],
+      "common_indian_brands_by_generic": {
+        "cyclobenzaprine": {
+          "single_ingredient_brands": [
+            "flexabenz tablet",
+            "flexabenz er capsule",
+            "skelebenz 15 capsule er"
+          ],
+          "combination_brands": [
+            "flexabenz plus tablet sr"
+          ]
+        }
+      },
+      "matching_terms": [
+        "cyclobenzaprine",
+        "skeletal muscle relaxants",
+        "flexabenz tablet",
+        "flexabenz er capsule",
+        "skelebenz 15 capsule er",
+        "flexabenz plus tablet sr"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "cyproheptadine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_moderate",
+      "anticholinergic_score": 2,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "apetamin syrup",
+        "biopron 4mg tablet",
+        "ciplactin tablet",
+        "cypon capsule",
+        "ciplactin syrup",
+        "aptimust syrup",
+        "apilysin syrup",
+        "apitone plus syrup"
+      ],
+      "common_indian_brands_by_generic": {
+        "cyproheptadine": {
+          "single_ingredient_brands": [
+            "apetamin syrup",
+            "biopron 4mg tablet",
+            "ciplactin tablet",
+            "cypon capsule",
+            "ciplactin syrup"
+          ],
+          "combination_brands": [
+            "aptimust syrup",
+            "apilysin syrup",
+            "apitone plus syrup",
+            "biopron syrup",
+            "cypon syrup"
+          ]
+        }
+      },
+      "matching_terms": [
+        "cyproheptadine",
+        "antihistamines (first-generation)",
+        "apetamin syrup",
+        "biopron 4mg tablet",
+        "ciplactin tablet",
+        "cypon capsule",
+        "ciplactin syrup",
+        "aptimust syrup",
+        "apilysin syrup",
+        "apitone plus syrup"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "alternate_published_scores": [
+        {
+          "scale": "CALS",
+          "score": 3,
+          "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+        }
+      ]
+    },
+    {
+      "drug_name": "darifenacin",
+      "drug_classes": [
+        "Antimuscarinics (urinary incontinence)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "darilong 7.5 tablet pr",
+        "dariten od 7.5mg tablet pr",
+        "darif 7.5 tablet pr"
+      ],
+      "common_indian_brands_by_generic": {
+        "darifenacin": {
+          "single_ingredient_brands": [
+            "darilong 7.5 tablet pr",
+            "dariten od 7.5mg tablet pr",
+            "darif 7.5 tablet pr"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "darifenacin",
+        "antimuscarinics (urinary incontinence)",
+        "darilong 7.5 tablet pr",
+        "dariten od 7.5mg tablet pr",
+        "darif 7.5 tablet pr"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "desipramine",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "desipramine",
+        "antidepressants"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "dicyclomine",
+      "drug_classes": [
+        "Antispasmodics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "cyclopam 10mg injection",
+        "cyclomin 20mg tablet",
+        "colicure 10mg syrup",
+        "decolic 10mg injection",
+        "meftal-spas injection",
+        "cyclopam suspension",
+        "meftal-spas suspension",
+        "normaxin tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "dicyclomine": {
+          "single_ingredient_brands": [
+            "cyclopam 10mg injection",
+            "cyclomin 20mg tablet",
+            "colicure 10mg syrup",
+            "decolic 10mg injection",
+            "meftal-spas injection"
+          ],
+          "combination_brands": [
+            "cyclopam suspension",
+            "meftal-spas suspension",
+            "normaxin tablet",
+            "spasmodart tablet",
+            "spasmol tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "dicyclomine",
+        "antispasmodics",
+        "cyclopam 10mg injection",
+        "cyclomin 20mg tablet",
+        "colicure 10mg syrup",
+        "decolic 10mg injection",
+        "meftal-spas injection",
+        "cyclopam suspension",
+        "meftal-spas suspension",
+        "normaxin tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "dimenhydrinate",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "spinfree tablet",
+        "dizitac tablet",
+        "diziron d tablet md",
+        "gemvert tablet",
+        "stugeron plus tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "dimenhydrinate": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "spinfree tablet",
+            "dizitac tablet",
+            "diziron d tablet md",
+            "gemvert tablet",
+            "stugeron plus tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "dimenhydrinate",
+        "antihistamines (first-generation)",
+        "spinfree tablet",
+        "dizitac tablet",
+        "diziron d tablet md",
+        "gemvert tablet",
+        "stugeron plus tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "diphenhydramine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "benadryl syrup",
+        "ascodex plus syrup",
+        "aldryl syrup",
+        "cofsils cough syrup",
+        "cof-ryl cough syrup"
+      ],
+      "common_indian_brands_by_generic": {
+        "diphenhydramine": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "benadryl syrup",
+            "ascodex plus syrup",
+            "aldryl syrup",
+            "cofsils cough syrup",
+            "cof-ryl cough syrup"
+          ]
+        }
+      },
+      "matching_terms": [
+        "diphenhydramine",
+        "antihistamines (first-generation)",
+        "benadryl syrup",
+        "ascodex plus syrup",
+        "aldryl syrup",
+        "cofsils cough syrup",
+        "cof-ryl cough syrup"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "doxepin",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "doxepin",
+        "antidepressants"
+      ],
+      "qualifier": ">6 mg/day",
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "doxylamine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "doxinate od tablet",
+        "nv tablet",
+        "vomilast tablet",
+        "doxinate tablet",
+        "doxinate plus tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "doxylamine": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "doxinate od tablet",
+            "nv tablet",
+            "vomilast tablet",
+            "doxinate tablet",
+            "doxinate plus tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "doxylamine",
+        "antihistamines (first-generation)",
+        "doxinate od tablet",
+        "nv tablet",
+        "vomilast tablet",
+        "doxinate tablet",
+        "doxinate plus tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "famotidine",
+      "drug_classes": [
+        "H2-receptor antagonists"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "possible",
+      "anticholinergic_score": 1,
+      "score_basis": "CALS",
+      "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695.",
+      "common_indian_brands": [
+        "famocid 40 tablet",
+        "famocid 20 tablet",
+        "famtac soflet",
+        "famonext 40mg tablet",
+        "famonext 20 tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "famotidine": {
+          "single_ingredient_brands": [
+            "famocid 40 tablet",
+            "famocid 20 tablet",
+            "famtac soflet",
+            "famonext 40mg tablet",
+            "famonext 20 tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "famotidine",
+        "h2-receptor antagonists",
+        "famocid 40 tablet",
+        "famocid 20 tablet",
+        "famtac soflet",
+        "famonext 40mg tablet",
+        "famonext 20 tablet"
+      ]
+    },
+    {
+      "drug_name": "fesoterodine",
+      "drug_classes": [
+        "Antimuscarinics (urinary incontinence)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "fesoterodine",
+        "antimuscarinics (urinary incontinence)"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "flavoxate",
+      "drug_classes": [
+        "Antimuscarinics (urinary incontinence)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "flavospas tablet",
+        "flavocip 200 tablet",
+        "urispas tablet",
+        "urikind tablet",
+        "urisol 200mg tablet",
+        "flavospas o 200 mg/200 mg tablet",
+        "flavoride-plus tablet",
+        "urifree-o tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "flavoxate": {
+          "single_ingredient_brands": [
+            "flavospas tablet",
+            "flavocip 200 tablet",
+            "urispas tablet",
+            "urikind tablet",
+            "urisol 200mg tablet"
+          ],
+          "combination_brands": [
+            "flavospas o 200 mg/200 mg tablet",
+            "flavoride-plus tablet",
+            "urifree-o tablet",
+            "urinet o tablet",
+            "zenflox-uti tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "flavoxate",
+        "antimuscarinics (urinary incontinence)",
+        "flavospas tablet",
+        "flavocip 200 tablet",
+        "urispas tablet",
+        "urikind tablet",
+        "urisol 200mg tablet",
+        "flavospas o 200 mg/200 mg tablet",
+        "flavoride-plus tablet",
+        "urifree-o tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "homatropine",
+      "drug_classes": [
+        "Antispasmodics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "CALS",
+      "common_indian_brands": [
+        "homide eye drop",
+        "ha2 eye drop",
+        "homacid eye drop",
+        "mydryn eye drop"
+      ],
+      "common_indian_brands_by_generic": {
+        "homatropine": {
+          "single_ingredient_brands": [
+            "homide eye drop",
+            "ha2 eye drop",
+            "homacid eye drop",
+            "mydryn eye drop"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "homatropine",
+        "antispasmodics",
+        "homide eye drop",
+        "ha2 eye drop",
+        "homacid eye drop",
+        "mydryn eye drop"
+      ],
+      "beers_table7_member": true,
+      "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+    },
+    {
+      "drug_name": "hydroxyzine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "atarax 10",
+        "atarax 25",
+        "atarax 25mg tablet",
+        "atarax 10mg tablet",
+        "atarax syrup"
+      ],
+      "common_indian_brands_by_generic": {
+        "hydroxyzine": {
+          "single_ingredient_brands": [
+            "atarax 10",
+            "atarax 25",
+            "atarax 25mg tablet",
+            "atarax 10mg tablet",
+            "atarax syrup"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "hydroxyzine",
+        "antihistamines (first-generation)",
+        "atarax 10",
+        "atarax 25",
+        "atarax 25mg tablet",
+        "atarax 10mg tablet",
+        "atarax syrup"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "hyoscyamine",
+      "drug_classes": [
+        "Antispasmodics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "hyocimax-s tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "hyoscyamine": {
+          "single_ingredient_brands": [
+            "hyocimax-s tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "hyoscyamine",
+        "antispasmodics",
+        "hyocimax-s tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "imipramine",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "depsonil 25mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "imipramine": {
+          "single_ingredient_brands": [
+            "depsonil 25mg tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "imipramine",
+        "antidepressants",
+        "depsonil 25mg tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "levocetirizine",
+      "drug_classes": [
+        "Antihistamines (second-generation)"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "possible",
+      "anticholinergic_score": 1,
+      "score_basis": "ACB_scale",
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "common_indian_brands": [
+        "levocet",
+        "levocet tablet",
+        "levosiz tablet",
+        "lcz tablet",
+        "lecope tablet",
+        "teczine tablet",
+        "montek lc",
+        "acebrofact lm tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "levocetirizine": {
+          "single_ingredient_brands": [
+            "levocet",
+            "levocet tablet",
+            "levosiz tablet",
+            "lcz tablet",
+            "lecope tablet"
+          ],
+          "combination_brands": [
+            "montek lc",
+            "acebrofact lm tablet",
+            "airlung ab tablet",
+            "coekastle-a tablet",
+            "carlev forte 300mg/5mg tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "levocetirizine",
+        "antihistamines (second-generation)",
+        "levocet",
+        "levocet tablet",
+        "levosiz tablet",
+        "lcz tablet",
+        "lecope tablet",
+        "teczine tablet",
+        "montek lc",
+        "acebrofact lm tablet"
+      ]
+    },
+    {
+      "drug_name": "loratadine",
+      "drug_classes": [
+        "Antihistamines (second-generation)"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "possible",
+      "anticholinergic_score": 1,
+      "score_basis": "ACB_scale",
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "loratadine",
+        "antihistamines (second-generation)"
+      ]
+    },
+    {
+      "drug_name": "meclizine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "diligan 25 tablet",
+        "pnv tablet",
+        "vominos 25mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "meclizine": {
+          "single_ingredient_brands": [
+            "diligan 25 tablet",
+            "pnv tablet",
+            "vominos 25mg tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "meclizine",
+        "antihistamines (first-generation)",
+        "diligan 25 tablet",
+        "pnv tablet",
+        "vominos 25mg tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "methocarbamol",
+      "drug_classes": [
+        "Skeletal muscle relaxants"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "common_indian_brands": [
+        "robinax 500mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "methocarbamol": {
+          "single_ingredient_brands": [
+            "robinax 500mg tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "methocarbamol",
+        "skeletal muscle relaxants",
+        "robinax 500mg tablet"
+      ]
+    },
+    {
+      "drug_name": "metoclopramide",
+      "drug_classes": [
+        "Antiemetics",
+        "Prokinetics"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "possible",
+      "anticholinergic_score": 1,
+      "score_basis": "CALS",
+      "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695.",
+      "common_indian_brands": [
+        "perinorm tablet",
+        "perinorm injection"
+      ],
+      "common_indian_brands_by_generic": {
+        "metoclopramide": {
+          "single_ingredient_brands": [
+            "perinorm tablet",
+            "perinorm injection"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "metoclopramide",
+        "antiemetics",
+        "prokinetics",
+        "perinorm tablet",
+        "perinorm injection"
+      ]
+    },
+    {
+      "drug_name": "nortriptyline",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "sensival 25 tablet",
+        "gabapin nt tablet",
+        "gabapin nt 100 tablet",
+        "gabaneuron nt tablet",
+        "pregabid nt tablet",
+        "pregaba nt 75 mg/10 mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "nortriptyline": {
+          "single_ingredient_brands": [
+            "sensival 25 tablet"
+          ],
+          "combination_brands": [
+            "gabapin nt tablet",
+            "gabapin nt 100 tablet",
+            "gabaneuron nt tablet",
+            "pregabid nt tablet",
+            "pregaba nt 75 mg/10 mg tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "nortriptyline",
+        "antidepressants",
+        "sensival 25 tablet",
+        "gabapin nt tablet",
+        "gabapin nt 100 tablet",
+        "gabaneuron nt tablet",
+        "pregabid nt tablet",
+        "pregaba nt 75 mg/10 mg tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "olanzapine",
+      "drug_classes": [
+        "Antipsychotics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "oleanz 2.5 tablet",
+        "oleanz 5 tablet",
+        "olimelt 2.5 tablet md",
+        "olimelt 5 tablet md",
+        "oleanz 10 tablet",
+        "oleanz plus tablet",
+        "olanex f tablet",
+        "supral plus tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "olanzapine": {
+          "single_ingredient_brands": [
+            "oleanz 2.5 tablet",
+            "oleanz 5 tablet",
+            "olimelt 2.5 tablet md",
+            "olimelt 5 tablet md",
+            "oleanz 10 tablet"
+          ],
+          "combination_brands": [
+            "oleanz plus tablet",
+            "olanex f tablet",
+            "supral plus tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "olanzapine",
+        "antipsychotics",
+        "oleanz 2.5 tablet",
+        "oleanz 5 tablet",
+        "olimelt 2.5 tablet md",
+        "olimelt 5 tablet md",
+        "oleanz 10 tablet",
+        "oleanz plus tablet",
+        "olanex f tablet",
+        "supral plus tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "alternate_published_scores": [
+        {
+          "scale": "CALS",
+          "score": 2,
+          "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+        }
+      ]
+    },
+    {
+      "drug_name": "orphenadrine",
+      "drug_classes": [
+        "Skeletal muscle relaxants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "orphenadrine",
+        "skeletal muscle relaxants"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "oxybutynin",
+      "drug_classes": [
+        "Antimuscarinics (urinary incontinence)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "oxyspas 2.5 tablet",
+        "oxyspas 5 tablet",
+        "tropan 5 tablet",
+        "tropan 2.5 tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "oxybutynin": {
+          "single_ingredient_brands": [
+            "oxyspas 2.5 tablet",
+            "oxyspas 5 tablet",
+            "tropan 5 tablet",
+            "tropan 2.5 tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "oxybutynin",
+        "antimuscarinics (urinary incontinence)",
+        "oxyspas 2.5 tablet",
+        "oxyspas 5 tablet",
+        "tropan 5 tablet",
+        "tropan 2.5 tablet"
+      ],
+      "note": "AGS notes that oxybutynin has the best evidence for adverse cognitive effects among bladder antimuscarinics, but caution is warranted for the whole class.",
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "paroxetine",
+      "drug_classes": [
+        "Antidepressants"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "pexep cr 12.5 tablet",
+        "pari cr 12.5 tablet",
+        "paxidep cr 12.5 tablet",
+        "panazep 12.5 tablet er"
+      ],
+      "common_indian_brands_by_generic": {
+        "paroxetine": {
+          "single_ingredient_brands": [
+            "pexep cr 12.5 tablet",
+            "pari cr 12.5 tablet",
+            "paxidep cr 12.5 tablet"
+          ],
+          "combination_brands": [
+            "panazep 12.5 tablet er"
+          ]
+        }
+      },
+      "matching_terms": [
+        "paroxetine",
+        "antidepressants",
+        "pexep cr 12.5 tablet",
+        "pari cr 12.5 tablet",
+        "paxidep cr 12.5 tablet",
+        "panazep 12.5 tablet er"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "alternate_published_scores": [
+        {
+          "scale": "CALS",
+          "score": 2,
+          "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+        }
+      ]
+    },
+    {
+      "drug_name": "perphenazine",
+      "drug_classes": [
+        "Antipsychotics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "perphenazine",
+        "antipsychotics"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "alternate_published_scores": [
+        {
+          "scale": "CALS",
+          "score": 2,
+          "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+        }
+      ]
+    },
+    {
+      "drug_name": "prochlorperazine",
+      "drug_classes": [
+        "Antiemetics"
+      ],
+      "anticholinergic_burden": "definite_moderate",
+      "anticholinergic_score": 2,
+      "score_basis": "CALS",
+      "common_indian_brands": [
+        "acuvert tablet",
+        "emikind -md tablet",
+        "emidoxyn 5mg tablet md",
+        "nausetil 5mg tablet",
+        "resvom-md tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "prochlorperazine": {
+          "single_ingredient_brands": [
+            "acuvert tablet",
+            "emikind -md tablet",
+            "emidoxyn 5mg tablet md",
+            "nausetil 5mg tablet",
+            "resvom-md tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "prochlorperazine",
+        "antiemetics",
+        "acuvert tablet",
+        "emikind -md tablet",
+        "emidoxyn 5mg tablet md",
+        "nausetil 5mg tablet",
+        "resvom-md tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+    },
+    {
+      "drug_name": "promethazine",
+      "drug_classes": [
+        "Antiemetics",
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "avomine tablet",
+        "avomine 25mg tablet md",
+        "phenergan syrup",
+        "phenergan 25 tablet",
+        "phenergan injection",
+        "phenergan plus syrup"
+      ],
+      "common_indian_brands_by_generic": {
+        "promethazine": {
+          "single_ingredient_brands": [
+            "avomine tablet",
+            "avomine 25mg tablet md",
+            "phenergan syrup",
+            "phenergan 25 tablet",
+            "phenergan injection"
+          ],
+          "combination_brands": [
+            "phenergan plus syrup"
+          ]
+        }
+      },
+      "matching_terms": [
+        "promethazine",
+        "antiemetics",
+        "antihistamines (first-generation)",
+        "avomine tablet",
+        "avomine 25mg tablet md",
+        "phenergan syrup",
+        "phenergan 25 tablet",
+        "phenergan injection",
+        "phenergan plus syrup"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "quetiapine",
+      "drug_classes": [
+        "Antipsychotics"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "common_indian_brands": [
+        "qutipin 25 tablet",
+        "qutan 25 tablet",
+        "qutipin 50 tablet",
+        "qutan 50 tablet",
+        "qutipin 100 tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "quetiapine": {
+          "single_ingredient_brands": [
+            "qutipin 25 tablet",
+            "qutan 25 tablet",
+            "qutipin 50 tablet",
+            "qutan 50 tablet",
+            "qutipin 100 tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "quetiapine",
+        "antipsychotics",
+        "qutipin 25 tablet",
+        "qutan 25 tablet",
+        "qutipin 50 tablet",
+        "qutan 50 tablet",
+        "qutipin 100 tablet"
+      ],
+      "alternate_published_scores": [
+        {
+          "scale": "CALS",
+          "score": 2,
+          "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+        }
+      ]
+    },
+    {
+      "drug_name": "ranitidine",
+      "drug_classes": [
+        "H2-receptor antagonists"
+      ],
+      "beers_table7_member": false,
+      "anticholinergic_burden": "possible",
+      "anticholinergic_score": 1,
+      "score_basis": "ACB_scale",
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008).",
+      "common_indian_brands": [
+        "aciloc 150",
+        "aciloc 300",
+        "rantac 150",
+        "rantac 300",
+        "rantac injection 2ml",
+        "ranitin 150 tablet",
+        "aciloc 150 tablet",
+        "aciloc 300 tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "ranitidine": {
+          "single_ingredient_brands": [
+            "aciloc 150",
+            "aciloc 300",
+            "rantac 150",
+            "rantac 300",
+            "rantac injection 2ml"
+          ],
+          "combination_brands": [
+            "aciloc d 10 mg/150 mg tablet",
+            "anset r injection",
+            "clistar rt tablet",
+            "doran-o 4mg/50mg injection",
+            "ranidom on + rantdn injection"
+          ]
+        }
+      },
+      "matching_terms": [
+        "ranitidine",
+        "h2-receptor antagonists",
+        "aciloc 150",
+        "aciloc 300",
+        "rantac 150",
+        "rantac 300",
+        "rantac injection 2ml",
+        "ranitin 150 tablet",
+        "aciloc 150 tablet",
+        "aciloc 300 tablet"
+      ],
+      "note": "Included for matching because it appears in published anticholinergic scales and in the local Indian medicine dataset; current regulatory status varies by market.",
+      "alternate_published_scores": [
+        {
+          "scale": "CALS",
+          "score": 2,
+          "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+        }
+      ]
+    },
+    {
+      "drug_name": "scopolamine",
+      "drug_classes": [
+        "Antispasmodics"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "scopolamine",
+        "antispasmodics"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "solifenacin",
+      "drug_classes": [
+        "Antimuscarinics (urinary incontinence)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "bispec 5 tablet",
+        "floslo 5 tablet",
+        "soliten 5mg tablet",
+        "solicept 5 tablet",
+        "soliten 10mg tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "solifenacin": {
+          "single_ingredient_brands": [
+            "bispec 5 tablet",
+            "floslo 5 tablet",
+            "soliten 5mg tablet",
+            "solicept 5 tablet",
+            "soliten 10mg tablet"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "solifenacin",
+        "antimuscarinics (urinary incontinence)",
+        "bispec 5 tablet",
+        "floslo 5 tablet",
+        "soliten 5mg tablet",
+        "solicept 5 tablet",
+        "soliten 10mg tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "tolterodine",
+      "drug_classes": [
+        "Antimuscarinics (urinary incontinence)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "roliten 2mg tablet",
+        "roliten od 4mg capsule er",
+        "terol la 4 capsule er",
+        "terol la 2 capsule er"
+      ],
+      "common_indian_brands_by_generic": {
+        "tolterodine": {
+          "single_ingredient_brands": [
+            "roliten 2mg tablet",
+            "roliten od 4mg capsule er",
+            "terol la 4 capsule er",
+            "terol la 2 capsule er"
+          ],
+          "combination_brands": []
+        }
+      },
+      "matching_terms": [
+        "tolterodine",
+        "antimuscarinics (urinary incontinence)",
+        "roliten 2mg tablet",
+        "roliten od 4mg capsule er",
+        "terol la 4 capsule er",
+        "terol la 2 capsule er"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "trihexyphenidyl",
+      "drug_classes": [
+        "Antiparkinsonian agents"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [
+        "pacitane",
+        "parkin tablet",
+        "bexol tablet",
+        "bexol dt tablet",
+        "pacitane tablet",
+        "parkinta 2mg tablet",
+        "neocalm plus tablet",
+        "parkin-plus tablet"
+      ],
+      "common_indian_brands_by_generic": {
+        "trihexyphenidyl": {
+          "single_ingredient_brands": [
+            "pacitane",
+            "parkin tablet",
+            "bexol tablet",
+            "bexol dt tablet",
+            "pacitane tablet"
+          ],
+          "combination_brands": [
+            "neocalm plus tablet",
+            "parkin-plus tablet",
+            "risdone ls tablet",
+            "risdone-plus tablet",
+            "sizodon ls tablet"
+          ]
+        }
+      },
+      "matching_terms": [
+        "trihexyphenidyl",
+        "antiparkinsonian agents",
+        "pacitane",
+        "parkin tablet",
+        "bexol tablet",
+        "bexol dt tablet",
+        "pacitane tablet",
+        "parkinta 2mg tablet",
+        "neocalm plus tablet",
+        "parkin-plus tablet"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    },
+    {
+      "drug_name": "triprolidine",
+      "drug_classes": [
+        "Antihistamines (first-generation)"
+      ],
+      "anticholinergic_burden": "definite_moderate",
+      "anticholinergic_score": 2,
+      "score_basis": "CALS",
+      "common_indian_brands": [
+        "codectuss tr syrup",
+        "corex t cough syrup",
+        "codylex t syrup",
+        "codistar t syrup",
+        "magnatuss t syrup"
+      ],
+      "common_indian_brands_by_generic": {
+        "triprolidine": {
+          "single_ingredient_brands": [],
+          "combination_brands": [
+            "codectuss tr syrup",
+            "corex t cough syrup",
+            "codylex t syrup",
+            "codistar t syrup",
+            "magnatuss t syrup"
+          ]
+        }
+      },
+      "matching_terms": [
+        "triprolidine",
+        "antihistamines (first-generation)",
+        "codectuss tr syrup",
+        "corex t cough syrup",
+        "codylex t syrup",
+        "codistar t syrup",
+        "magnatuss t syrup"
+      ],
+      "beers_table7_member": true,
+      "citation": "Ramos H, Moreno L, Perez-Tur J, et al. CRIDECO Anticholinergic Load Scale (CALS). J Pers Med. 2022;12(2):207. doi:10.3390/jpm12020207. PMID:35207695."
+    },
+    {
+      "drug_name": "trospium",
+      "drug_classes": [
+        "Antimuscarinics (urinary incontinence)"
+      ],
+      "anticholinergic_burden": "definite_strong",
+      "anticholinergic_score": 3,
+      "score_basis": "ACB_scale",
+      "common_indian_brands": [],
+      "common_indian_brands_by_generic": {},
+      "matching_terms": [
+        "trospium",
+        "antimuscarinics (urinary incontinence)"
+      ],
+      "beers_table7_member": true,
+      "citation": "Aging Brain Care / Indiana University Center for Aging Research. Anticholinergic Cognitive Burden Scale, 2012 update (based on Boustani et al. 2008)."
+    }
+  ]
+}

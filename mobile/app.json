@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "SAHAYAK",
+    "slug": "sahayak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF9F6"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sahayak.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "SAHAYAK needs camera access to photograph your medicine strips.",
+        "NSPhotoLibraryUsageDescription": "SAHAYAK needs photo library access to select medicine images.",
+        "NSMicrophoneUsageDescription": "SAHAYAK needs microphone access for voice input."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#FAF9F6"
+      },
+      "package": "com.sahayak.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SAHAYAK needs camera access to photograph your medicine strips."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SAHAYAK needs photo access to select medicine images."
+        }
+      ]
+    ],
+    "scheme": "sahayak",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "af0e03cd-6b10-48c1-a4f4-83c4de08be8b"
+      }
+    }
+  }
+}

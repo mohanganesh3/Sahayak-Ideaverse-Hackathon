@@ -1,0 +1,26 @@
+{
+  "name": "SAHAYAK – Medication Safety",
+  "short_name": "SAHAYAK",
+  "description": "AI-powered medication safety for elderly Indian patients",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF9F6",
+  "theme_color": "#0D9488",
+  "categories": ["medical", "health"],
+  "lang": "hi",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

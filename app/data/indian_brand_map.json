@@ -1,0 +1,1002 @@
+{
+  "ecosprin 75": {
+    "generic": "aspirin",
+    "dose": "75mg",
+    "class": "antiplatelet"
+  },
+  "ecosprin 150": {
+    "generic": "aspirin",
+    "dose": "150mg",
+    "class": "antiplatelet"
+  },
+  "clopilet": {
+    "generic": "clopidogrel",
+    "dose": "75mg",
+    "class": "antiplatelet"
+  },
+  "clopilet 150": {
+    "generic": "clopidogrel",
+    "dose": "150mg",
+    "class": "antiplatelet"
+  },
+  "clopilet a 75": {
+    "generic": "aspirin + clopidogrel",
+    "dose": "75mg + 75mg",
+    "class": "dual antiplatelet"
+  },
+  "clopitab": {
+    "generic": "clopidogrel",
+    "dose": "75mg",
+    "class": "antiplatelet"
+  },
+  "clopitab 150": {
+    "generic": "clopidogrel",
+    "dose": "150mg",
+    "class": "antiplatelet"
+  },
+  "ecosprin gold 10": {
+    "generic": "aspirin + atorvastatin + clopidogrel",
+    "dose": "75mg + 10mg + 75mg",
+    "class": "antiplatelet + statin"
+  },
+  "ecosprin gold 20": {
+    "generic": "aspirin + atorvastatin + clopidogrel",
+    "dose": "75mg + 20mg + 75mg",
+    "class": "antiplatelet + statin"
+  },
+  "ecosprin av 75/20": {
+    "generic": "aspirin + atorvastatin",
+    "dose": "75mg + 20mg",
+    "class": "antiplatelet + statin"
+  },
+  "storvas 10": {
+    "generic": "atorvastatin",
+    "dose": "10mg",
+    "class": "statin"
+  },
+  "storvas 20": {
+    "generic": "atorvastatin",
+    "dose": "20mg",
+    "class": "statin"
+  },
+  "storvas 40": {
+    "generic": "atorvastatin",
+    "dose": "40mg",
+    "class": "statin"
+  },
+  "storvas 80": {
+    "generic": "atorvastatin",
+    "dose": "80mg",
+    "class": "statin"
+  },
+  "atorva 10": {
+    "generic": "atorvastatin",
+    "dose": "10mg",
+    "class": "statin"
+  },
+  "atorva 20": {
+    "generic": "atorvastatin",
+    "dose": "20mg",
+    "class": "statin"
+  },
+  "atorva 40": {
+    "generic": "atorvastatin",
+    "dose": "40mg",
+    "class": "statin"
+  },
+  "atorva 80": {
+    "generic": "atorvastatin",
+    "dose": "80mg",
+    "class": "statin"
+  },
+  "tonact 10": {
+    "generic": "atorvastatin",
+    "dose": "10mg",
+    "class": "statin"
+  },
+  "tonact 20": {
+    "generic": "atorvastatin",
+    "dose": "20mg",
+    "class": "statin"
+  },
+  "tonact 40": {
+    "generic": "atorvastatin",
+    "dose": "40mg",
+    "class": "statin"
+  },
+  "tonact 80": {
+    "generic": "atorvastatin",
+    "dose": "80mg",
+    "class": "statin"
+  },
+  "rosuvas 5": {
+    "generic": "rosuvastatin",
+    "dose": "5mg",
+    "class": "statin"
+  },
+  "rosuvas 10": {
+    "generic": "rosuvastatin",
+    "dose": "10mg",
+    "class": "statin"
+  },
+  "rosuvas 20": {
+    "generic": "rosuvastatin",
+    "dose": "20mg",
+    "class": "statin"
+  },
+  "rosuvas 40": {
+    "generic": "rosuvastatin",
+    "dose": "40mg",
+    "class": "statin"
+  },
+  "rozavel 5": {
+    "generic": "rosuvastatin",
+    "dose": "5mg",
+    "class": "statin"
+  },
+  "rozavel 10": {
+    "generic": "rosuvastatin",
+    "dose": "10mg",
+    "class": "statin"
+  },
+  "rozavel 20": {
+    "generic": "rosuvastatin",
+    "dose": "20mg",
+    "class": "statin"
+  },
+  "telma 20": {
+    "generic": "telmisartan",
+    "dose": "20mg",
+    "class": "arb"
+  },
+  "telma 40": {
+    "generic": "telmisartan",
+    "dose": "40mg",
+    "class": "arb"
+  },
+  "telma 80": {
+    "generic": "telmisartan",
+    "dose": "80mg",
+    "class": "arb"
+  },
+  "telma h": {
+    "generic": "telmisartan + hydrochlorothiazide",
+    "dose": "40mg + 12.5mg",
+    "class": "arb + diuretic"
+  },
+  "telma 80-h": {
+    "generic": "telmisartan + hydrochlorothiazide",
+    "dose": "80mg + 12.5mg",
+    "class": "arb + diuretic"
+  },
+  "telmikind 20": {
+    "generic": "telmisartan",
+    "dose": "20mg",
+    "class": "arb"
+  },
+  "telmikind 40": {
+    "generic": "telmisartan",
+    "dose": "40mg",
+    "class": "arb"
+  },
+  "telmikind 80": {
+    "generic": "telmisartan",
+    "dose": "80mg",
+    "class": "arb"
+  },
+  "telmikind beta 25": {
+    "generic": "telmisartan + metoprolol succinate",
+    "dose": "40mg + 25mg",
+    "class": "arb + beta blocker"
+  },
+  "telmikind beta 50": {
+    "generic": "telmisartan + metoprolol succinate",
+    "dose": "40mg + 50mg",
+    "class": "arb + beta blocker"
+  },
+  "amlong 2.5": {
+    "generic": "amlodipine",
+    "dose": "2.5mg",
+    "class": "ccb"
+  },
+  "amlong 5": {
+    "generic": "amlodipine",
+    "dose": "5mg",
+    "class": "ccb"
+  },
+  "amlong 10": {
+    "generic": "amlodipine",
+    "dose": "10mg",
+    "class": "ccb"
+  },
+  "stamlo 2.5": {
+    "generic": "amlodipine",
+    "dose": "2.5mg",
+    "class": "ccb"
+  },
+  "stamlo 5": {
+    "generic": "amlodipine",
+    "dose": "5mg",
+    "class": "ccb"
+  },
+  "stamlo 10": {
+    "generic": "amlodipine",
+    "dose": "10mg",
+    "class": "ccb"
+  },
+  "cardace 1.25": {
+    "generic": "ramipril",
+    "dose": "1.25mg",
+    "class": "ace inhibitor"
+  },
+  "cardace 2.5": {
+    "generic": "ramipril",
+    "dose": "2.5mg",
+    "class": "ace inhibitor"
+  },
+  "cardace 5": {
+    "generic": "ramipril",
+    "dose": "5mg",
+    "class": "ace inhibitor"
+  },
+  "olmesar 20": {
+    "generic": "olmesartan medoxomil",
+    "dose": "20mg",
+    "class": "arb"
+  },
+  "olmesar 40": {
+    "generic": "olmesartan medoxomil",
+    "dose": "40mg",
+    "class": "arb"
+  },
+  "olmesar a": {
+    "generic": "olmesartan medoxomil + amlodipine",
+    "dose": "20mg + 5mg",
+    "class": "arb + ccb"
+  },
+  "olmezest 20": {
+    "generic": "olmesartan medoxomil",
+    "dose": "20mg",
+    "class": "arb"
+  },
+  "olmezest 40": {
+    "generic": "olmesartan medoxomil",
+    "dose": "40mg",
+    "class": "arb"
+  },
+  "olmezest am": {
+    "generic": "olmesartan medoxomil + amlodipine",
+    "dose": "20mg + 5mg",
+    "class": "arb + ccb"
+  },
+  "cilacar 5": {
+    "generic": "cilnidipine",
+    "dose": "5mg",
+    "class": "ccb"
+  },
+  "cilacar 10": {
+    "generic": "cilnidipine",
+    "dose": "10mg",
+    "class": "ccb"
+  },
+  "cilacar 20": {
+    "generic": "cilnidipine",
+    "dose": "20mg",
+    "class": "ccb"
+  },
+  "concor cor 1.25": {
+    "generic": "bisoprolol",
+    "dose": "1.25mg",
+    "class": "beta blocker"
+  },
+  "concor cor 2.5": {
+    "generic": "bisoprolol",
+    "dose": "2.5mg",
+    "class": "beta blocker"
+  },
+  "concor 5": {
+    "generic": "bisoprolol",
+    "dose": "5mg",
+    "class": "beta blocker"
+  },
+  "metolar 25": {
+    "generic": "metoprolol tartrate",
+    "dose": "25mg",
+    "class": "beta blocker"
+  },
+  "metolar 50": {
+    "generic": "metoprolol tartrate",
+    "dose": "50mg",
+    "class": "beta blocker"
+  },
+  "metolar xr 25": {
+    "generic": "metoprolol succinate",
+    "dose": "25mg",
+    "class": "beta blocker"
+  },
+  "metolar xr 50": {
+    "generic": "metoprolol succinate",
+    "dose": "50mg",
+    "class": "beta blocker"
+  },
+  "losar 25": {
+    "generic": "losartan",
+    "dose": "25mg",
+    "class": "arb"
+  },
+  "losar 50": {
+    "generic": "losartan",
+    "dose": "50mg",
+    "class": "arb"
+  },
+  "repace 25": {
+    "generic": "losartan",
+    "dose": "25mg",
+    "class": "arb"
+  },
+  "repace 50": {
+    "generic": "losartan",
+    "dose": "50mg",
+    "class": "arb"
+  },
+  "dytor 5": {
+    "generic": "torasemide",
+    "dose": "5mg",
+    "class": "loop diuretic"
+  },
+  "dytor 10": {
+    "generic": "torasemide",
+    "dose": "10mg",
+    "class": "loop diuretic"
+  },
+  "dytor 20": {
+    "generic": "torasemide",
+    "dose": "20mg",
+    "class": "loop diuretic"
+  },
+  "aldactone 25": {
+    "generic": "spironolactone",
+    "dose": "25mg",
+    "class": "potassium-sparing diuretic"
+  },
+  "aldactone 50": {
+    "generic": "spironolactone",
+    "dose": "50mg",
+    "class": "potassium-sparing diuretic"
+  },
+  "sorbitrate 5": {
+    "generic": "isosorbide dinitrate",
+    "dose": "5mg",
+    "class": "nitrate"
+  },
+  "sorbitrate 10": {
+    "generic": "isosorbide dinitrate",
+    "dose": "10mg",
+    "class": "nitrate"
+  },
+  "angispan tr 2.5": {
+    "generic": "nitroglycerin",
+    "dose": "2.5mg",
+    "class": "nitrate"
+  },
+  "nikoran 5": {
+    "generic": "nicorandil",
+    "dose": "5mg",
+    "class": "antianginal"
+  },
+  "nikoran 10": {
+    "generic": "nicorandil",
+    "dose": "10mg",
+    "class": "antianginal"
+  },
+  "nikoran 20": {
+    "generic": "nicorandil",
+    "dose": "20mg",
+    "class": "antianginal"
+  },
+  "glycomet 250": {
+    "generic": "metformin",
+    "dose": "250mg",
+    "class": "biguanide"
+  },
+  "glycomet 500": {
+    "generic": "metformin",
+    "dose": "500mg",
+    "class": "biguanide"
+  },
+  "glycomet 1gm": {
+    "generic": "metformin",
+    "dose": "1000mg",
+    "class": "biguanide"
+  },
+  "glycomet trio 1": {
+    "generic": "glimepiride + metformin + voglibose",
+    "dose": "1mg + 500mg + 0.2mg",
+    "class": "antidiabetic combination"
+  },
+  "glycomet trio 2": {
+    "generic": "glimepiride + metformin + voglibose",
+    "dose": "2mg + 500mg + 0.2mg",
+    "class": "antidiabetic combination"
+  },
+  "cetapin xr 500": {
+    "generic": "metformin",
+    "dose": "500mg",
+    "class": "biguanide"
+  },
+  "cetapin xr 1000": {
+    "generic": "metformin",
+    "dose": "1000mg",
+    "class": "biguanide"
+  },
+  "amaryl 1": {
+    "generic": "glimepiride",
+    "dose": "1mg",
+    "class": "sulfonylurea"
+  },
+  "amaryl 2": {
+    "generic": "glimepiride",
+    "dose": "2mg",
+    "class": "sulfonylurea"
+  },
+  "amaryl m 1": {
+    "generic": "glimepiride + metformin",
+    "dose": "1mg + 500mg",
+    "class": "sulfonylurea + metformin"
+  },
+  "amaryl m 2": {
+    "generic": "glimepiride + metformin",
+    "dose": "2mg + 500mg",
+    "class": "sulfonylurea + metformin"
+  },
+  "glimisave m 1": {
+    "generic": "glimepiride + metformin",
+    "dose": "1mg + 500mg",
+    "class": "sulfonylurea + metformin"
+  },
+  "glimisave m 2": {
+    "generic": "glimepiride + metformin",
+    "dose": "2mg + 500mg",
+    "class": "sulfonylurea + metformin"
+  },
+  "glimisave mv 2": {
+    "generic": "glimepiride + metformin + voglibose",
+    "dose": "2mg + 500mg + 0.2mg",
+    "class": "antidiabetic combination"
+  },
+  "glimisave mv 3.3": {
+    "generic": "glimepiride + metformin + voglibose",
+    "dose": "3mg + 500mg + 0.3mg",
+    "class": "antidiabetic combination"
+  },
+  "jalra 50": {
+    "generic": "vildagliptin",
+    "dose": "50mg",
+    "class": "dpp-4 inhibitor"
+  },
+  "jalra 100": {
+    "generic": "vildagliptin",
+    "dose": "100mg",
+    "class": "dpp-4 inhibitor"
+  },
+  "galvus 50": {
+    "generic": "vildagliptin",
+    "dose": "50mg",
+    "class": "dpp-4 inhibitor"
+  },
+  "galvus od 100": {
+    "generic": "vildagliptin",
+    "dose": "100mg",
+    "class": "dpp-4 inhibitor"
+  },
+  "galvus met 50/500": {
+    "generic": "vildagliptin + metformin",
+    "dose": "50mg + 500mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "istamet 50/500": {
+    "generic": "sitagliptin + metformin",
+    "dose": "50mg + 500mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "istamet 50/1000": {
+    "generic": "sitagliptin + metformin",
+    "dose": "50mg + 1000mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "istamet xr": {
+    "generic": "sitagliptin + metformin",
+    "dose": "100mg + 1000mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "janumet 50/500": {
+    "generic": "sitagliptin + metformin",
+    "dose": "50mg + 500mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "janumet 50/1000": {
+    "generic": "sitagliptin + metformin",
+    "dose": "50mg + 1000mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "janumet xr": {
+    "generic": "sitagliptin + metformin",
+    "dose": "100mg + 1000mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "trajenta 5": {
+    "generic": "linagliptin",
+    "dose": "5mg",
+    "class": "dpp-4 inhibitor"
+  },
+  "trajenta duo 2.5/500": {
+    "generic": "linagliptin + metformin",
+    "dose": "2.5mg + 500mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "trajenta duo 2.5/1000": {
+    "generic": "linagliptin + metformin",
+    "dose": "2.5mg + 1000mg",
+    "class": "dpp-4 inhibitor + metformin"
+  },
+  "thyronorm 12.5": {
+    "generic": "levothyroxine",
+    "dose": "12.5mcg",
+    "class": "thyroid hormone"
+  },
+  "thyronorm 25": {
+    "generic": "levothyroxine",
+    "dose": "25mcg",
+    "class": "thyroid hormone"
+  },
+  "thyronorm 50": {
+    "generic": "levothyroxine",
+    "dose": "50mcg",
+    "class": "thyroid hormone"
+  },
+  "thyronorm 62.5": {
+    "generic": "levothyroxine",
+    "dose": "62.5mcg",
+    "class": "thyroid hormone"
+  },
+  "thyronorm 75": {
+    "generic": "levothyroxine",
+    "dose": "75mcg",
+    "class": "thyroid hormone"
+  },
+  "thyronorm 100": {
+    "generic": "levothyroxine",
+    "dose": "100mcg",
+    "class": "thyroid hormone"
+  },
+  "eltroxin 25": {
+    "generic": "levothyroxine",
+    "dose": "25mcg",
+    "class": "thyroid hormone"
+  },
+  "eltroxin 50": {
+    "generic": "levothyroxine",
+    "dose": "50mcg",
+    "class": "thyroid hormone"
+  },
+  "eltroxin 75": {
+    "generic": "levothyroxine",
+    "dose": "75mcg",
+    "class": "thyroid hormone"
+  },
+  "eltroxin 100": {
+    "generic": "levothyroxine",
+    "dose": "100mcg",
+    "class": "thyroid hormone"
+  },
+  "eltroxin 125": {
+    "generic": "levothyroxine",
+    "dose": "125mcg",
+    "class": "thyroid hormone"
+  },
+  "eltroxin 150": {
+    "generic": "levothyroxine",
+    "dose": "150mcg",
+    "class": "thyroid hormone"
+  },
+  "pan 20": {
+    "generic": "pantoprazole",
+    "dose": "20mg",
+    "class": "ppi"
+  },
+  "pan 40": {
+    "generic": "pantoprazole",
+    "dose": "40mg",
+    "class": "ppi"
+  },
+  "pan 80": {
+    "generic": "pantoprazole",
+    "dose": "80mg",
+    "class": "ppi"
+  },
+  "pantocid": {
+    "generic": "pantoprazole",
+    "dose": "40mg",
+    "class": "ppi"
+  },
+  "pantocid dsr": {
+    "generic": "domperidone + pantoprazole",
+    "dose": "30mg + 40mg",
+    "class": "ppi + prokinetic"
+  },
+  "pantocid l": {
+    "generic": "levosulpiride + pantoprazole",
+    "dose": "75mg + 40mg",
+    "class": "ppi + prokinetic"
+  },
+  "pantop 20": {
+    "generic": "pantoprazole",
+    "dose": "20mg",
+    "class": "ppi"
+  },
+  "pantop 40": {
+    "generic": "pantoprazole",
+    "dose": "40mg",
+    "class": "ppi"
+  },
+  "rabicip 10": {
+    "generic": "rabeprazole",
+    "dose": "10mg",
+    "class": "ppi"
+  },
+  "rabicip 20": {
+    "generic": "rabeprazole",
+    "dose": "20mg",
+    "class": "ppi"
+  },
+  "rablet 20": {
+    "generic": "rabeprazole",
+    "dose": "20mg",
+    "class": "ppi"
+  },
+  "rablet d": {
+    "generic": "domperidone + rabeprazole",
+    "dose": "30mg + 20mg",
+    "class": "ppi + prokinetic"
+  },
+  "aciloc 150": {
+    "generic": "ranitidine",
+    "dose": "150mg",
+    "class": "h2 blocker"
+  },
+  "aciloc 300": {
+    "generic": "ranitidine",
+    "dose": "300mg",
+    "class": "h2 blocker"
+  },
+  "rantac 150": {
+    "generic": "ranitidine",
+    "dose": "150mg",
+    "class": "h2 blocker"
+  },
+  "rantac 300": {
+    "generic": "ranitidine",
+    "dose": "300mg",
+    "class": "h2 blocker"
+  },
+  "dolo 500": {
+    "generic": "paracetamol",
+    "dose": "500mg",
+    "class": "analgesic"
+  },
+  "dolo 650": {
+    "generic": "paracetamol",
+    "dose": "650mg",
+    "class": "analgesic"
+  },
+  "crocin advance": {
+    "generic": "paracetamol",
+    "dose": "500mg",
+    "class": "analgesic"
+  },
+  "crocin 1000": {
+    "generic": "paracetamol",
+    "dose": "1000mg",
+    "class": "analgesic"
+  },
+  "ultracet": {
+    "generic": "paracetamol + tramadol",
+    "dose": "325mg + 37.5mg",
+    "class": "analgesic + opioid"
+  },
+  "voveran 50": {
+    "generic": "diclofenac",
+    "dose": "50mg",
+    "class": "nsaid"
+  },
+  "voveran 75": {
+    "generic": "diclofenac",
+    "dose": "75mg",
+    "class": "nsaid"
+  },
+  "voveran 100": {
+    "generic": "diclofenac",
+    "dose": "100mg",
+    "class": "nsaid"
+  },
+  "voveran 150": {
+    "generic": "diclofenac",
+    "dose": "150mg",
+    "class": "nsaid"
+  },
+  "zerodol": {
+    "generic": "aceclofenac",
+    "dose": "100mg",
+    "class": "nsaid"
+  },
+  "zerodol cr": {
+    "generic": "aceclofenac",
+    "dose": "200mg",
+    "class": "nsaid"
+  },
+  "brufen 200": {
+    "generic": "ibuprofen",
+    "dose": "200mg",
+    "class": "nsaid"
+  },
+  "brufen 400": {
+    "generic": "ibuprofen",
+    "dose": "400mg",
+    "class": "nsaid"
+  },
+  "brufen 600": {
+    "generic": "ibuprofen",
+    "dose": "600mg",
+    "class": "nsaid"
+  },
+  "combiflam": {
+    "generic": "ibuprofen + paracetamol",
+    "dose": "400mg + 325mg",
+    "class": "nsaid + analgesic"
+  },
+  "aceclo": {
+    "generic": "aceclofenac",
+    "dose": "100mg",
+    "class": "nsaid"
+  },
+  "aceclo plus": {
+    "generic": "aceclofenac + paracetamol",
+    "dose": "100mg + 325mg",
+    "class": "nsaid + analgesic"
+  },
+  "etoshine 60": {
+    "generic": "etoricoxib",
+    "dose": "60mg",
+    "class": "cox-2 inhibitor"
+  },
+  "etoshine 90": {
+    "generic": "etoricoxib",
+    "dose": "90mg",
+    "class": "cox-2 inhibitor"
+  },
+  "etoshine 120": {
+    "generic": "etoricoxib",
+    "dose": "120mg",
+    "class": "cox-2 inhibitor"
+  },
+  "allegra 120": {
+    "generic": "fexofenadine",
+    "dose": "120mg",
+    "class": "antihistamine"
+  },
+  "allegra 180": {
+    "generic": "fexofenadine",
+    "dose": "180mg",
+    "class": "antihistamine"
+  },
+  "montair 10": {
+    "generic": "montelukast",
+    "dose": "10mg",
+    "class": "leukotriene antagonist"
+  },
+  "montair fx": {
+    "generic": "montelukast + fexofenadine",
+    "dose": "10mg + 120mg",
+    "class": "antihistamine + leukotriene antagonist"
+  },
+  "montek lc": {
+    "generic": "levocetirizine + montelukast",
+    "dose": "5mg + 10mg",
+    "class": "antihistamine + leukotriene antagonist"
+  },
+  "levocet": {
+    "generic": "levocetirizine",
+    "dose": "5mg",
+    "class": "antihistamine"
+  },
+  "asthalin 4": {
+    "generic": "salbutamol",
+    "dose": "4mg",
+    "class": "bronchodilator"
+  },
+  "asthalin inhaler": {
+    "generic": "salbutamol",
+    "dose": "100mcg",
+    "class": "bronchodilator"
+  },
+  "budecort 100": {
+    "generic": "budesonide",
+    "dose": "100mcg",
+    "class": "inhaled corticosteroid"
+  },
+  "budecort 200": {
+    "generic": "budesonide",
+    "dose": "200mcg",
+    "class": "inhaled corticosteroid"
+  },
+  "foracort 200": {
+    "generic": "formoterol + budesonide",
+    "dose": "6mcg + 200mcg",
+    "class": "ics/laba"
+  },
+  "foracort 400": {
+    "generic": "formoterol + budesonide",
+    "dose": "6mcg + 400mcg",
+    "class": "ics/laba"
+  },
+  "duolin inhaler": {
+    "generic": "levosalbutamol + ipratropium",
+    "dose": "50mcg + 20mcg",
+    "class": "bronchodilator combination"
+  },
+  "duolin respules": {
+    "generic": "levosalbutamol + ipratropium",
+    "dose": "1.25mg + 500mcg",
+    "class": "bronchodilator combination"
+  },
+  "seroflo 125": {
+    "generic": "salmeterol + fluticasone propionate",
+    "dose": "25mcg + 125mcg",
+    "class": "ics/laba"
+  },
+  "seroflo 250": {
+    "generic": "salmeterol + fluticasone propionate",
+    "dose": "25mcg + 250mcg",
+    "class": "ics/laba"
+  },
+  "atarax 10": {
+    "generic": "hydroxyzine",
+    "dose": "10mg",
+    "class": "anxiolytic antihistamine"
+  },
+  "atarax 25": {
+    "generic": "hydroxyzine",
+    "dose": "25mg",
+    "class": "anxiolytic antihistamine"
+  },
+  "augmentin 625 duo": {
+    "generic": "amoxycillin + clavulanic acid",
+    "dose": "500mg + 125mg",
+    "class": "antibiotic"
+  },
+  "amoxyclav 625": {
+    "generic": "amoxycillin + clavulanic acid",
+    "dose": "500mg + 125mg",
+    "class": "antibiotic"
+  },
+  "azithral 500": {
+    "generic": "azithromycin",
+    "dose": "500mg",
+    "class": "antibiotic"
+  },
+  "cefix 200": {
+    "generic": "cefixime",
+    "dose": "200mg",
+    "class": "antibiotic"
+  },
+  "cifran 500": {
+    "generic": "ciprofloxacin",
+    "dose": "500mg",
+    "class": "antibiotic"
+  },
+  "ciplox 500": {
+    "generic": "ciprofloxacin",
+    "dose": "500mg",
+    "class": "antibiotic"
+  },
+  "nexito 5": {
+    "generic": "escitalopram",
+    "dose": "5mg",
+    "class": "ssri"
+  },
+  "nexito 10": {
+    "generic": "escitalopram",
+    "dose": "10mg",
+    "class": "ssri"
+  },
+  "cipralex 10": {
+    "generic": "escitalopram",
+    "dose": "10mg",
+    "class": "ssri"
+  },
+  "serlift 50": {
+    "generic": "sertraline",
+    "dose": "50mg",
+    "class": "ssri"
+  },
+  "gabapin 100": {
+    "generic": "gabapentin",
+    "dose": "100mg",
+    "class": "neuropathic pain"
+  },
+  "pregaba 75": {
+    "generic": "pregabalin",
+    "dose": "75mg",
+    "class": "neuropathic pain"
+  },
+  "syndopa 110": {
+    "generic": "levodopa + carbidopa",
+    "dose": "100mg + 10mg",
+    "class": "antiparkinsonian"
+  },
+  "pacitane": {
+    "generic": "trihexyphenidyl",
+    "dose": "2mg",
+    "class": "antiparkinsonian"
+  },
+  "donep 5": {
+    "generic": "donepezil",
+    "dose": "5mg",
+    "class": "antidementia"
+  },
+  "donep 10": {
+    "generic": "donepezil",
+    "dose": "10mg",
+    "class": "antidementia"
+  },
+  "admenta 10": {
+    "generic": "memantine",
+    "dose": "10mg",
+    "class": "antidementia"
+  },
+  "urimax 0.4": {
+    "generic": "tamsulosin",
+    "dose": "0.4mg",
+    "class": "bph"
+  },
+  "urimax d": {
+    "generic": "tamsulosin + dutasteride",
+    "dose": "0.4mg + 0.5mg",
+    "class": "bph combination"
+  },
+  "dutas": {
+    "generic": "dutasteride",
+    "dose": "0.5mg",
+    "class": "5-alpha reductase inhibitor"
+  },
+  "silodal 8": {
+    "generic": "silodosin",
+    "dose": "8mg",
+    "class": "bph"
+  },
+  "folvite 5": {
+    "generic": "folic acid",
+    "dose": "5mg",
+    "class": "folate supplement"
+  },
+  "neurobion alfa d": {
+    "generic": "methylcobalamin + alpha lipoic acid",
+    "dose": "1500mcg + 100mg",
+    "class": "neurotropic vitamin"
+  },
+  "calcimax iso": {
+    "generic": "calcium carbonate + calcitriol",
+    "dose": "500mg + 0.25mcg",
+    "class": "calcium/vitamin d"
+  },
+  "livogen 5ml": {
+    "generic": "iron",
+    "dose": "100mg",
+    "class": "iron supplement"
+  },
+  "cremaffin plus": {
+    "generic": "sodium picosulfate + liquid paraffin + milk of magnesia",
+    "dose": "3.33mg + 1.25ml + 3.75ml",
+    "class": "laxative"
+  }
+}
